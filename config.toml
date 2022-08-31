@@ -1,0 +1,21 @@
+baseURL = 'https://hfx.bike/'
+languageCode = 'en-us'
+title = 'hfx.bike'
+theme = "ananke"
+
+[params]
+custom_css = ["event.css"]
+
+[menu]
+[[menu.main]]
+name = "@BikeMayorHfx"
+url = "https://twitter.com/BikeMayorHfx"
+weight = 10
+[[menu.main]]
+name = "@bikehfxstats"
+url = "https://twitter.com/bikehfxstats"
+weight = 9
+[[menu.main]]
+name = "Kidical Mass"
+url = "https://cyclehalifax.ca/kidical-mass-rides/"
+weight = 8
