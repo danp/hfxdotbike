@@ -9,8 +9,8 @@ name = "@BikeMayorHfx"
 url = "https://twitter.com/BikeMayorHfx"
 weight = 10
 [[menu.main]]
-name = "@bikehfxstats"
-url = "https://twitter.com/bikehfxstats"
+name = "@BikeHfxStats"
+url = "https://twitter.com/BikeHfxStats"
 weight = 9
 [[menu.main]]
 name = "Kidical Mass"

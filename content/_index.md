@@ -6,7 +6,7 @@ text_color: black
 
 Bicycle Mayor of Halifax, Nova Scotia, Canada. Disabled cycling. Inclusive mobility.
 
-# [@bikehfxstats](https://twitter.com/bikehfxstats)
+# [@BikeHfxStats](https://twitter.com/BikeHfxStats)
 
 Halifax bike stats, curated by robots.
 
