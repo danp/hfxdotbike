@@ -3,9 +3,6 @@ languageCode = 'en-us'
 title = 'hfx.bike'
 theme = "ananke"
 
-[params]
-custom_css = ["event.css"]
-
 [menu]
 [[menu.main]]
 name = "@BikeMayorHfx"
