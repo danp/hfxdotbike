@@ -1,6 +1,5 @@
 ---
 title: "Bike Mayor's Ride"
-draft: true
 event:
     active: true
     what: Bike Mayor's Ride
