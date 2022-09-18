@@ -1,7 +1,7 @@
 ---
 title: "Kidical Mass September 2022"
 event:
-    active: true
+    active: false
     what: Kidical Mass September ride
     when: Sunday, September 18, 2002, 9:30 am
     where:
