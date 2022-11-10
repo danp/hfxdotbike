@@ -1,7 +1,7 @@
 ---
 title: "Bike Mayor's Ride"
 event:
-    active: true
+    active: false
     what: Bike Mayor's Ride
     when: CANCELLED
     where:
