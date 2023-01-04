@@ -1,0 +1,31 @@
+<script src="/kidical-mass/js/nav-bar-shrink-on-scroll.js"></script>
+
+<div class="header">
+  <div id="nav_bar">
+
+    <a href="/kidical-mass">
+      {{ $image:= resources.Get "kidical-mass/img/header_transparent_square.png"}}
+      {{ $image:= $image.Resize "x200 q100"}}
+      <img src="{{ $image.RelPermalink }}">
+    </a>
+
+    <div class="socials">
+        {{if isset .Site.Params "kidical_mass_facebook"}}
+        <a href="{{.Site.Params.kidical_mass_facebook}}"><i class="fa  fa-facebook-f"></i></a>
+        {{end}}
+        {{if isset .Site.Params "kidical_mass_instagram"}}
+        <a href="{{.Site.Params.kidical_mass_instagram}}"><i class="fa fa-instagram"></i></a>
+        {{end}}
+        {{if isset .Site.Params "kidical_mass_twitter"}}
+        <a href="{{.Site.Params.kidical_mass_twitter}}"><i class="fa fa-twitter"></i></a>
+        {{end}}
+        {{if isset .Site.Params "kidical_mass_email"}}
+        <a href="mailto:{{.Site.Params.kidical_mass_email}}"><i class="fa fa-envelope"></i></a>
+        {{end}}
+    </div>
+  </div>
+
+  <div class="header_img">
+    <img src="/kidical-mass/img/banner-1024x448.jpg"/>
+  </div>
+</div>

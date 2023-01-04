@@ -1,0 +1,14 @@
+<div class="{{ .Get "class" }}">
+{{ range sort (where .Site.RegularPages "Section" "kidical-mass") "Params.ride_date" }}
+  <a href="{{ .Permalink }}">
+    {{- if (not (isset .Params "ride_date") ) -}}
+    {{ errorf "ride page %q doesn't have a 'ride_date'" .File.Path}}
+    {{- end -}}
+    {{$rideDate:=.Params.ride_date | time }}
+    <div class="ride" ride_date="{{ .Params.ride_date }}">
+
+    <h3>{{ $rideDate.Format "January 2" }}</h3>
+    {{ .Params.description }}
+  </div></a>
+{{ end }}
+</div>

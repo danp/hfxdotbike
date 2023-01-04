@@ -14,5 +14,11 @@ url = "https://twitter.com/BikeHfxStats"
 weight = 9
 [[menu.main]]
 name = "Kidical Mass"
-url = "https://cyclehalifax.ca/kidical-mass-rides/"
+url = "./kidical-mass/"
 weight = 8
+
+[params]
+kidical_mass_email="KidicalMassHfx@gmail.com"
+kidical_mass_twitter=""
+kidical_mass_instagram=""
+kidical_mass_facebook=""
