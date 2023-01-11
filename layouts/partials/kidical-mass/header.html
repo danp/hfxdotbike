@@ -1,31 +1,41 @@
 <script src="/kidical-mass/js/nav-bar-shrink-on-scroll.js"></script>
+{{$kmParams:=.Site.Params.kidicalmass}}
 
-<div class="header">
+<div id="header">
   <div id="nav_bar">
 
-    <a href="/kidical-mass">
+    <a id="logo" href="/kidical-mass">
       {{ $image:= resources.Get "kidical-mass/img/header_transparent_square.png"}}
-      {{ $image:= $image.Resize "x200 q100"}}
+      {{ $image:= $image.Resize "300x q100"}}
       <img src="{{ $image.RelPermalink }}">
     </a>
+    <div id="tray">
+      <div id="socials">
+      
+      {{if isset $kmParams "facebook"}}
+        <a href="{{ $kmParams.facebook }}"><i class="fa  fa-facebook-f"></i></a>
+      {{end}}
+      {{if isset $kmParams "instagram"}}
+        <a href="{{ $kmParams.instagram }}"><i class="fa  fa-instagram"></i></a>
+      {{end}}
+      {{if isset $kmParams "twitter"}}
+        <a href="{{ $kmParams.twitter }}"><i class="fa  fa-twitter"></i></a>
+      {{end}}
+      {{if isset $kmParams "email"}}
+        <a href="mailto:{{ $kmParams.email }}"><i class="fa  fa-envelope"></i></a>
+      {{end}}
+      <a href="/kidical-mass/"><i class="fa fa-home"></i></a>
+      <a href="javascript:void(0);" id="mobileMenuButton" onclick="expandMobileMenu()"><i class="fa fa-bars"></i></a>
+      </div>
+      <div id="menu">
 
-    <div class="socials">
-        {{if isset .Site.Params "kidical_mass_facebook"}}
-        <a href="{{.Site.Params.kidical_mass_facebook}}"><i class="fa  fa-facebook-f"></i></a>
-        {{end}}
-        {{if isset .Site.Params "kidical_mass_instagram"}}
-        <a href="{{.Site.Params.kidical_mass_instagram}}"><i class="fa fa-instagram"></i></a>
-        {{end}}
-        {{if isset .Site.Params "kidical_mass_twitter"}}
-        <a href="{{.Site.Params.kidical_mass_twitter}}"><i class="fa fa-twitter"></i></a>
-        {{end}}
-        {{if isset .Site.Params "kidical_mass_email"}}
-        <a href="mailto:{{.Site.Params.kidical_mass_email}}"><i class="fa fa-envelope"></i></a>
-        {{end}}
+        <ul>
+          {{range .Site.Params.kidicalmass.menu}}
+          <li><a href="{{.url}}">{{.name}}</a></li>
+          {{end}}
+        </ul>
+
+      </div>
     </div>
-  </div>
-
-  <div class="header_img">
-    <img src="/kidical-mass/img/banner-1024x448.jpg"/>
   </div>
 </div>

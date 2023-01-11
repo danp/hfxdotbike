@@ -1,5 +1,6 @@
 ---
-title: "May 29 Ride"
+type: "kidical-mass/rides"
+title: "Halifax Westmount, May 29"
 date: 2022-05-29T10:00:00-03:00
 ride_date: 2022-05-29T10:00:00-03:00
 description: Halifax Westmount
@@ -16,4 +17,5 @@ The ride will include a mid-point stop at a playground.
 When: May 29th, 2022 9:30 AM through 11:30 AM
 
 ## Route Map
-{{< kidical-mass/ride-with-gps id=41698145 >}}
+{{< kidical-mass/ride-with-gps id=40312036 >}}
+

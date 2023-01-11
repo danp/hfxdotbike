@@ -1,0 +1,25 @@
+- links/media page of the site
+  + global coverage of kidical mass, https://globalnews.ca/video/9059809/dozens-of-families-participate-in-youth-focused-mass-bike-ride
+  + HCC blog post from jen, https://cyclehalifax.ca/2022/06/why-kidical-mass-halifax/
+    Clearly mention that kidical mass has moved from HCC to this site and that links on HCC site about kidical mass/registering for the next Kidical mass ride are not applicable.
+
+
+- Add a bit of a menu, possible menu items
+  + links/media
+  + sign up for email reminders
+  + ride calendar
+
+
+- Calendar event (e.g. Google/ical, provide different extensions)
+
+
+- collect email addresses for details/reminders using likely google forms
+
+
+- Maybe add some text on main page about moving kidical mass from HCC site to this site?
+
+
+- google forms feedback?
+
+
+- Twitter roll?

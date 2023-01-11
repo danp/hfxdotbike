@@ -1,5 +1,15 @@
+{{ $ridePages := slice }}
+
+{{ range (where .Site.RegularPages "Section" "kidical-mass") }}
+  {{ if in .File.Path "rides" }}
+    {{ $ridePages = $ridePages | append . }}
+  {{ end }}
+{{ end }}
+
 <div class="{{ .Get "class" }}">
-{{ range sort (where .Site.RegularPages "Section" "kidical-mass") "Params.ride_date" }}
+
+{{ range ( sort $ridePages "Params.ride_date" ) }}
+
   <a href="{{ .Permalink }}">
     {{- if (not (isset .Params "ride_date") ) -}}
     {{ errorf "ride page %q doesn't have a 'ride_date'" .File.Path}}
@@ -11,4 +21,5 @@
     {{ .Params.description }}
   </div></a>
 {{ end }}
+
 </div>

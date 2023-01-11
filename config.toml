@@ -17,8 +17,13 @@ name = "Kidical Mass"
 url = "./kidical-mass/"
 weight = 8
 
-[params]
-kidical_mass_email="KidicalMassHfx@gmail.com"
-kidical_mass_twitter=""
-kidical_mass_instagram=""
-kidical_mass_facebook=""
+[params.kidicalmass]
+email="KidicalMassHfx@gmail.com"
+#twitter=""
+#instagram=""
+facebook="https://www.facebook.com/profile.php?id=100089191422241"
+header_img="/kidical-mass/img/banner-1024x448.jpg"
+[[params.kidicalmass.menu]]
+name="media"
+url="/kidical-mass/media"
+
