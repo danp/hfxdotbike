@@ -13,5 +13,5 @@
   {{ errorf "Invalid image processing command: Must be one of Crop, Fit, Fill or Resize."}}
 {{ end }}
 <figure>
-  <img style="max-width: 100%; width: auto; height: auto;" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{.Inner}}">
+  <img style="max-width: 100%; width: auto; height: auto; display: block; margin: 0 auto" src="{{ $img.RelPermalink }}" width="{{ $img.Width }}" height="{{ $img.Height }}" alt="{{.Inner}}">
 </figure>

@@ -2,7 +2,7 @@
 text_color: black
 ---
 
-# Kidical Mass site coming soon
+# Kidical Mass 2023 site coming soon
 
 For inquiries please email [KidicalMassHfx@gmail.com](mailto:KidicalMassHfx@gmail.com)
 
