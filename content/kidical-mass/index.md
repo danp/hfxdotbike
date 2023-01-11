@@ -2,8 +2,8 @@
 text_color: black
 ---
 
-Kidical-mass site coming soon.
+# Kidical Mass site coming soon
 
 For inquiries please email [KidicalMassHfx@gmail.com](mailto:KidicalMassHfx@gmail.com)
 
-or checkout our [facebook page](https://www.facebook.com/profile.php?id=100089191422241).
+or check out the [Facebook page](https://www.facebook.com/profile.php?id=100089191422241).
