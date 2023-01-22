@@ -7,6 +7,8 @@ Kidical Mass is an international movement to create a “Kidical Mass” of fami
 ## Upcoming Rides
 {{< kidical-mass/display-rides class=upcoming-rides >}}
 
+Check out our [calendar](/kidical-mass/calendar) page to add our ride calendar to your list of google calendars to see new ride events or to copy existing ride events to your own google calendar.
+
 {{< kidical-mass/ride-general-info >}}
 
 ## Past Rides

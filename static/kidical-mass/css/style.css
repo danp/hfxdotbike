@@ -11,6 +11,7 @@
 }
 html, body {
     height: 100%;
+    scroll-behavior: smooth;
 }
 body {
     line-height: 1.5;
@@ -38,12 +39,12 @@ html {
 }
 .main-single,main {
   max-width: 1000px;
-  padding: 0 25px;
-  margin: 30px auto;
+  /*padding: 0 25px;*/
+  padding: 30px;
+  margin: 0 auto;
 }
 .main-single{
   margin-top:200px;
-  padding-top:30px;
 }
 h1, h2 {
     margin-top: 0.5em;
@@ -101,6 +102,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   padding-left:10px;
   background-color: #FFFBFEdd;
   background: linear-gradient(to bottom, #FFFBFEff,#FFFBFEdd);
+  z-index:2;
 }
 #logo{
   height: 100%;
@@ -113,7 +115,8 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
 #tray{
   display:block;
   float:right;
-  width:445px;
+  /*width:445px;*/
+  width:490px;
   text-align:right;
 }
 #menu{
@@ -158,25 +161,37 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   border:none;
   background-color:#000000aa;
   color:white;
-  font-size:3em;
+  font-size:2em;
   position:absolute;
-  bottom: 0px;/*probably want some why to determine if it is below the image, and if so hide it.*/
   left: 50%;
+  bottom:0;
+  
+  /*probably want some why to determine if it is below the image, and if so hide it.*/
   border-radius:50%;
-  width:2.5em;
-  height:2.5em;
+  width:2.0em;
+  height:2.0em;
+  display: block;
+  margin-bottom:0.5em;
+  z-index:1;
+}
+#downButton:hover{
+  box-shadow: 2px 2px 10px 5px black;
 }
 .footer{
   background-image: url("../img/silhouetten_druckvorlage_transparent_trimmed.png");
   height: 200px;
   background-repeat: repeat-x;
 }
-@media only screen and (max-width: 768px){
+#no-past-rides-message{
+  display:none;
+}
+/*with tray width of 445, max-width of 768 is good.*/
+@media only screen and (max-width: 813px){
   main {
-    margin-top:30px;
+    margin-top:0px;
   }
   .main-single{
-    margin-top:30px;
+    margin-top:0px;
   }
   #nav_bar{
     height: auto;

@@ -26,4 +26,10 @@ header_img="/kidical-mass/img/banner-1024x448.jpg"
 [[params.kidicalmass.menu]]
 name="media"
 url="/kidical-mass/media"
+[[params.kidicalmass.menu]]
+name="calendar"
+url="/kidical-mass/calendar"
+[[params.kidicalmass.menu]]
+name="reminders"
+url="/kidical-mass/reminders"
 
