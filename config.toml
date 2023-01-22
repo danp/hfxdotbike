@@ -1,4 +1,5 @@
-baseURL = 'https://hfx.bike/'
+#baseURL = 'https://hfx.bike/'
+baseURL = 'https://cgeroux.github.io/hfxdotbike/'
 languageCode = 'en-us'
 title = 'hfx.bike'
 theme = "ananke"
