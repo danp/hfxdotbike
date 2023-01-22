@@ -4,7 +4,7 @@
 <div id="header">
   <div id="nav_bar">
 
-    <a id="logo" href="/kidical-mass">
+    <a id="logo" href="{{"kidical-mass"|absURL}}">
       {{ $image:= resources.Get "kidical-mass/img/header_transparent_square.png"}}
       {{ $image:= $image.Resize "300x q100"}}
       <img src="{{ $image.RelPermalink }}">
@@ -31,7 +31,7 @@
 
         <ul>
           {{range .Site.Params.kidicalmass.menu}}
-          <li><a href="{{.url}}">{{.name}}</a></li>
+          <li><a href="{{.url|absURL}}">{{.name}}</a></li>
           {{end}}
         </ul>
 
