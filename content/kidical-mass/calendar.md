@@ -12,6 +12,6 @@ Finally the below link to a ".ics" file can be used to import the current calend
 
 {{< kidical-mass/google-calendar
   src=a2lkaWNhbG1hc3NoZnhAZ21haWwuY29t
-  height=300
+  height=600
   width=600
-  icalid=08c00ef5adc289f00abcf260efa698b10c9cf77996281febc3011e4491f1f9c1%40group.calendar.google.com >}}
+  icalid=kidicalmasshfx%40gmail.com >}}
