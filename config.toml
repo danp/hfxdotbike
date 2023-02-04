@@ -25,12 +25,12 @@ email="KidicalMassHfx@gmail.com"
 facebook="https://www.facebook.com/profile.php?id=100089191422241"
 header_img="/kidical-mass/img/banner-1024x448.jpg"
 [[params.kidicalmass.menu]]
-name="media"
-url="kidical-mass/media"
-[[params.kidicalmass.menu]]
 name="calendar"
 url="kidical-mass/calendar"
 [[params.kidicalmass.menu]]
-name="reminders"
-url="kidical-mass/reminders"
+name="more"
+url="kidical-mass/more"
+#[[params.kidicalmass.menu]]
+#name="reminders"
+#url="kidical-mass/reminders"
 

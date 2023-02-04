@@ -6,8 +6,10 @@
   {{ end }}
 {{ end }}
 
-<div class="{{ .Get "class" }}">
-<p id="no-{{ .Get "class" }}-message">Currently there are no upcoming rides scheduled. Check again soon for new upcoming rides.</p>
+{{ $class:= .Get "class" }}
+
+<div class="{{ $class }}">
+<p id="no-{{ $class }}-message">Currently there are no upcoming rides scheduled. Check again soon for new upcoming rides.</p>
 {{ range ( sort $ridePages "Params.ride_date" ) }}
 
   <a href="{{ .Permalink }}">
@@ -15,9 +17,13 @@
     {{ errorf "ride page %q doesn't have a 'ride_date'" .File.Path}}
     {{- end -}}
     {{$rideDate:=.Params.ride_date | time }}
-    <div class="ride" ride_date="{{ .Params.ride_date }}">
 
+    <div class="ride" ride_date="{{ .Params.ride_date }}">
+    {{ if eq $class "upcoming-rides" }}
     <h3>{{ $rideDate.Format "January 2" }}</h3>
+    {{ else }}
+    <h3>{{ $rideDate.Format "January 2, 2006" }}</h3>
+    {{ end }}
     {{ .Params.description }}
   </div></a>
 {{ end }}
