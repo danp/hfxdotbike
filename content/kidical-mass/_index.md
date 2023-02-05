@@ -15,4 +15,4 @@ Check out our [calendar](calendar) page to add our ride calendar to your list of
 {{< kidical-mass/display-rides class=past-rides >}}
 
 ## Questions?
-Contact [the organizers](mailto:foo@bar.com)
+Contact [the organizers](mailto:KidicalMassHfx@gmail.com)
