@@ -197,6 +197,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
     height: auto;
     text-align: center;
     position:static;
+    min-width:320px;
   }
   #nav_bar{
     display:block;
@@ -219,6 +220,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
     white-space:nowrap;
     display:inline-block;
     text-align:center;
+    width:287.219px;
   }
   #socials>a>i{
     float: none;
@@ -247,12 +249,21 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   }
 }
 @media only screen and (max-width: 475px){
-  #nav_bar{
+  
+  #downButton{
+    font-size:1.5em;
+    
+    width:2.0em;
+    height:2.0em;
+    margin-bottom:0.25em;
+  }
+  
+  /*#nav_bar{
     min-width:320px;
   }
   #tray{
-    width:287px;
-  }
+    width:287.219px;
+  }*/
   /*
   #socials>a>i{
     padding:10px;

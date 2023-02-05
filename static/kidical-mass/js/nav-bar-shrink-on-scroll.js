@@ -47,7 +47,7 @@ function updateNavBar(){
     
     if(currentMode==="wide" || currentMode==="undefined"){
       
-      //NOTE: switching to wide narrow mode, change menu/socials display
+      //NOTE: switching to narrow mode, change menu/socials display
       var menuElement=document.getElementById("menu");
       menuElement.style.display="none";
       var socialsElement=document.getElementById("socials");
@@ -57,6 +57,7 @@ function updateNavBar(){
     var navBarElement=document.getElementById("nav_bar");
     navBarElement.style.transition="none";
     navBarElement.style.height = "auto";
+    /*
     if(windowWidth>=475){
       
       //navBarElement.style.height = "auto";
@@ -64,7 +65,7 @@ function updateNavBar(){
     else{
       
       //navBarElement.style.height = "230px";
-    }
+    }*/
     currentMode="narrow";
   }
 }
@@ -72,7 +73,8 @@ function updateDownButton(){
   
   //var navBarElement=document.getElementById("nav_bar");
   //var navBarHeight=navBarElement.offsetHeight;
-  var windowHeight=window.innerHeight;
+  //var windowHeight=window.innerHeight;
+  var windowHeight=document.documentElement.clientHeight;
   var scrollTop=Math.max(document.body.scrollTop,document.documentElement.scrollTop);
   
   var heroImgElement=document.getElementById("header_img");
@@ -80,17 +82,19 @@ function updateDownButton(){
   var heroImgOffsetTop=heroImgElement.offsetTop;
   
   var downButtonElement=document.getElementById("downButton");
-  var downButtonOffsetHeight=downButtonElement.offsetHeight;
-  //console.log("updateDownButton");
-  //console.log("  scrollTop="+scrollTop);
-  //console.log("  windowHeight="+windowHeight);
-  //console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
-  //console.log("  heroImgOffsetTop="+heroImgOffsetTop);
+  //var downButtonOffsetHeight=downButtonElement.offsetHeight;
+  var windowWidth=window.innerWidth;
+  console.log("updateDownButton");
+  console.log("  windowWidth="+windowWidth);
+  console.log("  scrollTop="+scrollTop);
+  console.log("  windowHeight="+windowHeight);
+  console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
+  console.log("  heroImgOffsetTop="+heroImgOffsetTop);
   //console.log("  downButtonOffsetHeight="+downButtonOffsetHeight);
   var bottomButton=Math.max(-scrollTop,
     windowHeight-heroImgOffsetTop-heroImgOffsetHeight);
   buttonBottomStr=bottomButton.toString()+"px";
-  //console.log("  buttonBottomStr="+buttonBottomStr);
+  console.log("  buttonBottomStr="+buttonBottomStr);
   
   //NOTE: it seems it isn't recommended to set possitions based on
   //  scrolling (see: https://blog.logrocket.com/use-scroll-linked-animations-right-way/)
