@@ -84,17 +84,26 @@ function updateDownButton(){
   var downButtonElement=document.getElementById("downButton");
   //var downButtonOffsetHeight=downButtonElement.offsetHeight;
   var windowWidth=window.innerWidth;
-  console.log("updateDownButton");
-  console.log("  windowWidth="+windowWidth);
-  console.log("  scrollTop="+scrollTop);
-  console.log("  windowHeight="+windowHeight);
-  console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
-  console.log("  heroImgOffsetTop="+heroImgOffsetTop);
+  var headerHeight=350;
+  if(windowWidth<475){
+    
+    headerHeight=315;
+  }
+  var headerAdjust=-Math.max(headerHeight-windowHeight-scrollTop,0);
+  //console.log("updateDownButton");
+  //console.log("  headerHeight="+headerHeight);
+  //console.log("  windowWidth="+windowWidth);
+  //console.log("  scrollTop="+scrollTop);
+  //console.log("  windowHeight="+windowHeight);
+  //console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
+  //console.log("  heroImgOffsetTop="+heroImgOffsetTop);
+  //console.log("  windowHeight-heroImgOffsetTop-heroImgOffsetHeight="+(windowHeight-heroImgOffsetTop-heroImgOffsetHeight));
+  //console.log("  headerAdjust="+(headerAdjust));
   //console.log("  downButtonOffsetHeight="+downButtonOffsetHeight);
   var bottomButton=Math.max(-scrollTop,
-    windowHeight-heroImgOffsetTop-heroImgOffsetHeight);
+    windowHeight-heroImgOffsetTop-heroImgOffsetHeight)+headerAdjust;
   buttonBottomStr=bottomButton.toString()+"px";
-  console.log("  buttonBottomStr="+buttonBottomStr);
+  //console.log("  buttonBottomStr="+buttonBottomStr);
   
   //NOTE: it seems it isn't recommended to set possitions based on
   //  scrolling (see: https://blog.logrocket.com/use-scroll-linked-animations-right-way/)

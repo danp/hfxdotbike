@@ -175,7 +175,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   z-index:1;
 }
 #downButton:hover{
-  box-shadow: 2px 2px 10px 5px black;
+  box-shadow: 1px 1px 5px 2.5px black;
 }
 .footer{
   background-image: url("../img/silhouetten_druckvorlage_transparent_trimmed.png");
