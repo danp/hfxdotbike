@@ -15,7 +15,7 @@ url = "https://twitter.com/BikeHfxStats"
 weight = 9
 [[menu.main]]
 name = "Kidical Mass"
-url = "./kidical-mass/"
+url = "kidical-mass"
 weight = 8
 
 [params.kidicalmass]
@@ -33,4 +33,3 @@ url="kidical-mass/more"
 #[[params.kidicalmass.menu]]
 #name="reminders"
 #url="kidical-mass/reminders"
-

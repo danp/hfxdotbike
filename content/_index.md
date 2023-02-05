@@ -10,6 +10,6 @@ Bicycle Mayor of Halifax, Nova Scotia, Canada. Disabled cycling. Inclusive mobil
 
 Halifax bike stats, curated by robots.
 
-# [Kidical Mass](./kidical-mass/)
+# [Kidical Mass](kidical-mass/)
 
 Kidical Mass is an international movement to create a “Kidical Mass” of families out riding their bikes together and having fun!
