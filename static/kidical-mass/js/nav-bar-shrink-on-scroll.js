@@ -81,13 +81,17 @@ function updateDownButton(){
   var heroImgOffsetHeight=heroImgElement.offsetHeight;
   var heroImgOffsetTop=heroImgElement.offsetTop;
   
+  var navBarElement=document.getElementById("nav_bar");
+  var navBarOffsetHeight=navBarElement.offsetHeight;
+  
   var downButtonElement=document.getElementById("downButton");
-  //var downButtonOffsetHeight=downButtonElement.offsetHeight;
+  var downButtonOffsetHeight=downButtonElement.offsetHeight;
+  
   var windowWidth=window.innerWidth;
-  var headerHeight=350;
+  var headerHeight=navBarOffsetHeight+98;
   if(windowWidth<475){
     
-    headerHeight=315;
+    headerHeight=navBarOffsetHeight+62;
   }
   var headerAdjust=-Math.max(headerHeight-windowHeight-scrollTop,0);
   //console.log("updateDownButton");
@@ -100,6 +104,7 @@ function updateDownButton(){
   //console.log("  windowHeight-heroImgOffsetTop-heroImgOffsetHeight="+(windowHeight-heroImgOffsetTop-heroImgOffsetHeight));
   //console.log("  headerAdjust="+(headerAdjust));
   //console.log("  downButtonOffsetHeight="+downButtonOffsetHeight);
+  //console.log("  navBarOffsetHeight="+navBarOffsetHeight);
   var bottomButton=Math.max(-scrollTop,
     windowHeight-heroImgOffsetTop-heroImgOffsetHeight)+headerAdjust;
   buttonBottomStr=bottomButton.toString()+"px";
@@ -161,6 +166,7 @@ function expandMobileMenu(){
     
     menuElement.style.display="block";
   }
+  updateDownButton();
 }
 function updateDisplayOfRides(parentElement,comparitor){
 
