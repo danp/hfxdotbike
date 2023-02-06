@@ -1,6 +1,6 @@
 ---
 type: "kidical-mass/rides"
-title: "Dartmouth Crichton Park, September 18"
+title: "Dartmouth Crichton Park, September 18, 2022"
 date: 2022-09-18T10:00:00-03:00
 ride_date: 2022-09-18T10:00:00-03:00
 description: Dartmouth Crichton Park
