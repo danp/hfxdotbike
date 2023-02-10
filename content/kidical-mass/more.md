@@ -2,7 +2,6 @@
 title: "Media & Links"
 date:  2022-08-14T10:00:00-03:00
 description: 
-hero_image: "kidical-mass/img/more-header.jpg"
 ---
 
 * HCC Blog Post: [Why Kidical Mass Halifax?](https://cyclehalifax.ca/2022/06/why-kidical-mass-halifax/) (June 23, 2022)
