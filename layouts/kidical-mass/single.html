@@ -5,7 +5,8 @@
   </head>
   <body>
     {{ partial "kidical-mass/header.html" . }}
-    <main class="main-single">
+    {{ partial "kidical-mass/hero_img.html" . }}
+    <main>
       <h1>{{ .Params.title }}</h1>
       {{.Content}}
     </main>

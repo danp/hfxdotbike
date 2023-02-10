@@ -6,12 +6,7 @@
   </head>
   <body>
       {{ partial "kidical-mass/header.html" . }}
-      <div id="heroImage">
-        {{ $image:= resources.Get "kidical-mass/img/header02.jpg"}}
-        {{ $image:= $image.Resize "2048x q50"}}
-        <img id="header_img" src="{{ $image.RelPermalink }}">
-        <button onclick="onClickDownButton()" id="downButton"><i class="fa fa-chevron-down"></i></button>
-      </div>
+      {{ partial "kidical-mass/hero_img.html" . }}
     <main>
       {{.Content}}
     </main>

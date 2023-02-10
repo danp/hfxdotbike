@@ -5,27 +5,25 @@
   <div id="nav_bar">
 
     <a id="logo" href="{{"kidical-mass"|absURL}}">
-      {{ $image:= resources.Get "kidical-mass/img/header_transparent_square.png"}}
-      {{ $image:= $image.Resize "300x q100"}}
-      <img src="{{ $image.RelPermalink }}">
+      <img alt="Kidical Mass Halifax Logo linking to the main page of the website" src="{{"kidical-mass/img/header_transparent_square.svg"|absURL}}">
     </a>
     <div id="tray">
       <div id="socials">
       
       {{if isset $kmParams "facebook"}}
-        <a href="{{ $kmParams.facebook }}"><i class="fa  fa-facebook-f"></i></a>
+        <a href="{{ $kmParams.facebook }}" aria-label="Visit our Facebook Page"><i aria-hidden="true" class="fa  fa-facebook-f" title="Visit our Facebook Page"></i></a>
       {{end}}
       {{if isset $kmParams "instagram"}}
-        <a href="{{ $kmParams.instagram }}"><i class="fa  fa-instagram"></i></a>
+        <a href="{{ $kmParams.instagram }}" aria-label="Visit our Instagram Page"><i aria-hidden="true" class="fa  fa-instagram" title="Visit our Instagram Page"></i></a>
       {{end}}
       {{if isset $kmParams "twitter"}}
-        <a href="{{ $kmParams.twitter }}"><i class="fa  fa-twitter"></i></a>
+        <a href="{{ $kmParams.twitter }}" aria-label="Visit our Twitter Page"><i aria-hidden="true" class="fa  fa-twitter" title="Visit our Twitter Page"></i></a>
       {{end}}
       {{if isset $kmParams "email"}}
-        <a href="mailto:{{ $kmParams.email }}"><i class="fa  fa-envelope"></i></a>
+        <a href="mailto:{{ $kmParams.email }}" aria-label="Email us"><i aria-hidden="true" class="fa  fa-envelope" title="Email us"></i></a>
       {{end}}
-      <a href="{{"kidical-mass/"|absURL}}"><i class="fa fa-home"></i></a>
-      <a href="javascript:void(0);" id="mobileMenuButton" onclick="expandMobileMenu()"><i class="fa fa-bars"></i></a>
+      <a href="{{"kidical-mass/"|absURL}}" aria-label="Go to the main page of this website"><i aria-hidden="true" class="fa fa-home" title="Go to the main page of this website"></i></a>
+      <a href="javascript:void(0);" id="mobileMenuButton" onclick="expandMobileMenu()" aria-label="Expand/Collapse menu"><i aria-hidden="true" class="fa fa-bars" title="Expand/Collapse menu"></i></a>
       </div>
       <div id="menu">
 
