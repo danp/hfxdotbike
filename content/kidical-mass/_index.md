@@ -1,6 +1,8 @@
 ---
 title: "Kidical Mass Halifax"
 hero_image: "kidical-mass/img/header_3.jpg"
+hero_imgage_alt_txt: "A closeup of three young girls who are leaning in close together and have their arms over each others’ shoulders. The girl on the left has light brown skin, brown curly hair, and is wearing a pink bike helmet and a tshirt with flowers on it. The girl in the middle has white skin, blond hair, and is wearing a yellow bike helmet with a unicorn face and horn on it. Her smile shows that she is missing a few of her front teeth. She is wearing a bright orange tshirt. The girl on the right has white skin, light brown hair and is wearing a light pink bike helmet that has an animal face and cat ears on it. She is wearing a light purple tshirt with some text on it."
+hero_image_attrib: "Photograph by: Alexa MacLean"
 ---
 
 Kidical Mass is an international movement to create a “Kidical Mass” of families who want to enable children's independent and safe mobility. Our rides are a celebration of cycling and a way to show that we need safe spaces to ride. Each ride is no more than a few kilometres, and is supported by community ride marshals. We strive to make each ride comfortable for people of all ages and abilities. Everyone is welcome, including children on their own bikes, and people without children.
