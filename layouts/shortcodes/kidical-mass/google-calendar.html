@@ -26,9 +26,18 @@ showCalendars=0&
 showTitle=1&
 src={{ .Get "src" }}&
 color=%23ffffff"
-style="background-color:#ffffff;color=white;border-radius: 0.25em;padding:10px;box-shadow:1px 1px 5px grey; display:inline"
+style="background-color:#ffffff;color=white;border-radius: 0.25em;padding:10px;box-shadow:1px 1px 5px grey; display:inline;"
 width="{{ $width }}"
 height="{{ $height }}"
 frameborder="0"
 scrolling="no">
-</iframe><img alt="A closeup of a young girl who is waving at the camera. She has brown skin, and long brown hair which is tied back behind her shoulders. She is wearing a ball cap, a bike helmet and a shirt with a unicorn on it." style="display:inline;vertical-align:top;min-width:{{ $width }}px" width="65%" src="../img/more-header.jpg"></img><div style="padding-left:20px;font-size:0.75em;text-align:right;">Photograph by: Alexa MacLean</div>
+</iframe>
+<div style="display:inline;vertical-align:top;min-width:{{ $width }}px" width="65%">
+<picture style="display:inline;">
+<source style="display:inline;" srcset="../img/more-header_320.jpg" media="(max-width: 568px)">
+<source style="display:inline;" srcset="../img/more-header_481.jpg" media="(max-width: 813px)">
+<source style="display:inline;" srcset="../img/more-header_611.jpg">
+<img  style="display:inline;vertical-align:top;min-width:{{ $width }}px" width="65%" alt="A closeup of a young girl who is waving at the camera. She has brown skin, and long brown hair which is tied back behind her shoulders. She is wearing a ball cap, a bike helmet and a shirt with a unicorn on it."  src="../img/more-header_611.jpg"></img>
+</picture>
+<div style="padding-left:20px;font-size:0.75em;text-align:right;width:65%;min-width:{{ $width }}px;">Photograph by: Alexa MacLean</div>
+</div>
