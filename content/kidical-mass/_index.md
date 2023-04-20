@@ -15,6 +15,7 @@ Kidical Mass is an international movement to create a “Kidical Mass” of fami
 Also check out our [calendar](calendar) page.
 
 ## What to expect on a Kidical Mass ride
+* We will meet at 9:30am and the rides will start at 10:00am
 * Snacks and drinks are provided at the end of the ride
 * Meeting places and routes will be specified for each ride, including a map and turn-by-turn directions
 * Rides typically start and/or end at a playground, or other kid-friendly destination

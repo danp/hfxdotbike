@@ -2,8 +2,9 @@
 headless: true
 ---
 
-## What to expect on a the ride
+## What to expect on the ride
 
+* We will meet at 9:30am and the ride will start at 10:00am
 * Snacks and drinks are provided at the end of the ride
 * Rides are planned, led and marshalled by community volunteers
 * We’ll have activities to help you meet and connect with new friends and familiar faces, including activities and prizes for the kids!
