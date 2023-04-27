@@ -34,3 +34,5 @@ url="kidical-mass/more"
 #[[params.kidicalmass.menu]]
 #name="reminders"
 #url="kidical-mass/reminders"
+[markup.goldmark.renderer]
+unsafe= true
