@@ -20,6 +20,6 @@ description: Halifax Waterfront
 * The multi-use path conditions are rough (loose gravel and uneven paving) in a couple of spots, due to construction at the Cogswell interchange
 * Our destination is the waterfront playground, outside the Maritime Museum of the Atlantic
 * There are washrooms located inside the museum, and port-a-potties on the waterfront near the Salt Yard
-* We'll have snacks and prizes at the destination, including popsicles from the HaliPops trike!
+* We'll have snacks and prizes at the destination, including slushies from I Heart Bikes!
 
 {{< kidical-mass/ride-with-gps id="42576440" >}}
