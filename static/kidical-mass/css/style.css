@@ -54,7 +54,17 @@ h1 {
   color: #205493;
 }
 h2 {
-  color: #e31c3d;*/
+  color: #e31c3d;
+}
+.canceled-ride-notice{
+  background-color: #e31c3d;
+  padding: 2em;
+  margin-bottom:2em;
+  text-align:center;
+}
+.canceled-ride-notice>h1{
+  color: white;
+  font-family: 'Inter';
 }
 .upcoming-rides,.past-rides {
   display: flex;
