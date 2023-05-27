@@ -1,22 +1,21 @@
-#baseURL = 'https://hfx.bike/'
-baseURL = 'https://cgeroux.github.io/hfxdotbike/'
+baseURL = 'https://hfx.bike/'
 languageCode = 'en-us'
 title = 'hfx.bike'
 theme = "ananke"
 
 [menu]
 [[menu.main]]
-name = "@BikeMayorHfx"
-url = "https://twitter.com/BikeMayorHfx"
-weight = 10
+name = "Kidical Mass"
+url = "kidical-mass"
+weight = 8
 [[menu.main]]
 name = "@BikeHfxStats"
 url = "https://twitter.com/BikeHfxStats"
 weight = 9
 [[menu.main]]
-name = "Kidical Mass"
-url = "kidical-mass"
-weight = 8
+name = "Jillian (@BikeHfxLobby)"
+url = "https://twitter.com/BikeHfxLobby"
+weight = 10
 
 [params.kidicalmass]
 email="KidicalMassHfx@gmail.com"
