@@ -17,6 +17,6 @@ description: Central-South End Halifax
 Our destination is the playground at Le Marchant St Thomas School, and we'll ride there using city streets
 * See the map below for more details of the route
 * The school grounds at Le Marchant St Thomas have: benches & picnic tables for seating, multiple playground sites, and a large sports field. However, there are no public washrooms available at the school.
-* We’ll provide snacks and prizes at the destination, including popsicles from HaliPops!
+* We’ll provide snacks and prizes at the destination and we'll also be offering e-cargo bike test rides, compliments of two local bike shops!
 
 {{< kidical-mass/ride-with-gps id="42809094" >}}
