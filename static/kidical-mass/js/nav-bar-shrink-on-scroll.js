@@ -5,11 +5,11 @@ window.onresize=kidicalOnResize;
 var currentMode;
 menuCollapseWidth=813;
 
-function greater(x,y){
-  return x>y;
+function greaterOrEqual(x,y){
+  return x>=y;
 }
-function lesserOrEqual(x,y){
-  return x<=y;
+function lesser(x,y){
+  return x<y;
 }
 function updateNavBar(){
   
@@ -171,15 +171,19 @@ function expandMobileMenu(){
 function updateDisplayOfRides(parentElement,comparitor){
 
   var today = new Date();
+  today.setHours(0,0,0,0);//NOTE: only compare dates, not times so rides only 
+    //role over after the day of the event, not at the time of ride start.
   const rides=parentElement.getElementsByClassName("ride");
   var numVisibleRides=0;
+  //console.log("today="+today);
   for (let i = 0; i < rides.length; i++) {
 
     const rideDateStr=rides[i].getAttribute('ride_date');
     const rideDate=new Date(rideDateStr);
+    rideDate.setHours(0,0,0,0);
     const isUpcoming=comparitor(rideDate.getTime(),today.getTime());
     if(!isUpcoming){
-
+      //console.log(rideDate+" is in the past")
       rides[i].style.display='none';
     }
     else{
@@ -193,8 +197,8 @@ function updateDisplayOfRides(parentElement,comparitor){
 function setRideDisplayFromDate(){
 
   const upcomingRidesDiv=document.getElementsByClassName("upcoming-rides")[0];
-  var numVisibleRides=updateDisplayOfRides(upcomingRidesDiv,greater);
-  console.log("numVisibleRides="+numVisibleRides);
+  var numVisibleRides=updateDisplayOfRides(upcomingRidesDiv,greaterOrEqual);
+  //console.log("numVisibleRides="+numVisibleRides);
   var noUpcomingRidesMessageElement=document.getElementById("no-upcoming-rides-message");
   if(numVisibleRides==0){
     
@@ -205,7 +209,7 @@ function setRideDisplayFromDate(){
     noUpcomingRidesMessageElement.style.display="none";
   }
   const pastRidesDiv=document.getElementsByClassName("past-rides")[0];
-  updateDisplayOfRides(pastRidesDiv,lesserOrEqual);
+  updateDisplayOfRides(pastRidesDiv,lesser);
 }
 
 function kidicalOnScroll(){
