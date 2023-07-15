@@ -1,6 +1,16 @@
 ---
 date: 2023-01-11
 title: "Reflections on Three Years as Bicycle Mayor"
+author: Jillian Banfield
+person: jillian
+aliases:
+- /posts/three-years-as-bicycle-mayor
+tags:
+- advocacy
+- disability
+- bicyclemayor
+- kidicalmass
+- criticalmass
 ---
 
 {{< image-resize d-j Resize "x600" >}}
