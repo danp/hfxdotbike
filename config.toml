@@ -6,15 +6,15 @@ theme = "ananke"
 [menu]
 [[menu.main]]
 name = "Kidical Mass"
-url = "kidical-mass"
+url = "/kidical-mass"
 weight = 8
 [[menu.main]]
-name = "@BikeHfxStats"
-url = "https://twitter.com/BikeHfxStats"
+name = "BikeHfxStats"
+url = "/bikehfxstats"
 weight = 9
 [[menu.main]]
-name = "Jillian (@BikeHfxLobby)"
-url = "https://twitter.com/BikeHfxLobby"
+name = "Jillian"
+url = "/jillian"
 weight = 10
 
 [params.kidicalmass]
