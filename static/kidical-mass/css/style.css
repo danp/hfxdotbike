@@ -28,7 +28,9 @@ p, h1, h2, h3, h4, h5, h6 {
   overflow-wrap: break-word;
 }
 p{
-  margin-bottom: 2em;
+  /*margin-bottom: 2em;*/
+  margin-top:0.5em;
+  margin-bottom:0.5em;
 }
 #root, #__next {
   isolation: isolate;
