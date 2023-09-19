@@ -9,7 +9,7 @@ description:
 * HCC Blog Post: [Why Kidical Mass Halifax?](https://cyclehalifax.ca/2022/06/why-kidical-mass-halifax/) (June 23, 2022)
 * Global News: [Dozens of families participate in youth-focused mass bike ride](https://globalnews.ca/video/9059809/dozens-of-families-participate-in-youth-focused-mass-bike-ride) (August 14, 2022)
 * The Coast: [Halifax planned to become “a cycling city” in 2022. How’s that coming?](https://www.thecoast.ca/halifax/halifax-cycling-network-lags-behind-region-promises/Content?oid=29704322) (November 14, 2022)
-
+* Canadian Cycling Magazine: [Kidical Mass](https://cyclingmagazine.ca/members/kidical-mass/)
 ## Kidical Mass around the world
 * The Conversation: [Return of the child-friendly city?](https://theconversation.com/return-of-the-child-friendly-city-how-social-movements-are-changing-european-urban-areas-203343) (April 2023)
 * [Kidical Mass International (Europe)](https://kidsonbike.org/)
