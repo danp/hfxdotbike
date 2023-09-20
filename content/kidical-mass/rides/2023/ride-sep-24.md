@@ -19,6 +19,7 @@ description: West End Halifax
 * The Oval is located on the Halifax Common, which also has a small playground, a skate park, and multiple sports fields. There are several benches and picnic tables in the Oval plaza (along Cogswell St). 
 * Please note, the Oval **will not be open for rentals or washroom facilities** during Kidical Mass Halifax. The nearest public washrooms are located on the opposite side of the north common, approximately 450m away from the Oval.
 * We’ll provide snacks, prizes, and activities at the end of the ride.
+* [Halifax Cycles](https://www.halifaxcycles.com/) will join us at the end of the ride with some [Tern Bicycles](https://www.ternbicycles.com/ca) for demo & test-rides!
 
 <br/>
 {{< kidical-mass/ride-with-gps id="44395373" >}}
