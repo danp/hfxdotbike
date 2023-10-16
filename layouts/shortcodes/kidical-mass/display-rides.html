@@ -9,7 +9,7 @@
 {{ $class:= .Get "class" }}
 
 <div class="{{ $class }}">
-<p id="no-{{ $class }}-message">Please check back soon for details of our 2023 ride season.</p>
+<p id="no-{{ $class }}-message">Please check back soon for details of our 2024 ride season.</p>
 {{ range ( sort $ridePages "Params.ride_date" ) }}
 
   <a href="{{ .Permalink }}">
