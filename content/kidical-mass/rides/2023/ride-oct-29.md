@@ -28,9 +28,10 @@ descriptions:
 * [Halifax Cycles](https://www.halifaxcycles.com/) will join us at the end of the ride with some [Tern Bicycles](https://www.ternbicycles.com/ca) for demo & test-rides!
 * We'll be giving away a copy of the book '[City Streets are for People](https://houseofanansi.com/products/city-streets-are-for-people)', donated by Groundwood Books. The book's illustrator [Emma Fitzgerald](https://emmafitzgerald.ca/About-Emma-2) will be joining us to say hello, and to sell and sign additional copies of the book.
 * Cases of COVID-19 are on the rise in Nova Scotia again. We encourage you to take good care of yourself and our community.
-  * Masks are welcome at this event
-  * Please stay home if you are feeling unwell. 
-  * We'll be handing out free Rapid Antigen Tests (from NS Public Health) and free N95 masks from [PopNS](https://www.popns.org/) and [donate a mask](https://donatemask.ca/).
+  * Masks are welcome at this event.
+  * Please stay home if you are feeling unwell.
+  * Test to protect! Please consider taking a rapid antigen test prior to the ride. Tests are available from your local library, MLA office, and Public Health Mobile Units. See more [details here](https://www.nshealth.ca/clinics-programs-and-services/covid-19-rapid-testing).
+  * We’ll be handing out free Rapid Antigen Tests (from NS Public Health) and free N95 masks from [PopNS](https://www.popns.org/) and [Donate A Mask](https://donatemask.ca/).
 
 <br/>
 {{< kidical-mass/ride-with-gps id="44756132" >}}
