@@ -37,17 +37,11 @@ Also check out our [calendar](calendar) page.
 * Please help protect our community from COVID-19. Our rides and activities take place entirely outdoors, but we do ride as a group and share outdoor public space with many others. Masks are welcomed, but please stay home if you feel unwell.
 
 ## Feedback Survey
-We want Kidical Mass to be an enjoyable event for as many people as possible. We want to know what went well and what didn’t go so well this year so that we can do better in 2024!
 
-You can help us by filling out this [brief survey](https://docs.google.com/forms/d/e/1FAIpQLSePLqcruUqBEGgNmAu1tyjt8Id9Qj6CEoLDZ6nN-5bUuNZcCw/viewform). Even if you didn't attend any rides, we'd love to hear from you!
-
-Your responses will be used to help us improve our rides for next year. We may also share some summary results with the community through social media channels, but we will not collect or share any identifying information.
-
-We've got some great prizes for folks who complete the survey. There's an option for you to provide us with your email address at the end of the survey, on a separate form for anonymity. Please complete the survey by November 15 to be included in the prize draw!
+{{< kidical-mass/link-box link="https://docs.google.com/forms/d/e/1FAIpQLSePLqcruUqBEGgNmAu1tyjt8Id9Qj6CEoLDZ6nN-5bUuNZcCw/viewform" text="Take our survey" subtext="Tell us how we can do better next year.">}}
 
 ## Past Rides
 {{< kidical-mass/display-rides class=past-rides >}}
 
-## Questions?
-
-Would you like to lead a ride in your neighbourhood or be one of our ride marshals? If so, or if you have any other questions please contact KidicalMassHfx@gmail.com
+## Connect With Us
+We've set up a {{< kidical-mass/slack-link text="Slack Workspace" >}} for Kidical Mass Halifax participants to chat more about cycling with kids in Halifax. Want to talk about active transportation to your community school? Want to help us plan for the 2024 season? Want to connect with other local families who like to bike with kids? You can also reach us directly at: KidicalMassHfx@gmail.com
