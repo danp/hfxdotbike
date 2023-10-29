@@ -1,0 +1,11 @@
+{{ $link:= .Get "link" }}
+{{ $text:= .Get "text" }}
+{{ $subtext:= .Get "subtext" }}
+<div class="upcoming-rides">
+<a href="{{ $link }}">
+  <div class="box-link" >
+    <h3>{{$text}}</h3>
+    {{$subtext}}
+  </div>
+</a>
+</div>
