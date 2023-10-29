@@ -17,8 +17,11 @@ Our rides are an opportunity for adults and children to ride together in an urba
 * grown-ups carrying children on adult bikes (e.g. with kid-seats, trail-a-bikes, trailers or cargo bikes)
 * grown-ups without children
 
-
 We strive to make each ride comfortable for people of all ages and abilities. Each ride is no more than a few kilometres, and is supported by community ride marshals.
+
+## Feedback Survey
+
+{{< kidical-mass/link-box link="https://docs.google.com/forms/d/e/1FAIpQLSePLqcruUqBEGgNmAu1tyjt8Id9Qj6CEoLDZ6nN-5bUuNZcCw/viewform" text="Take our survey" subtext="Tell us how we can do better next year.">}}
 
 ## Upcoming Rides
 {{< kidical-mass/display-rides class=upcoming-rides >}}
@@ -36,9 +39,7 @@ Also check out our [calendar](calendar) page.
 * If we need to cancel due to weather conditions, we will post a notice on this website by 7:30am on the day of the ride.
 * Please help protect our community from COVID-19. Our rides and activities take place entirely outdoors, but we do ride as a group and share outdoor public space with many others. Masks are welcomed, but please stay home if you feel unwell.
 
-## Feedback Survey
 
-{{< kidical-mass/link-box link="https://docs.google.com/forms/d/e/1FAIpQLSePLqcruUqBEGgNmAu1tyjt8Id9Qj6CEoLDZ6nN-5bUuNZcCw/viewform" text="Take our survey" subtext="Tell us how we can do better next year.">}}
 
 ## Past Rides
 {{< kidical-mass/display-rides class=past-rides >}}
