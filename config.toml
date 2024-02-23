@@ -19,7 +19,8 @@ weight = 10
 
 [params.kidicalmass]
 email="KidicalMassHfx@gmail.com"
-twitter="https://twitter.com/search?q=%23kidicalmasshfx"
+#twitter="https://twitter.com/search?q=%23kidicalmasshfx"
+bluesky="https://bsky.app/search?q=KidicalMassHfx"
 instagram="https://www.instagram.com/kidicalmasshalifax/"
 facebook="https://www.facebook.com/profile.php?id=100089191422241"
 slack="https://join.slack.com/t/kidicalmasshalifax/shared_invite/zt-243v6upd2-bFX5qcBYh1qiTRiV6HasjQ"

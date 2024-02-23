@@ -172,6 +172,13 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   color:#205493;
   float: right;
 }
+#socials>a>i>svg{
+  padding:0px;
+  display: inline-block;
+}
+#socials>a>i>svg:hover{
+  filter: drop-shadow(2px 2px 10px grey);
+}
 #menu>ul>li:hover,#socials>a>i:hover{
   text-shadow: 2px 2px 10px grey;
 }
