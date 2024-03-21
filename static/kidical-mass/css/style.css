@@ -72,10 +72,11 @@ h2 {
   display: flex;
   flex-wrap: wrap;
 }
-body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-rides > a{
+body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-rides > a, body>main>div>a{
   text-decoration: none;
 }
-.ride {
+
+.card,.ride {
   background-color: #205493;
   color: white;
   border-radius: 0.25em;
@@ -86,8 +87,17 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   display: none;
   box-shadow: 1px 1px 5px grey;
 }
+.card{
+  display: block;
+  background-color: #e31c3d;
+}
 .ride:hover {
   background-color: #2767b5;
+  color: white;
+  box-shadow: 2px 2px 10px grey;
+}
+.card:hover{
+  background-color: #f15e76;
   color: white;
   box-shadow: 2px 2px 10px grey;
 }

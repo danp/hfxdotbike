@@ -35,10 +35,21 @@ Also check out our [calendar](calendar) page.
 * If we need to cancel due to weather conditions, we will post a notice on this website by 7:30am on the day of the ride.
 * Please help protect our community from COVID-19. Our rides and activities take place entirely outdoors, but we do ride as a group and share outdoor public space with many others. Masks are welcomed, but please stay home if you feel unwell.
 
+## Connect With Us
+
+<div style="display:flex;flex-wrap:wrap;">
+   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6DeI826QIya2huS-ISvH8IPqcGRdgmCvn_B8dy_RP77LFdg/viewform">
+  <div class="card"><h3>Volunteer</h3> Tell us a bit about yourself and how you can help
+</div>
+  <a/>
+  <a href="https://join.slack.com/t/kidicalmasshalifax/shared_invite/zt-243v6upd2-bFX5qcBYh1qiTRiV6HasjQ">
+  <div class="card"><h3>Slack Workspace</h3> Connect with local families who like to bike with kids</div>
+  <a/>
+  <a href="mailto:KidicalMassHfx@gmail.com">
+  <div class="card"><h3>Email Us</h3> KidicalMassHfx@gmail.com</div>
+  <a/>
+</div>
 
 
 ## Past Rides
 {{< kidical-mass/display-rides class=past-rides >}}
-
-## Connect With Us
-We've set up a {{< kidical-mass/slack-link text="Slack Workspace" >}} for Kidical Mass Halifax participants to chat more about cycling with kids in Halifax. Want to talk about active transportation to your community school? Want to help us plan for the 2024 season? Want to connect with other local families who like to bike with kids? You can also reach us directly at: KidicalMassHfx@gmail.com
