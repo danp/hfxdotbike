@@ -38,9 +38,9 @@ Also check out our [calendar](calendar) page.
 ## Connect With Us
 
 <div style="display:flex;flex-wrap:wrap;">
-   <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6DeI826QIya2huS-ISvH8IPqcGRdgmCvn_B8dy_RP77LFdg/viewform">
+  <a href="https://docs.google.com/forms/d/e/1FAIpQLSe6DeI826QIya2huS-ISvH8IPqcGRdgmCvn_B8dy_RP77LFdg/viewform">
   <div class="card"><h3>Volunteer</h3> Tell us a bit about yourself and how you can help
-</div>
+  </div>
   <a/>
   <a href="https://join.slack.com/t/kidicalmasshalifax/shared_invite/zt-243v6upd2-bFX5qcBYh1qiTRiV6HasjQ">
   <div class="card"><h3>Slack Workspace</h3> Connect with local families who like to bike with kids</div>
@@ -50,6 +50,13 @@ Also check out our [calendar](calendar) page.
   <a/>
 </div>
 
-
 ## Past Rides
+
+<div style="display:flex;flex-wrap:wrap;">
+  <a href="./2023-stats">
+  <div class="card"><h3>2023 Ride Season Stats</h3>
+  </div>
+  </a>
+</div>
+<br/>
 {{< kidical-mass/display-rides class=past-rides >}}

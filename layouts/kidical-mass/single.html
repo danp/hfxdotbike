@@ -7,7 +7,10 @@
     {{ partial "kidical-mass/header.html" . }}
     {{ partial "kidical-mass/hero_img.html" . }}
     <main>
+
+      {{- if (isset .Params "description" ) -}}
       <h1>{{ .Params.title }}</h1>
+      {{- end -}}
       {{.Content}}
     </main>
     {{ partial "kidical-mass/footer.html" . }}
