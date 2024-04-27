@@ -2,6 +2,8 @@
 headless: true
 ---
 
+Please complete our [waiver](https://form.jotform.com/201753958414056) (once per person, per year)
+
 ## What to expect on the ride
 
 * We will meet at 9:30am and the ride will start at 10:00am
