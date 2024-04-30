@@ -18,8 +18,17 @@ Our rides are an opportunity for adults and children to ride together in an urba
 * grown-ups without children
 
 We strive to make each ride comfortable for people of all ages and abilities. Each ride is no more than a few kilometres, and is supported by community ride marshals.
+<br/>
+<br/>
+<div style="display:flex;flex-wrap:wrap;">
+  <a href="https://form.jotform.com/201753958414056">
+  <div class="card"><h3>Please complete our waiver</h3>once per person, per year
+  </div>
+  <a/>
+</div>
 
 ## Upcoming Rides
+
 {{< kidical-mass/display-rides class=upcoming-rides >}}
 
 Also check out our [calendar](calendar) page.
