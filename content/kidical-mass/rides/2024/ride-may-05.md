@@ -24,5 +24,6 @@ descriptions:
 * Our destination is the waterfront playground, outside the Maritime Museum of the Atlantic
 * There are washrooms located inside the museum, and port-a-potties on the waterfront near the Salt Yard
 * We’ll have snacks and prizes at the destination, including slushies from I [Heart Bikes](https://iheartbikeshfx.com/)!
+* We're looking for feedback on our rides from older children (aged 8+). Children/youth who participate and share their thoughts about what they'd like from our rides will have the chance to win a $20 gift voucher for Woozles.
 
 {{< kidical-mass/ride-with-gps id="46112154" >}}
