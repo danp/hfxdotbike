@@ -226,6 +226,9 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
 #no-past-rides-message{
   display:none;
 }
+h2{
+   scroll-margin-top: 120px;
+}
 /*with tray width of 445, max-width of 768 is good.*/
 @media only screen and (max-width: 813px){
   main {
@@ -288,6 +291,9 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
   #menu>ul>li{
     display: block;
   }
+  h2{
+   scroll-margin-top: 0px;
+}
 }
 @media only screen and (max-width: 475px){
   

@@ -32,6 +32,9 @@ url="kidical-mass/calendar"
 [[params.kidicalmass.menu]]
 name="more"
 url="kidical-mass/more"
+[[params.kidicalmass.menu]]
+name="bike bus"
+url="kidical-mass/bike-bus"
 #[[params.kidicalmass.menu]]
 #name="reminders"
 #url="kidical-mass/reminders"
