@@ -174,7 +174,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
 #menu>ul>li{
   display: inline-block;
   padding:0.1em;
-  padding-right:0.5em;
+  padding-right:1.0em;
 }
 #socials>a>i{
   padding:10px;
@@ -261,7 +261,7 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
     white-space:nowrap;
     display:inline-block;
     text-align:center;
-    width:287.219px;
+    width:100%;
   }
   #socials>a>i{
     float: none;
