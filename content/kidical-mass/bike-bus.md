@@ -34,4 +34,6 @@ Riding along Connolly St, starting at Almon St at 8:15am
 [KidicalMassHfx@gmail.com](mailto:KidicalMassHfx@gmail.com)  
 
 ## Le Marchant St Thomas
-Friday Mornings until the end of the school year(Including the last day of school!) Riding along Windsor St. from Lawrence St, through Quingate MUP and Vernon St Bikeway. Departs Quingate MUP around 8:30am [katylarachisholm@gmail.com](mailto: katylarachisholm@gmail.com).
+Friday Mornings until the end of June 2024 (including the last day of school)!  
+Riding along Windsor St. from Lawrence St, through Quingate MUP and Vernon St Bikeway. Departs Quingate MUP around 8:30am 
+[katylarachisholm@gmail.com](mailto:katylarachisholm@gmail.com).
