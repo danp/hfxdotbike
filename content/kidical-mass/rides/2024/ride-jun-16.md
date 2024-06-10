@@ -22,4 +22,8 @@ descriptions:
 * The school grounds at Le Marchant St Thomas have: benches & picnic tables for seating, multiple playground sites, and a large sports field. However, there are no public washrooms available at the school.
 * We’ll provide snacks, prizes & activities at the destination.
 
+Some local bike-businesses are joining us at the end of the ride:
+* [Halifax Cycles](https://www.halifaxcycles.com/) will join us with some e-cargo bikes for free test-rides on the school grounds
+* [Peachy Keen Popsicles](https://peachykeenpops.wixsite.com/peachykeenpops) will have popsicles for purchase
+
 {{< kidical-mass/ride-with-gps id="46628312" >}}
