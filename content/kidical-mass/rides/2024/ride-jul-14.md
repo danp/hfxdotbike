@@ -22,6 +22,7 @@ descriptions:
 * Our ride is (mostly) a loop: passing by some other local parks and playgrounds, and ending at the Shubie Park Pump Track for bike & scooter skills practice.
 * There is a playground at the Shubie Park Campground, 200m from the pump track and sports field. There are public washroom facilities at the campground, in addition to the ones at the Fairbanks Centre.
 * We’ll provide snacks, prizes, and activities at the end of the ride.
+* The [Halifax Cycling Coalition](https://cyclehalifax.ca/) will have a cycling obstacle course set up at the end of the ride.
 * We encourage you to stay and enjoy the park if you can. The [Lockside Canteen](https://lemon.dog/) opens at 12:00, and you can find more information about exploring Shubie Park [here](https://www.shubenacadiecanal.ca/shubie-park).
 
 {{< kidical-mass/ride-with-gps id="47258230" >}}
