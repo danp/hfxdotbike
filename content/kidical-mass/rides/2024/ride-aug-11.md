@@ -24,5 +24,6 @@ descriptions:
 * Isleville Park has a splash pad, playground structures for kids of all ages, several benches and picnic tables.
 * There is a portable toilet on site at Isleville Park for the summer months.
 * We’ll provide snacks, prizes, and activities at the end of the ride.
+* Liz from [Woozles](https://www.woozles.com/) book shop will join us at Isleville Park for storytime at 11:00am
 
 {{< kidical-mass/ride-with-gps id="47778425" >}}
