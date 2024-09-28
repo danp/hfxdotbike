@@ -11,11 +11,12 @@ description:
 <br/>
 
 ## Michael Wallace Elementary School
-Bi-weekly Tuesdays (June 11th and 25th remaining this year)  
+Bi-weekly Tuesdays  
 Belvedere Park through Angel Ct  
 [mwes.bike.bus@gmail.com](mailto:mwes.bike.bus@gmail.com)  
 ![Michael Wallace Elementary School bike bus map](../img/MWES.png)
 <br/>
+<hr/>
 
 ## St. Stephen's Elementary School
 Weekly on Friday Mornings, weather permitting  
@@ -27,13 +28,18 @@ There is some communication done through our Facebook Messenger group chat.
 [mackay.stephen@gmail.com](mailto:mackay.stephen@gmail.com)  
 ![St. Stephens walking bus map with bike bus start](../img/St.-Stephens-Walking-Bus-Map-with-Bike-Bus-Start.png)
 <br/>
+<hr/>
 
 ## Ecole St. Catherine's School
 Weekly on Wednesday mornings, rain or shine  
-Riding along Connolly St, starting at Almon St at 8:15am  
+Riding along Connolly St, starting at Almon St at 8:20am  
 [KidicalMassHfx@gmail.com](mailto:KidicalMassHfx@gmail.com)  
+<br/>
+<hr/>
 
 ## Le Marchant St Thomas
-Friday Mornings until the end of June 2024 (including the last day of school)!  
+Friday Mornings  
 Riding along Windsor St. from Lawrence St, through Quingate MUP and Vernon St Bikeway. Departs Quingate MUP around 8:30am 
 [katylarachisholm@gmail.com](mailto:katylarachisholm@gmail.com).
+<br/>
+<hr/>
