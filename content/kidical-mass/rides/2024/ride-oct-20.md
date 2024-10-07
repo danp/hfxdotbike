@@ -7,7 +7,7 @@ descriptions:
 - Downtown Dartmouth
 ---
 
-**Ride starts at Findlay Community Centre Park, [26 Elliot St., Dartmouth](https://maps.app.goo.gl/S6EaRhHSRYU9bddm6)**
+**Ride starts at Findlay Community Centre, [26 Elliot St., Dartmouth](https://maps.app.goo.gl/S6EaRhHSRYU9bddm6)**
 
 {{< kidical-mass/ride-general-info >}}
 
