@@ -25,8 +25,8 @@ We strive to make each ride comfortable for people of all ages and abilities. Ea
   <div class="card"><h3>Please complete our waiver</h3>once per person, per year
   </div>
   <a/>
-  <a href="https://docs.google.com/forms/d/e/1FAIpQLSfJLUg7gtJjUmiL7CPoSy85gxAfX9Q5Tk3EvHXiJ_WRoirYQQ/viewform">
-  <div class="card"><h3>Comment Box</h3>for Kidical Mass
+  <a href="https://tinyurl.com/KMEval24">
+  <div class="card"><h3>2024 Evaluation</h3>Win prizes!
   </div>
   <a/>
 </div>
