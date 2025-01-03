@@ -1,0 +1,3 @@
+{{ $asset := .Get "src" }}
+{{ $script := resources.Get $asset | fingerprint "sha512" }}
+<script type="text/javascript" src="{{ $script.RelPermalink }}" integrity="{{ $script.Data.Integrity }}"></script>

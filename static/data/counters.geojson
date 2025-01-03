@@ -1,0 +1,135 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5732207,
+          44.6483518
+        ]
+      },
+      "properties": {
+        "name": "Hollis"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.557408,
+          44.664425
+        ]
+      },
+      "properties": {
+        "name": "Dartmouth Cove"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5795183,
+          44.641833
+        ]
+      },
+      "properties": {
+        "name": "South Park"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5888082,
+          44.637608
+        ]
+      },
+      "properties": {
+        "name": "Uni Arts"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.591606,
+          44.6429789
+        ]
+      },
+      "properties": {
+        "name": "Vernon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.603825,
+          44.6547039
+        ]
+      },
+      "properties": {
+        "name": "Windsor"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.5792122,
+          44.6489273
+        ]
+      },
+      "properties": {
+        "name": "Gottingen"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.587555587291725,
+          44.65889782181338
+        ]
+      },
+      "properties": {
+        "name": "Barrington"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.63096345216035,
+          44.650348045394125
+        ]
+      },
+      "properties": {
+        "name": "Chain of Lakes Trail"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.569799363613136,
+          44.644306537386875
+        ]
+      },
+      "properties": {
+        "name": "Lower Water"
+      }
+    }
+  ]
+}
