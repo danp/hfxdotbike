@@ -25,10 +25,6 @@ We strive to make each ride comfortable for people of all ages and abilities. Ea
   <div class="card"><h3>Please complete our waiver</h3>once per person, per year
   </div>
   <a/>
-  <a href="https://tinyurl.com/KMEval24">
-  <div class="card"><h3>2024 Evaluation</h3>Win prizes!
-  </div>
-  <a/>
 </div>
 
 ## Upcoming Rides
@@ -66,10 +62,17 @@ Also check out our [calendar](calendar) page.
 ## Past Rides
 
 <div style="display:flex;flex-wrap:wrap;">
+  <a href="./2024-stats">
+  <div class="card"><h3>2024 Ride Season Stats</h3>
+  </div>
+  </a>
   <a href="./2023-stats">
   <div class="card"><h3>2023 Ride Season Stats</h3>
   </div>
   </a>
+  <a href="./past-rides">
+  <div class="card"><h3>Past Rides</h3>
+  </div>
+  </a>
 </div>
 <br/>
-{{< kidical-mass/display-rides class=past-rides >}}

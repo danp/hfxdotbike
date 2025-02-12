@@ -1,7 +1,7 @@
 {{ $ridePages := slice }}
 
 {{ range (where .Site.RegularPages "Section" "kidical-mass") }}
-  {{ if in .File.Path "rides" }}
+  {{ if in .File.Path "rides/" }}
     {{ $ridePages = $ridePages | append . }}
   {{ end }}
 {{ end }}
@@ -9,7 +9,7 @@
 {{ $class:= .Get "class" }}
 
 <div class="{{ $class }}">
-<p id="no-{{ $class }}-message">Please check back soon for details of our 2024 ride season.</p>
+<p id="no-{{ $class }}-message">Please check back soon for details of our 2025 ride season.</p>
 {{ range ( sort $ridePages "Params.ride_date" ) }}
 
   <a href="{{ .Permalink }}">

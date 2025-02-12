@@ -71,53 +71,56 @@ function updateNavBar(){
 }
 function updateDownButton(){
   
-  //var navBarElement=document.getElementById("nav_bar");
-  //var navBarHeight=navBarElement.offsetHeight;
-  //var windowHeight=window.innerHeight;
-  var windowHeight=document.documentElement.clientHeight;
-  var scrollTop=Math.max(document.body.scrollTop,document.documentElement.scrollTop);
-  
-  var heroImgElement=document.getElementById("header_img");
-  var heroImgOffsetHeight=heroImgElement.offsetHeight;
-  var heroImgOffsetTop=heroImgElement.offsetTop;
-  
-  var navBarElement=document.getElementById("nav_bar");
-  var navBarOffsetHeight=navBarElement.offsetHeight;
-  
   var downButtonElement=document.getElementById("downButton");
-  var downButtonOffsetHeight=downButtonElement.offsetHeight;
-  
-  var windowWidth=window.innerWidth;
-  var headerHeight=navBarOffsetHeight+98;
-  if(windowWidth<475){
-    
-    headerHeight=navBarOffsetHeight+62;
+  if(downButtonElement){
+
+    //var navBarElement=document.getElementById("nav_bar");
+    //var navBarHeight=navBarElement.offsetHeight;
+    //var windowHeight=window.innerHeight;
+    var windowHeight=document.documentElement.clientHeight;
+    var scrollTop=Math.max(document.body.scrollTop,document.documentElement.scrollTop);
+
+    var heroImgElement=document.getElementById("header_img");
+    var heroImgOffsetHeight=heroImgElement.offsetHeight;
+    var heroImgOffsetTop=heroImgElement.offsetTop;
+
+    var navBarElement=document.getElementById("nav_bar");
+    var navBarOffsetHeight=navBarElement.offsetHeight;
+
+    var downButtonOffsetHeight=downButtonElement.offsetHeight;
+
+    var windowWidth=window.innerWidth;
+    var headerHeight=navBarOffsetHeight+98;
+    if(windowWidth<475){
+
+      headerHeight=navBarOffsetHeight+62;
+    }
+    var headerAdjust=-Math.max(headerHeight-windowHeight-scrollTop,0);
+    //console.log("updateDownButton");
+    //console.log("  headerHeight="+headerHeight);
+    //console.log("  windowWidth="+windowWidth);
+    //console.log("  scrollTop="+scrollTop);
+    //console.log("  windowHeight="+windowHeight);
+    //console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
+    //console.log("  heroImgOffsetTop="+heroImgOffsetTop);
+    //console.log("  windowHeight-heroImgOffsetTop-heroImgOffsetHeight="+(windowHeight-heroImgOffsetTop-heroImgOffsetHeight));
+    //console.log("  headerAdjust="+(headerAdjust));
+    //console.log("  downButtonOffsetHeight="+downButtonOffsetHeight);
+    //console.log("  navBarOffsetHeight="+navBarOffsetHeight);
+    var bottomButton=Math.max(-scrollTop,
+      windowHeight-heroImgOffsetTop-heroImgOffsetHeight)+headerAdjust;
+    buttonBottomStr=bottomButton.toString()+"px";
+    //console.log("  buttonBottomStr="+buttonBottomStr);
+
+    //NOTE: it seems it isn't recommended to set possitions based on
+    //  scrolling (see: https://blog.logrocket.com/use-scroll-linked-animations-right-way/)
+    //  However, it works fine in the chrome+firefox browsers I tried and it isn't
+    //  clear to me how much of an issue it will be in this case.
+    //  I briefly looked from some CSS way to do this, but didn't find anything
+    //  immediately obvious that was close enough.
+    downButtonElement.style.bottom=buttonBottomStr;
+    downButtonElement.style.display="block";
   }
-  var headerAdjust=-Math.max(headerHeight-windowHeight-scrollTop,0);
-  //console.log("updateDownButton");
-  //console.log("  headerHeight="+headerHeight);
-  //console.log("  windowWidth="+windowWidth);
-  //console.log("  scrollTop="+scrollTop);
-  //console.log("  windowHeight="+windowHeight);
-  //console.log("  heroImgOffsetHeight="+heroImgOffsetHeight);
-  //console.log("  heroImgOffsetTop="+heroImgOffsetTop);
-  //console.log("  windowHeight-heroImgOffsetTop-heroImgOffsetHeight="+(windowHeight-heroImgOffsetTop-heroImgOffsetHeight));
-  //console.log("  headerAdjust="+(headerAdjust));
-  //console.log("  downButtonOffsetHeight="+downButtonOffsetHeight);
-  //console.log("  navBarOffsetHeight="+navBarOffsetHeight);
-  var bottomButton=Math.max(-scrollTop,
-    windowHeight-heroImgOffsetTop-heroImgOffsetHeight)+headerAdjust;
-  buttonBottomStr=bottomButton.toString()+"px";
-  //console.log("  buttonBottomStr="+buttonBottomStr);
-  
-  //NOTE: it seems it isn't recommended to set possitions based on
-  //  scrolling (see: https://blog.logrocket.com/use-scroll-linked-animations-right-way/)
-  //  However, it works fine in the chrome+firefox browsers I tried and it isn't
-  //  clear to me how much of an issue it will be in this case.
-  //  I briefly looked from some CSS way to do this, but didn't find anything
-  //  immediately obvious that was close enough.
-  downButtonElement.style.bottom=buttonBottomStr;
-  downButtonElement.style.display="block";
 }
 function onClickDownButton(){
   
@@ -196,20 +199,27 @@ function updateDisplayOfRides(parentElement,comparitor){
 }
 function setRideDisplayFromDate(){
 
-  const upcomingRidesDiv=document.getElementsByClassName("upcoming-rides")[0];
-  var numVisibleRides=updateDisplayOfRides(upcomingRidesDiv,greaterOrEqual);
-  //console.log("numVisibleRides="+numVisibleRides);
-  var noUpcomingRidesMessageElement=document.getElementById("no-upcoming-rides-message");
-  if(numVisibleRides==0){
+  var upcomingRidesCollection=document.getElementsByClassName("upcoming-rides");
+  if(upcomingRidesCollection.length>0){
+
+    const upcomingRidesDiv=upcomingRidesCollection[0];
+    var numVisibleRides=updateDisplayOfRides(upcomingRidesDiv,greaterOrEqual);
+    var noUpcomingRidesMessageElement=document.getElementById("no-upcoming-rides-message");
+    if(numVisibleRides==0){
     
-    noUpcomingRidesMessageElement.style.display="block";
-  }
-  else{
+      noUpcomingRidesMessageElement.style.display="block";
+    }
+    else{
     
-    noUpcomingRidesMessageElement.style.display="none";
+      noUpcomingRidesMessageElement.style.display="none";
+    }
   }
-  const pastRidesDiv=document.getElementsByClassName("past-rides")[0];
-  updateDisplayOfRides(pastRidesDiv,lesser);
+  var pastRidesCollection=document.getElementsByClassName("past-rides");
+  if(pastRidesCollection.length>0){
+
+    const pastRidesDiv=pastRidesCollection[0];
+    updateDisplayOfRides(pastRidesDiv,lesser);
+  }
 }
 
 function kidicalOnScroll(){
