@@ -7,4 +7,4 @@ descriptions:
 - "Kids bike buy/sell/trade"
 ---
 
-details to come
+Details to come.
