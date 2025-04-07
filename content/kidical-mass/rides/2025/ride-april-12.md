@@ -23,7 +23,7 @@ Come chat with us about biking with kids: it’s a meet and greet for the Halifa
 
 Additional Details:
 
-* Please see this [notice re](https://www.halifax.ca/home/news/street-closure-cogswell-street): construction and road & sidewalk closures in the area.
+* Please see [this notice](https://www.halifax.ca/home/news/street-closure-cogswell-street) re: construction and road & sidewalk closures in the area.
 * There are bus stops nearby on Robie St and Summer St.
 * There is limited on-street parking on the north side of Cogswell St., and on streets surrounding the Common. 
 * There is a parking garage nearby, on Bell Rd, and paid parking at the Museum of Natural History on Summer St.
