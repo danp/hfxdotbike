@@ -13,7 +13,7 @@ Come chat with us about biking with kids: it’s a meet and greet for the Halifa
 
 * Ride and chat on the oval (not yet open for the season)
 * Buy/Sell/Trade kids bikes & accessories
-* We’ll provide hot cocoa, juice boxes and snacks
+* We’ll provide juice boxes and snacks
 * Test-ride an e-bike from Halifax Cycles
 * Have a bike checked (and minor adjustments) by the Ecology Action Centre’s Pop-up Bike Hub
 * We'll have sidewalk chalk, bubbles, and colouring pages to keep the kids amused.
