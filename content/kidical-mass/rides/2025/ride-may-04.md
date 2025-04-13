@@ -9,8 +9,6 @@ descriptions:
 
 **Ride starts at:** [Halifax Central Library, on Spring Garden Rd](https://maps.app.goo.gl/1yFfggD8EaKkbsuu9)
 
-Please complete our [waiver](https://form.jotform.com/201753958414056) (once per person, per year)
-
 We're collaborating with Jane's Walk Halifax. Check out their [schedule](https://www.janeswalkhalifax.com/schedule) for more great weekend events.
 
 {{< kidical-mass/ride-general-info >}}
