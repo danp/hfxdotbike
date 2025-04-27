@@ -27,5 +27,6 @@ We're collaborating with Jane's Walk Halifax. Check out their [schedule](https:/
 * There are washrooms located inside the museum, and port-a-potties on the waterfront near the Salt Yard.
 * We’ll have snacks and prizes at the destination, including slushies courtesy of [I Heart Bikes](https://iheartbikeshfx.com/).
 * We're collaborating with Jane's Walk Halifax for this month's ride. We'll be giving away a copy of the children's book [Walking in the City with Jane](https://www.kidscanpress.com/product/walking-in-the-city-with-jane/) at the end of the ride.
+* [Halifax Cycles](https://halifaxcycles.com/) will be offering family e-bike test rides at Submarine Playground
 
 {{< kidical-mass/ride-with-gps id="50145584" >}}
