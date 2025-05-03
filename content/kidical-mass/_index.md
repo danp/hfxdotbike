@@ -57,6 +57,9 @@ Also check out our [calendar](calendar) page.
   <a href="mailto:KidicalMassHfx@gmail.com">
   <div class="card"><h3>Email Us</h3> KidicalMassHfx@gmail.com</div>
   <a/>
+  <a href="email-sign-up">
+  <div class="card"><h3>Email Sign-Up</h3> We'll send you details about upcoming events and our yearly feedback form. </div>
+  <a/>
 </div>
 
 ## Past Rides
