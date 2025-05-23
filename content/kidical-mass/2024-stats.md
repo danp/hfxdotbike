@@ -7,5 +7,4 @@ description:
 If you can't see the PDF below download it here: [2024-stats](/kidical-mass/img/2024-Ride-Season-Stats.pdf)
 
 <object data="/kidical-mass/img/2024-Ride-Season-Stats.pdf" type="application/pdf" width="100%" height="500px">
-  <p>Unable to display PDF file. <a href="/kidical-mass/img/2024-Ride-Season-Stats.pdf">Download</a> instead.</p>
 </object>
