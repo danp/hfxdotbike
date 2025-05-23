@@ -5,6 +5,7 @@ description:
 ---
 
 ## Kidical Mass Halifax
+* Halifax Transportation Standing Committee (TSC) Presentation: [More Kids on Bikes](../may-2025-tsc-presentation/) (May 22, 2025)
 * Halifax Examiner: ['Joyful protest': record turnout for Halifax Kidical Mass ride](https://www.halifaxexaminer.ca/transportation/joyful-protest-record-turnout-for-halifax-kidical-mass-ride/) (September 9, 2024)
 * Canadian Cycling Magazine: [Kidical Mass: Halifax parents take to the streets to make the city safer for young riders](https://cyclingmagazine.ca/members/kidical-mass/) (September 15, 2023)<sup>*</sup>
 * Saltwire: [Taking back the streets: Kidical Mass Rides ready to roll in Halifax](https://www.saltwire.com/halifax/lifestyles/taking-back-the-streets-kidical-mass-rides-ready-to-roll-in-halifax-100846413/) (April 24, 2023)<sup>*</sup>
