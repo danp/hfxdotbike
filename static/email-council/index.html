@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Email HRM Contacts</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 40px;
+      text-align: center;
+      background-color: #f4f4f4;
+    }
+    button, a.button {
+      display: inline-block;
+      padding: 15px 30px;
+      margin: 20px;
+      font-size: 1.2em;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+      background-color: #007BFF;
+    }
+    textarea {
+      width: 80%;
+      height: 150px;
+      margin-top: 20px;
+      font-size: 1em;
+      padding: 10px;
+    }
+    #copyMessage {
+      margin-top: 10px;
+      font-size: 1em;
+      color: green;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Email all Halifax Councillors</h1>
+
+  <!-- Email button -->
+  <a class="button" href="mailto:cathy.deaglegammon@halifax.ca,david.hendsbee@halifax.ca,becky.kent@halifax.ca,trish.purdy@halifax.ca,sam.austin@halifax.ca,tony.mancini@halifax.ca,Laura.White@halifax.ca,Virginia.Hinch@halifax.ca,shawn.cleary@halifax.ca,kathryn.morse@halifax.ca,cuttelp@halifax.ca,Janet.steele@halifax.ca,nancy.hartling@halifax.ca,john.young@halifax.ca,billy.gillis@halifax.ca,jean.st-amand@halifax.ca,clerks@halifax.ca">
+    Email with your email client
+  </a>
+
+  <!-- Textarea with all addresses -->
+  <div>
+    <textarea id="emailList" readonly>
+cathy.deaglegammon@halifax.ca,
+david.hendsbee@halifax.ca,
+becky.kent@halifax.ca,
+trish.purdy@halifax.ca,
+sam.austin@halifax.ca,
+tony.mancini@halifax.ca,
+Laura.White@halifax.ca,
+Virginia.Hinch@halifax.ca,
+shawn.cleary@halifax.ca,
+kathryn.morse@halifax.ca,
+cuttelp@halifax.ca,
+Janet.steele@halifax.ca,
+nancy.hartling@halifax.ca,
+john.young@halifax.ca,
+billy.gillis@halifax.ca,
+jean.st-amand@halifax.ca,
+clerks@halifax.ca
+    </textarea>
+    <br>
+    <button onclick="copyEmails()">Copy to Clipboard</button>
+    <div id="copyMessage">Copied!</div>
+  </div>
+
+  <script>
+    function copyEmails() {
+      const textarea = document.getElementById('emailList');
+      textarea.select();
+      textarea.setSelectionRange(0, 99999); // for mobile devices
+      document.execCommand("copy");
+
+      const message = document.getElementById('copyMessage');
+      message.style.display = 'block';
+      setTimeout(() => {
+        message.style.display = 'none';
+      }, 2000);
+    }
+  </script>
+
+  <script data-goatcounter="https://hb.s.danp.net/count" async src="//hb.s.danp.net/count.js"></script>
+</body>
+</html>
