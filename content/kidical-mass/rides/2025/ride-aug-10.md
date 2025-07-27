@@ -7,7 +7,7 @@ descriptions:
 - "North End Halifax"
 ---
 
-**Ride starts at:** St. Stephen’s Elementary School, [Normandy Drive entrance](https://goo.gl/maps/uUfib5WDon55H8b79)
+**Ride starts at: St. Stephen’s Elementary School, [Normandy Drive entrance](https://goo.gl/maps/uUfib5WDon55H8b79)**
 
 {{< kidical-mass/ride-general-info >}}
 
