@@ -20,6 +20,7 @@ descriptions:
 * See the map below for more details of the ride route, including information about the road & pathway conditions.
 * The destination playground is Ferry Terminal Park, which has: benches for seating, two play structures with a rubber surface, and a spinning carousel. There are public restrooms nearby in the Alderney Gate Ferry Terminal and within Alderney Landing.
 * We’ll provide snacks and prizes at the destination.
-* Halifax Cycles will be offering e-cargo bike test rides at Ferry Terminal Park.
+* [Halifax Cycles](https://halifaxcycles.com/) will be offering e-cargo bike test rides at Ferry Terminal Park.
+* We'll have live music from simultaneous multi-instrumentalist, [Brad McGoey](https://bradmcgoeymusic.com/)
 
 {{< kidical-mass/ride-with-gps id="52261857" >}}
