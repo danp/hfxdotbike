@@ -3,6 +3,7 @@ title: The courage of kids and cowardice of politicians
 date: 2025-10-01
 author: Jillian Banfield and Dan Peterson
 person: jillian
+images: ['balance-og.jpg']
 tags:
 - advocacy
 ---
