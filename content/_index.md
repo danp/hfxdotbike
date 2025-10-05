@@ -18,8 +18,6 @@ Community transport of essential items, such as food. Solidarity, not charity.
 
 Retired (first) Bicycle Mayor of Halifax. Disabled. Mobility justice.
 
-# [Critical Mass](https://www.instagram.com/criticalmass.hfx/)
+# [Critical Mass](https://bsky.app/profile/criticalmasshfx.bsky.social)
 
-An informal, leaderless bike ride that meets on the last Friday of every month, in cities around the world, including Halifax.
-
-Currently meeting the last Friday of the month at [Grand Parade](https://goo.gl/maps/jCMSrgs5JwviP63e8) at 6 PM.
+An informal, leaderless bike ride that usually meets on the last Friday of every month, in cities around the world, including Halifax. Check [Bluesky](https://bsky.app/profile/criticalmasshfx.bsky.social) or [Instagram](https://www.instagram.com/criticalmass.halifax/) for latest info.
