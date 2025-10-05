@@ -26,3 +26,5 @@ Solidarity, not charity.
 [Register as a partner](https://forms.gle/k7jcirtyWBwR95cC7)
 
 [Values and Principles](https://drive.google.com/file/d/1EIeG_ELhoz-sxRq9Tc7egXQ9vqYvJB8b/view)
+
+[Contact via email](mailto:bikebrigadehfx@novascotiabybike.ca)
