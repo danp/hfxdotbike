@@ -12,4 +12,4 @@ Disabled.
 
 Mobility justice.
 
-Find me on Twitter as [@BikeHfxLobby](https://twitter.com/BikeHfxLobby).
+Find me on Bluesky as [@BikeHfxLobby.bsky.social](https://bsky.app/profile/bikehfxlobby.bsky.social).
