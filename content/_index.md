@@ -10,6 +10,10 @@ Kidical Mass is an international movement to create a “Kidical Mass” of fami
 
 Halifax bike stats, curated by robots.
 
+# [Bike Brigade Halifax](bikebrigade)
+
+Community transport of essential items, such as food. Solidarity, not charity.
+
 # [Jillian (@BikeHfxLobby)](jillian)
 
 Retired (first) Bicycle Mayor of Halifax. Disabled. Mobility justice.
