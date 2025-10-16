@@ -13,9 +13,13 @@ name = "BikeHfxStats"
 url = "/bikehfxstats"
 weight = 9
 [[menu.main]]
+name = "Bike Brigade"
+url = "/bikebrigade"
+weight = 10
+[[menu.main]]
 name = "Jillian"
 url = "/jillian"
-weight = 10
+weight = 11
 
 [params.kidicalmass]
 email="KidicalMassHfx@gmail.com"
