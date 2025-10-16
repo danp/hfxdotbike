@@ -22,5 +22,7 @@ descriptions:
 * See the map below for more details of the ride route, including information about the road & pathway conditions.
 * The destination playground is Dewolf Park, which has: benches and a covered picnic area for seating, a pirate-themed play structure with a rubber surface, and a spinning carousel. There are public restrooms at Dewolf park, close to the playground.
 * We’ll provide snacks and prizes at the destination.
+* [Ekko Performing Arts Society](https://ekkomusic.ca/about-ekko) will join us for some interactive musical programming at Dewolf park.
+* We'll have a supply of KN95 masks for kids and adults, and COVID-19 Rapid Antigen Tests to give out so you can help to keep our communities safe.
 
 {{< kidical-mass/ride-with-gps id="52746200" >}}
