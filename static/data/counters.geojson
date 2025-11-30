@@ -45,19 +45,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -63.5888082,
-          44.637608
-        ]
-      },
-      "properties": {
-        "name": "Uni Arts"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -63.591606,
           44.6429789
         ]
@@ -129,6 +116,32 @@
       },
       "properties": {
         "name": "Lower Water"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.6005197,
+          44.6560699
+        ]
+      },
+      "properties": {
+        "name": "Almon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.57815,
+          44.67003
+        ]
+      },
+      "properties": {
+        "name": "Bridge"
       }
     }
   ]
