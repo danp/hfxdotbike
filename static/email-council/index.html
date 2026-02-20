@@ -2,18 +2,22 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Email all Halifax Councillors</title>
   <style>
+    * {
+      box-sizing: border-box;
+    }
     body {
       font-family: Arial, sans-serif;
-      padding: 40px;
+      padding: 24px 16px;
       text-align: center;
       background-color: #f4f4f4;
     }
     button, a.button {
       display: inline-block;
       padding: 15px 30px;
-      margin: 20px;
+      margin: 0;
       font-size: 1.2em;
       border: none;
       border-radius: 10px;
@@ -22,8 +26,25 @@
       color: white;
       background-color: #007BFF;
     }
+    .actions {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+      margin: 20px 0 12px;
+    }
+    .note {
+      max-width: 760px;
+      margin: 0 auto 16px;
+      color: #333;
+      line-height: 1.4;
+    }
+    .note a {
+      color: #0056b3;
+    }
     textarea {
-      width: 80%;
+      width: min(72ch, 80%);
       height: 150px;
       margin-top: 20px;
       font-size: 1em;
@@ -35,16 +56,48 @@
       color: green;
       display: none;
     }
+    @media (max-width: 640px) {
+      body {
+        padding: 16px 12px;
+      }
+      h1 {
+        font-size: 1.6rem;
+        margin-top: 0;
+      }
+      button, a.button {
+        width: 100%;
+        max-width: 420px;
+        font-size: 1rem;
+        padding: 12px 14px;
+      }
+      .actions {
+        gap: 10px;
+        margin: 16px 0 10px;
+      }
+      textarea {
+        width: 100%;
+        height: 190px;
+      }
+    }
   </style>
 </head>
 <body>
 
   <h1>Email all Halifax Councillors</h1>
+  <p class="note">
+    Please include your electoral district in your message if you can.<br>
+    Check out the
+    <a href="https://www.halifax.ca/city-hall/elections/electoral-district-boundaries">electoral districts and boundaries</a>
+    if you need to find your district.
+  </p>
 
-  <!-- Email button -->
-  <a class="button" href="mailto:mayor@halifax.ca,cathy.deaglegammon@halifax.ca,david.hendsbee@halifax.ca,becky.kent@halifax.ca,trish.purdy@halifax.ca,sam.austin@halifax.ca,tony.mancini@halifax.ca,Laura.White@halifax.ca,Virginia.Hinch@halifax.ca,shawn.cleary@halifax.ca,kathryn.morse@halifax.ca,cuttelp@halifax.ca,Janet.steele@halifax.ca,nancy.hartling@halifax.ca,john.young@halifax.ca,billy.gillis@halifax.ca,jean.st-amand@halifax.ca,clerks@halifax.ca">
-    Email with your email client
-  </a>
+  <div class="actions">
+    <!-- Email button -->
+    <a class="button" href="mailto:mayor@halifax.ca,cathy.deaglegammon@halifax.ca,david.hendsbee@halifax.ca,becky.kent@halifax.ca,trish.purdy@halifax.ca,sam.austin@halifax.ca,tony.mancini@halifax.ca,Laura.White@halifax.ca,Virginia.Hinch@halifax.ca,shawn.cleary@halifax.ca,kathryn.morse@halifax.ca,cuttelp@halifax.ca,Janet.steele@halifax.ca,nancy.hartling@halifax.ca,john.young@halifax.ca,billy.gillis@halifax.ca,jean.st-amand@halifax.ca,clerks@halifax.ca">
+      Email with your email client
+    </a>
+    <button onclick="copyEmails()">Copy all addresses to clipboard</button>
+  </div>
 
   <!-- Textarea with all addresses -->
   <div>
@@ -56,20 +109,18 @@ becky.kent@halifax.ca,
 trish.purdy@halifax.ca,
 sam.austin@halifax.ca,
 tony.mancini@halifax.ca,
-Laura.White@halifax.ca,
-Virginia.Hinch@halifax.ca,
+laura.white@halifax.ca,
+virginia.hinch@halifax.ca,
 shawn.cleary@halifax.ca,
 kathryn.morse@halifax.ca,
 cuttelp@halifax.ca,
-Janet.steele@halifax.ca,
+janet.steele@halifax.ca,
 nancy.hartling@halifax.ca,
 john.young@halifax.ca,
 billy.gillis@halifax.ca,
 jean.st-amand@halifax.ca,
 clerks@halifax.ca
     </textarea>
-    <br>
-    <button onclick="copyEmails()">Copy to Clipboard</button>
     <div id="copyMessage">Copied!</div>
   </div>
 
