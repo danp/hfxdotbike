@@ -12,6 +12,6 @@ Alternatively, you can also use the link below ("calendar.ics”) to import the 
 
 {{< kidical-mass/google-calendar
   src=a2lkaWNhbG1hc3NoZnhAZ21haWwuY29t
-  height=492
-  width=320
+  height=500
+  width=400
   icalid=kidicalmasshfx%40gmail.com >}}

@@ -25,8 +25,8 @@ description:
 <table>
 <tr>
 <td style="padding:10px"><a href="https://cyclehalifax.ca"><img alt="Halifax Cycling Coalition Logo" src="../../kidical-mass/img/HCC_2016logo_200x140.png"></img></a></td>
-<td style="padding:10px"><a href="https://longalleybicycles.com"><img alt="Long Alley Bicycles Logo" src="../../kidical-mass/img/LongAlley-Badge-Circle-Colour_200x200.png"></img></a></td>
+<td style="padding:10px"><a href="https://www.woozles.com"><img alt="Woozles Logo" src="../../kidical-mass/img/woozles_logo.png"></img></a></td>
 <td style="padding:10px"><a href="https://www.halifaxcycles.com"><img alt="Halifax Cycles Logo" src="../../kidical-mass/img/HalifaxCycles-Logo-FC_200x202.png"></img></a></td>
-<td style="padding:10px"><a href="http://www.cyclenovascotia.ca"><img alt="Cycle Nova Scotia Logo" src="../../kidical-mass/img/CyclingNS-logo_400x132.png"></img></a></td>
+<td style="padding:10px"><a href="https://ekkomusic.ca/"><img alt="EKKO Performing Arts Society Logo" src="../../kidical-mass/img/EKKO_logo.png"></img></a></td>
 </tr>
 </table>

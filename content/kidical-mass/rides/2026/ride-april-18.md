@@ -1,10 +1,10 @@
 ---
 type: "kidical-mass/rides"
-title: "Spring Swap & Social, Saturday April 18, 2026 3:00-5:00pm"
+title: "Spring Social, Saturday April 18, 2026 3:00-5:00pm"
 date: 2025-02-18T22:23:00-03:00
 ride_date: 2026-04-18T09:30:00-03:00
 descriptions:
-- "Spring Swap & Social"
+- "Spring Social"
 ---
 
 **Emera Oval, [5775 Cogswell St, Halifax](https://maps.app.goo.gl/KuMZB9moL91hLmkD9)**

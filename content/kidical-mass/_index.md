@@ -1,10 +1,10 @@
 ---
 title: "Kidical Mass Halifax"
-hero_image_small: "kidical-mass/img/header_3_475.jpg"
-hero_image_medium: "kidical-mass/img/header_3_813.jpg"
-hero_image_large: "kidical-mass/img/header_3.jpg"
-hero_imgage_alt_txt: "A closeup of three young girls who are leaning in close together and have their arms over each others’ shoulders. The girl on the left has light brown skin, brown curly hair, and is wearing a pink bike helmet and a tshirt with flowers on it. The girl in the middle has white skin, blond hair, and is wearing a yellow bike helmet with a unicorn face and horn on it. Her smile shows that she is missing a few of her front teeth. She is wearing a bright orange tshirt. The girl on the right has white skin, light brown hair and is wearing a light pink bike helmet that has an animal face and cat ears on it. She is wearing a light purple tshirt with some text on it."
-hero_image_attrib: "Photograph by: Alexa MacLean"
+hero_image_small: "kidical-mass/img/header_2026_420.png"
+hero_image_medium: "kidical-mass/img/header_2026_840.png"
+hero_image_large: "kidical-mass/img/header_2026.png"
+hero_imgage_alt_txt: "A photo from a Kidical Mass Halifax ride. A group of people are riding bicycles on a tree-lined street. Most of the group in the photo are children on their own bicycles, with a few adults among the group. A woman riding a front-loading cargo bicycle is at the front of the group. The group is so large that it takes up the entire road."
+hero_image_attrib: "Photo Credit to Ben MacLeod"
 aliases:
 - /km
 - /kidicalmass
@@ -65,6 +65,10 @@ Also check out our [calendar](calendar) page.
 ## Past Rides
 
 <div style="display:flex;flex-wrap:wrap;">
+  <!--<a href="./2025-stats">
+  <div class="card"><h3>2025 Ride Season Stats</h3>
+  </div>
+  </a>-->
   <a href="./2024-stats">
   <div class="card"><h3>2024 Ride Season Stats</h3>
   </div>
