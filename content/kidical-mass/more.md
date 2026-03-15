@@ -24,9 +24,10 @@ description:
 # Thanks for your support
 <table>
 <tr>
-<td style="padding:10px"><a href="https://cyclehalifax.ca"><img alt="Halifax Cycling Coalition Logo" src="../../kidical-mass/img/HCC_2016logo_200x140.png"></img></a></td>
-<td style="padding:10px"><a href="https://www.woozles.com"><img alt="Woozles Logo" src="../../kidical-mass/img/woozles_logo.png"></img></a></td>
-<td style="padding:10px"><a href="https://www.halifaxcycles.com"><img alt="Halifax Cycles Logo" src="../../kidical-mass/img/HalifaxCycles-Logo-FC_200x202.png"></img></a></td>
-<td style="padding:10px"><a href="https://ekkomusic.ca/"><img alt="EKKO Performing Arts Society Logo" src="../../kidical-mass/img/EKKO_logo.png"></img></a></td>
+<td style="padding:10px;"><a href="https://cyclehalifax.ca"><img alt="Halifax Cycling Coalition Logo" src="../../kidical-mass/img/HCC_2016logo_200x140.png"></img></a></td>
+<td style="padding:10px;"><a href="https://www.woozles.com"><img alt="Woozles Logo" src="../../kidical-mass/img/woozles_logo.png"></img></a></td>
+<td style="padding:10px;"><a href="https://www.halifaxcycles.com"><img alt="Halifax Cycles Logo" src="../../kidical-mass/img/HalifaxCycles-Logo-FC_200x202.png"></img></a></td>
+<td style="padding:10px;"><a href="https://ekkomusic.ca/"><img alt="EKKO Performing Arts Society Logo" src="../../kidical-mass/img/EKKO_logo.png"></img></a></td>
+<td style="padding:10px;text-align:center;"><a href=""><img alt="Restorative Parenting Logo" src="../../kidical-mass/img/restorative_parenting_logo.webp"></a></td>
 </tr>
 </table>
