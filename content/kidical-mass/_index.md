@@ -65,10 +65,10 @@ Also check out our [calendar](calendar) page.
 ## Past Rides
 
 <div style="display:flex;flex-wrap:wrap;">
-  <!--<a href="./2025-stats">
+  <a href="./2025-stats">
   <div class="card"><h3>2025 Ride Season Stats</h3>
   </div>
-  </a>-->
+  </a>
   <a href="./2024-stats">
   <div class="card"><h3>2024 Ride Season Stats</h3>
   </div>
