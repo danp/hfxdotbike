@@ -38,13 +38,16 @@ p{
 html {
   font-family: 'Inter';
 }
-.main-single,main {
+.main-single,main,.no-hero {
   max-width: 1000px;
   padding: 30px;
   margin: 0 auto;
 }
-.main-single{
+.main-single,.no-hero{
   margin-top:200px;
+}
+.no-hero{
+  padding:0px;
 }
 h1, h2 {
   margin-top: 0.5em;
@@ -229,12 +232,28 @@ body > main > a,body > main > div.upcoming-rides > a,body > main > div.past-ride
 h2{
    scroll-margin-top: 120px;
 }
+  .beehiiv-embed{
+    height:315px;
+    width: 100%;
+    margin: 0;
+    border-radius: 0px 0px 0px 0px 
+    !important;
+    background-color: #FFFBFE;
+    box-shadow: 0 0 #0000;
+    max-width: 100%;
+    margin-top:-50px;
+    text-align:center;
+    display: display;
+  }
 /*with tray width of 445, max-width of 768 is good.*/
 @media only screen and (max-width: 813px){
   main {
     margin-top:0px;
   }
   .main-single{
+    margin-top:0px;
+  }
+  .no-hero{
     margin-top:0px;
   }
   #nav_bar{
@@ -293,7 +312,10 @@ h2{
   }
   h2{
    scroll-margin-top: 0px;
-}
+  }
+  .beehiiv-embed{
+    height:350px;
+  }
 }
 @media only screen and (max-width: 475px){
   
@@ -303,5 +325,8 @@ h2{
     width:2.0em;
     height:2.0em;
     margin-bottom:0.25em;
+  }
+  .beehiiv-embed{
+    height:500px;
   }
 }
