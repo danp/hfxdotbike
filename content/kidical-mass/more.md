@@ -21,16 +21,18 @@ description:
 * [Kidical Mass International (Europe)](https://kidsonbike.org/)
 * [Kidical Mass USA](https://kidicalmass.org/)
 
-# Thanks for your support
+# Friends and Supporters
 <table>
 <tr>
 <td style="padding:10px;"><a href="https://cyclehalifax.ca"><img alt="Halifax Cycling Coalition Logo" src="../../kidical-mass/img/HCC_2016logo_200x140.png"></img></a></td>
 <td style="padding:10px;"><a href="https://www.woozles.com"><img alt="Woozles Logo" src="../../kidical-mass/img/woozles_logo.png"></img></a></td>
 <td style="padding:10px;"><a href="https://www.halifaxcycles.com"><img alt="Halifax Cycles Logo" src="../../kidical-mass/img/HalifaxCycles-Logo-FC_200x202.png"></img></a></td>
+<td style="padding:10px;"><a href="https://ecologyaction.ca/our-work/transportation"><img alt="Ecology Action Center Logo" src="../../kidical-mass/img/eac_logo.png"></img></a></td>
 </tr>
 <tr>
-<td style="padding:10px;"><a href="https://ekkomusic.ca/"><img alt="EKKO Performing Arts Society Logo" src="../../kidical-mass/img/EKKO_logo.png"></img></a></td>
-<td style="padding:10px;text-align:center;"><a href="https://restorativeparenting.ca/"><img alt="Restorative Parenting Logo" src="../../kidical-mass/img/restorative_parenting_logo.webp"></a></td>
-<td style="padding:10px;text-align:center;"><a href="https://iheartbikeshfx.com/"><img alt="I Heart Bikes Logo" src="../../kidical-mass/img/I_heart_bikes_logo.png"></a></td>
+<td style="padding:10px;"><a href="https://ekkomusic.ca"><img alt="EKKO Performing Arts Society Logo" src="../../kidical-mass/img/EKKO_logo.png"></img></a></td>
+<td style="padding:10px;text-align:center;"><a href="https://restorativeparenting.ca"><img alt="Restorative Parenting Logo" src="../../kidical-mass/img/restorative_parenting_logo.webp"></a></td>
+<td style="padding:10px;text-align:center;"><a href="https://iheartbikeshfx.com"><img alt="I Heart Bikes Logo" src="../../kidical-mass/img/I_heart_bikes_logo.png"></a></td>
+<td style="padding:10px;text-align:center;"><a href="https://hfx.bike/bikebrigade"><img alt="Halifax Bike Brigade Logo" src="../../kidical-mass/img/bike_brigade_logo.png"></a></td>
 </tr>
 </table>
