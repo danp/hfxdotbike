@@ -17,6 +17,7 @@ description:
 <sup>*</sup> These article links may require a subscription. You may be able to access them through your local public library using Pressreader or Overdrive/Libby.
 
 ## Kidical Mass around the world
+* BIKEPACKING.com and Pedal Born Pictures: [Kidical Mass: A Family That Bikes Together](https://www.youtube.com/watch?v=10CImzRMSu8) (April 2026)
 * The Conversation: [Return of the child-friendly city?](https://theconversation.com/return-of-the-child-friendly-city-how-social-movements-are-changing-european-urban-areas-203343) (April 2023)
 * [Kidical Mass International (Europe)](https://kidsonbike.org/)
 * [Kidical Mass USA](https://kidicalmass.org/)
