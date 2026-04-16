@@ -15,7 +15,7 @@ Come chat with us about biking with kids: it’s a meet and greet for the Halifa
 * Check out some of our community member cargo bikes, and find out how they use them day-to-day
 * Buy and sell kids bikes & accessories
 * Test-ride an e-bike from [Halifax Cycles](https://halifaxcycles.com/products/e-bikes)
-* Have a bike checked (and minor adjustments) by the [Ecology Action Centre’s Pop-up Bike Hub](https://ecologyaction.ca/our-work/transportation/pop-bike-hub-mini)
+* Have a bike checked (and minor adjustments) by the [Ecology Action Centre’s Pop-up Bike Hub mini](https://ecologyaction.ca/our-work/transportation/pop-bike-hub-mini)
 * We’ll have sidewalk chalk, bubbles, and colouring pages to keep the kids amused.
 * We’ll provide hot chocolate, juice boxes and snacks
 * Bring a food donation for our local community fridges, and help us “stuff a bike”. We’ll fill the Bike Brigade cargo bike with food for those who need it.
