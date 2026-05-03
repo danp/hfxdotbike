@@ -4,8 +4,14 @@ title: "Halifax Waterfront, May 3, 2026 @9:30am"
 date: 2025-02-10T22:23:00-03:00
 ride_date: 2026-05-03T09:30:00-03:00
 descriptions:
-- Halifax Waterfront
+- Canceled
 ---
+
+<div class="canceled-ride-notice">
+<h1>
+Ride cancelled due to today's <a href='https://weather.gc.ca/en/location/index.html?coords=44.654,-63.545'>special weather statement</a> for rain and high winds.
+</h1>
+</div>
 
 **Ride starts at:** [3155 Vincent St., Halifax](https://maps.app.goo.gl/ekBCQt8Lyz9isnJo7)
 

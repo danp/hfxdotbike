@@ -31,7 +31,7 @@ There is some communication done through our Facebook Messenger group chat.
 <hr/>
 
 ## Ecole St. Catherine's School
-Weekly on Wednesday mornings, rain or shine  
+Weekly on Friday mornings, rain or shine  
 Riding along Connolly St, starting at Almon St at 8:20am  
 [KidicalMassHfx@gmail.com](mailto:KidicalMassHfx@gmail.com)  
 <br/>
