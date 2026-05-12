@@ -5,7 +5,8 @@ description:
 ---
 
 ## Kidical Mass Halifax
-* Halifax Examiner: ['Sure, traffic is bad, but even in a growing city it doesn’t have to be this way'](https://www.halifaxexaminer.ca/morning-file/sure-traffic-is-bad-but-even-in-a-growing-city-it-doesnt-have-to-be-this-way/) (May 23, 2025)
+* Halifax Examiner: [On the agenda: Construction hoarding, fees for sidewalk patios, and red tape](https://www.halifaxexaminer.ca/government/city-hall/on-the-agenda-construction-hoarding-fees-for-sidewalk-patios-and-red-tape/) (May 11, 2026) <sup>*</sup>
+* Halifax Examiner: [Sure, traffic is bad, but even in a growing city it doesn’t have to be this way](https://www.halifaxexaminer.ca/morning-file/sure-traffic-is-bad-but-even-in-a-growing-city-it-doesnt-have-to-be-this-way/) (May 23, 2025)
 * Halifax Transportation Standing Committee (TSC) Presentation: [More Kids on Bikes](../may-2025-tsc-presentation/) (May 22, 2025)
 * Halifax Examiner: ['Joyful protest': record turnout for Halifax Kidical Mass ride](https://www.halifaxexaminer.ca/transportation/joyful-protest-record-turnout-for-halifax-kidical-mass-ride/) (September 9, 2024)
 * Canadian Cycling Magazine: [Kidical Mass: Halifax parents take to the streets to make the city safer for young riders](https://cyclingmagazine.ca/members/kidical-mass/) (September 15, 2023)<sup>*</sup>
