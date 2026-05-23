@@ -1,0 +1,312 @@
+{{ define "head" }}
+  <style>
+    .bikehfx-home {
+      --bikehfx-ink: #18362a;
+      --bikehfx-muted: #567364;
+      --bikehfx-line: #d7e4da;
+      --bikehfx-card: #ffffff;
+      --bikehfx-wash: #eef6f0;
+      --bikehfx-accent: #0d6b57;
+      --bikehfx-highlight: #f1e5ba;
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 1.2rem 1rem 4rem;
+      color: var(--bikehfx-ink);
+    }
+    .bikehfx-home a {
+      color: inherit;
+    }
+    .bikehfx-home-hero {
+      display: grid;
+      gap: 1.25rem;
+      padding: 2rem;
+      border-radius: 28px;
+      background:
+        radial-gradient(circle at top left, rgba(241, 229, 186, 0.72), transparent 32%),
+        linear-gradient(140deg, #dff1e7 0%, #f8fbf8 52%, #f3efe2 100%);
+      border: 1px solid var(--bikehfx-line);
+      box-shadow: 0 22px 60px rgba(24, 54, 42, 0.08);
+    }
+    .bikehfx-home-title {
+      margin: 0;
+      font-size: clamp(2.5rem, 6vw, 5rem);
+      line-height: 0.92;
+      letter-spacing: -0.05em;
+      max-width: 10ch;
+    }
+    .bikehfx-home-prose {
+      max-width: 62ch;
+      color: var(--bikehfx-muted);
+      font-size: 1.05rem;
+      line-height: 1.75;
+    }
+    .bikehfx-home-grid {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+    .bikehfx-home-card {
+      display: block;
+      padding: 1.2rem;
+      border-radius: 20px;
+      background: rgba(255, 255, 255, 0.84);
+      border: 1px solid var(--bikehfx-line);
+      text-decoration: none;
+      box-shadow: 0 10px 28px rgba(24, 54, 42, 0.05);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    .bikehfx-home-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 34px rgba(24, 54, 42, 0.09);
+    }
+    .bikehfx-home-card strong {
+      display: block;
+      margin-bottom: 0.35rem;
+      font-size: 1.05rem;
+    }
+    .bikehfx-home-card p {
+      margin: 0;
+      color: var(--bikehfx-muted);
+      line-height: 1.55;
+    }
+    .bikehfx-home-layout {
+      display: grid;
+      gap: 1.25rem;
+      margin-top: 1.5rem;
+      grid-template-columns: 1.3fr 0.9fr;
+      align-items: start;
+    }
+    .bikehfx-home-panel {
+      border-radius: 24px;
+      background: var(--bikehfx-card);
+      border: 1px solid var(--bikehfx-line);
+      box-shadow: 0 16px 40px rgba(24, 54, 42, 0.06);
+      overflow: hidden;
+    }
+    .bikehfx-home-panel-header {
+      padding: 1.2rem 1.3rem 0;
+    }
+    .bikehfx-home-panel-header h2 {
+      margin: 0;
+      font-size: 1.35rem;
+      letter-spacing: -0.03em;
+    }
+    .bikehfx-home-panel-header p {
+      margin: 0.45rem 0 0;
+      color: var(--bikehfx-muted);
+      line-height: 1.6;
+    }
+    .bikehfx-home-map {
+      padding: 1rem 1rem 1.1rem;
+    }
+    .bikehfx-home-map-frame {
+      overflow: hidden;
+      border-radius: 18px;
+      border: 1px solid var(--bikehfx-line);
+      background: var(--bikehfx-wash);
+    }
+    .bikehfx-home-faq {
+      padding: 0.6rem 1rem 1rem;
+    }
+    .bikehfx-home-faq details {
+      border-top: 1px solid #ebf1ec;
+      padding: 0.95rem 0;
+    }
+    .bikehfx-home-faq details:first-child {
+      border-top: 0;
+    }
+    .bikehfx-home-faq summary {
+      cursor: pointer;
+      font-weight: 700;
+      list-style: none;
+    }
+    .bikehfx-home-faq summary::-webkit-details-marker {
+      display: none;
+    }
+    .bikehfx-home-faq p {
+      margin: 0.65rem 0 0;
+      color: var(--bikehfx-muted);
+      line-height: 1.65;
+    }
+    .bikehfx-home-section {
+      margin-top: 1.5rem;
+    }
+    .bikehfx-home-section h2 {
+      margin: 0 0 0.65rem;
+      font-size: 1.5rem;
+      letter-spacing: -0.03em;
+    }
+    .bikehfx-home-section p {
+      margin: 0;
+      color: var(--bikehfx-muted);
+      line-height: 1.6;
+    }
+    .bikehfx-home-table-wrap {
+      margin-top: 1rem;
+      overflow-x: auto;
+      border-radius: 22px;
+      border: 1px solid var(--bikehfx-line);
+      background: var(--bikehfx-card);
+      box-shadow: 0 16px 40px rgba(24, 54, 42, 0.06);
+    }
+    .bikehfx-home-table {
+      width: 100%;
+      min-width: 720px;
+      border-collapse: collapse;
+    }
+    .bikehfx-home-table th,
+    .bikehfx-home-table td {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid #edf3ee;
+      text-align: left;
+    }
+    .bikehfx-home-table th {
+      background: #f3f8f4;
+      font-size: 0.8rem;
+      letter-spacing: 0.06em;
+    }
+    .bikehfx-home-table tr:last-child td {
+      border-bottom: 0;
+    }
+    .bikehfx-home-table .bikehfx-home-num {
+      text-align: right;
+    }
+    .bikehfx-home-table a {
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    @media (max-width: 920px) {
+      .bikehfx-home-layout {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 720px) {
+      .bikehfx-home {
+        padding: 0.8rem 0.8rem 3rem;
+      }
+      .bikehfx-home-hero {
+        padding: 1.35rem;
+        border-radius: 20px;
+      }
+    }
+  </style>
+{{ end }}
+
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{ $counterPages := .RegularPages }}
+  {{ $activePages := where $counterPages "Params.active" true }}
+  {{ $historicalPages := where $counterPages "Params.active" "ne" true }}
+  {{ $mapScript := resources.Get "js/counters-map.js" | fingerprint "sha512" }}
+
+  <section class="bikehfx-home">
+    <div class="bikehfx-home-hero">
+      <h1 class="bikehfx-home-title">{{ .Title }}</h1>
+      <div class="bikehfx-home-prose">
+        {{ .Content }}
+      </div>
+
+      {{ with .Params.links }}
+        <div class="bikehfx-home-grid">
+          {{ range . }}
+            <a class="bikehfx-home-card" href="{{ .url }}">
+              <strong>{{ .title }}</strong>
+              <p>{{ .description }}</p>
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+
+    <div class="bikehfx-home-layout">
+      <section class="bikehfx-home-panel">
+        <div class="bikehfx-home-panel-header">
+          <h2>Counter Map</h2>
+          <p>Public bike counters across Halifax and Dartmouth.</p>
+        </div>
+        <div class="bikehfx-home-map">
+          <div class="bikehfx-home-map-frame">
+            <div id="map" class="not-prose" style="width: 100%; height: 70vh;"></div>
+          </div>
+        </div>
+      </section>
+
+      <aside class="bikehfx-home-panel">
+        <div class="bikehfx-home-panel-header">
+          <h2>Frequently asked questions</h2>
+          <p>Quick context for what this project is and how to read it.</p>
+        </div>
+        {{ with .Params.faq }}
+          <div class="bikehfx-home-faq">
+            {{ range . }}
+              <details>
+                <summary>{{ .question }}</summary>
+                <p>{{ .answer | markdownify }}</p>
+              </details>
+            {{ end }}
+          </div>
+        {{ end }}
+      </aside>
+    </div>
+
+    {{ if gt (len $activePages) 0 }}
+      <section class="bikehfx-home-section" id="active-counters">
+        <h2>Active Counters</h2>
+        <p>Current counters with fresh data, rankings, and ongoing yearly totals.</p>
+        <div class="bikehfx-home-table-wrap">
+          <table class="bikehfx-home-table">
+            <thead>
+              <tr>
+                <th>Counter</th>
+                <th class="bikehfx-home-num">{{ now.Year }} Total</th>
+                <th class="bikehfx-home-num">All-Time</th>
+                <th>Last Seen</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $activePages.ByTitle }}
+                <tr>
+                  <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+                  <td class="bikehfx-home-num">{{ partial "format-int.html" .Params.total_year }}</td>
+                  <td class="bikehfx-home-num">{{ partial "format-int.html" .Params.total_all_time }}</td>
+                  <td>{{ .Params.last_seen | default "-" }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {{ end }}
+
+    {{ if gt (len $historicalPages) 0 }}
+      <section class="bikehfx-home-section" id="historical-counters">
+        <h2>Historical Counters</h2>
+        <p>Older or inactive counters retained for long-term context and archival comparisons.</p>
+        <div class="bikehfx-home-table-wrap">
+          <table class="bikehfx-home-table">
+            <thead>
+              <tr>
+                <th>Counter</th>
+                <th class="bikehfx-home-num">All-Time</th>
+                <th>Last Seen</th>
+              </tr>
+            </thead>
+            <tbody>
+              {{ range $historicalPages.ByTitle }}
+                <tr>
+                  <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+                  <td class="bikehfx-home-num">{{ partial "format-int.html" .Params.total_all_time }}</td>
+                  <td>{{ .Params.last_seen | default "-" }}</td>
+                </tr>
+              {{ end }}
+            </tbody>
+          </table>
+        </div>
+      </section>
+    {{ end }}
+  </section>
+
+  <script type="text/javascript" src="{{ $mapScript.RelPermalink }}" integrity="{{ $mapScript.Data.Integrity }}"></script>
+{{ end }}

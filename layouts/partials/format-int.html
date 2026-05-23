@@ -1,0 +1,21 @@
+{{- $n := int . -}}
+{{- $sign := "" -}}
+{{- if lt $n 0 -}}
+  {{- $sign = "-" -}}
+  {{- $n = mul $n -1 -}}
+{{- end -}}
+{{- $s := printf "%d" $n -}}
+{{- if le (len $s) 3 -}}
+  {{- printf "%s%s" $sign $s -}}
+{{- else -}}
+  {{- $parts := slice -}}
+  {{- $head := mod (len $s) 3 -}}
+  {{- if eq $head 0 -}}
+    {{- $head = 3 -}}
+  {{- end -}}
+  {{- $parts = $parts | append (slicestr $s 0 $head) -}}
+  {{- range seq $head 3 (sub (len $s) 1) -}}
+    {{- $parts = $parts | append (slicestr $s . (add . 3)) -}}
+  {{- end -}}
+  {{- printf "%s%s" $sign (delimit $parts ",") -}}
+{{- end -}}
