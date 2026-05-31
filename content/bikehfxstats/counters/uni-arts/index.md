@@ -3,7 +3,6 @@
   "type": "bikehfxstats-site",
   "as_of": "2026-05-30",
   "counter_id": "uni-arts",
-  "active": true,
   "location": "University Ave between Henry St and Seymour St",
   "last_seen": "2025-05-01",
   "last_non_zero_seen": "2025-05-01",
@@ -159,7 +158,7 @@ Data through 2026-05-30.
 
 - Total in 2026: 0
 - Total all-time: 185670
-- Active: true
+- Active: false
 - Last seen: 2025-05-01
 - Last non-zero count: 2025-05-01
 - Location: University Ave between Henry St and Seymour St
