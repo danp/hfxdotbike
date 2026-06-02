@@ -1,14 +1,14 @@
 {
   "title": "Rainnie",
   "type": "bikehfxstats-site",
-  "as_of": "2026-05-31",
+  "as_of": "2026-06-01",
   "counter_id": "rainnie",
   "location": "Rainnie Dr midway",
   "last_seen": "2018-11-15",
   "last_non_zero_seen": "2018-11-15",
   "total_all_time": 10079,
   "recent_day": {
-    "label": "May 31",
+    "label": "Jun 1",
     "count": 0
   },
   "recent_seven_days": {
@@ -16,7 +16,7 @@
     "count": 0
   },
   "month_to_date": {
-    "label": "May to date",
+    "label": "Jun to date",
     "count": 0
   },
   "top_days": [
@@ -127,7 +127,7 @@
   }
 }
 
-Data through 2026-05-31.
+Data through 2026-06-01.
 
 ## Summary
 

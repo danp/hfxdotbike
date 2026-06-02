@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-05-31",
+  "as_of": "2026-06-01",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-01",
-  "last_non_zero_seen": "2026-05-31",
-  "total_year": 30782,
-  "total_all_time": 40973,
+  "last_seen": "2026-06-02",
+  "last_non_zero_seen": "2026-06-02",
+  "total_year": 31464,
+  "total_all_time": 41655,
   "recent_day": {
-    "label": "May 31",
-    "count": 104
+    "label": "Jun 1",
+    "count": 682
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2412
+    "count": 2821
   },
   "month_to_date": {
-    "label": "May to date",
-    "count": 12322
+    "label": "Jun to date",
+    "count": 682
   },
   "top_days": [
     {
@@ -40,6 +40,10 @@
       "count": 706
     },
     {
+      "label": "2026-06-01",
+      "count": 668
+    },
+    {
       "label": "2026-05-05",
       "count": 650
     },
@@ -57,10 +61,6 @@
     },
     {
       "label": "2026-05-22",
-      "count": 552
-    },
-    {
-      "label": "2026-04-27",
       "count": 552
     }
   ],
@@ -137,7 +137,7 @@
     },
     {
       "label": "2026-06",
-      "count": 9
+      "count": 693
     }
   ],
   "charts": {
@@ -147,15 +147,15 @@
   }
 }
 
-Data through 2026-05-31.
+Data through 2026-06-01.
 
 ## Summary
 
-- Total in 2026: 30782
-- Total all-time: 40973
+- Total in 2026: 31464
+- Total all-time: 41655
 - Active: true
-- Last seen: 2026-06-01
-- Last non-zero count: 2026-05-31
+- Last seen: 2026-06-02
+- Last non-zero count: 2026-06-02
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -178,12 +178,12 @@ Data through 2026-05-31.
 | 2026-05-26 | 729 |
 | 2026-05-13 | 711 |
 | 2026-05-21 | 706 |
+| 2026-06-01 | 668 |
 | 2026-05-05 | 650 |
 | 2026-05-19 | 609 |
 | 2026-04-14 | 566 |
 | 2026-05-14 | 561 |
 | 2026-05-22 | 552 |
-| 2026-04-27 | 552 |
 
 ## Top Weeks
 
@@ -211,4 +211,4 @@ Data through 2026-05-31.
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
 | 2025-12 | 2959 |
-| 2026-06 | 9 |
+| 2026-06 | 693 |
