@@ -1,31 +1,35 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-03",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-03",
-  "last_non_zero_seen": "2026-06-02",
-  "total_year": 31989,
-  "total_all_time": 42180,
+  "last_seen": "2026-06-04",
+  "last_non_zero_seen": "2026-06-03",
+  "total_year": 32754,
+  "total_all_time": 42945,
   "recent_day": {
-    "label": "Jun 2",
-    "count": 525
+    "label": "Jun 3",
+    "count": 765
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2610
+    "count": 2957
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 1207
+    "count": 1972
   },
   "top_days": [
     {
       "label": "2026-05-20",
       "count": 818
+    },
+    {
+      "label": "2026-06-03",
+      "count": 751
     },
     {
       "label": "2026-05-26",
@@ -58,10 +62,6 @@
     {
       "label": "2026-05-14",
       "count": 561
-    },
-    {
-      "label": "2026-05-22",
-      "count": 552
     }
   ],
   "top_weeks": [
@@ -90,6 +90,10 @@
       "count": 2107
     },
     {
+      "label": "2026-05-31",
+      "count": 2081
+    },
+    {
       "label": "2025-11-16",
       "count": 2003
     },
@@ -100,10 +104,6 @@
     {
       "label": "2026-04-12",
       "count": 1759
-    },
-    {
-      "label": "2025-11-23",
-      "count": 1722
     }
   ],
   "top_months": [
@@ -137,7 +137,7 @@
     },
     {
       "label": "2026-06",
-      "count": 1216
+      "count": 1981
     }
   ],
   "charts": {
@@ -147,15 +147,15 @@
   }
 }
 
-Data through 2026-06-02.
+Data through 2026-06-03.
 
 ## Summary
 
-- Total in 2026: 31989
-- Total all-time: 42180
+- Total in 2026: 32754
+- Total all-time: 42945
 - Active: true
-- Last seen: 2026-06-03
-- Last non-zero count: 2026-06-02
+- Last seen: 2026-06-04
+- Last non-zero count: 2026-06-03
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -175,6 +175,7 @@ Data through 2026-06-02.
 | Day | Count |
 |---|---:|
 | 2026-05-20 | 818 |
+| 2026-06-03 | 751 |
 | 2026-05-26 | 729 |
 | 2026-05-13 | 711 |
 | 2026-05-21 | 706 |
@@ -183,7 +184,6 @@ Data through 2026-06-02.
 | 2026-05-19 | 609 |
 | 2026-04-14 | 566 |
 | 2026-05-14 | 561 |
-| 2026-05-22 | 552 |
 
 ## Top Weeks
 
@@ -195,10 +195,10 @@ Data through 2026-06-02.
 | 2026-05-24 | 2642 |
 | 2026-05-03 | 2628 |
 | 2026-04-19 | 2107 |
+| 2026-05-31 | 2081 |
 | 2025-11-16 | 2003 |
 | 2025-11-02 | 1974 |
 | 2026-04-12 | 1759 |
-| 2025-11-23 | 1722 |
 
 ## Top Months
 
@@ -211,4 +211,4 @@ Data through 2026-06-02.
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
 | 2025-12 | 2959 |
-| 2026-06 | 1216 |
+| 2026-06 | 1981 |

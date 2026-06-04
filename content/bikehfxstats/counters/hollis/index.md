@@ -1,25 +1,25 @@
 {
   "title": "Hollis",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-02",
+  "as_of": "2026-06-03",
   "counter_id": "hollis",
   "active": true,
   "location": "Hollis St just south of George St",
-  "last_seen": "2026-06-03",
-  "last_non_zero_seen": "2026-06-02",
-  "total_year": 9289,
-  "total_all_time": 172859,
+  "last_seen": "2026-06-04",
+  "last_non_zero_seen": "2026-06-03",
+  "total_year": 9502,
+  "total_all_time": 173072,
   "recent_day": {
-    "label": "Jun 2",
-    "count": 147
+    "label": "Jun 3",
+    "count": 213
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 793
+    "count": 886
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 354
+    "count": 567
   },
   "top_days": [
     {
@@ -154,15 +154,15 @@
   }
 }
 
-Data through 2026-06-02.
+Data through 2026-06-03.
 
 ## Summary
 
-- Total in 2026: 9289
-- Total all-time: 172859
+- Total in 2026: 9502
+- Total all-time: 173072
 - Active: true
-- Last seen: 2026-06-03
-- Last non-zero count: 2026-06-02
+- Last seen: 2026-06-04
+- Last non-zero count: 2026-06-03
 - Location: Hollis St just south of George St
 
 ## Yearly Totals
