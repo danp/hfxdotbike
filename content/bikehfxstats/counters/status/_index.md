@@ -43,7 +43,7 @@
       "status": "yellow",
       "counter": "South Park",
       "counter_url": "../south-park/",
-      "problem": "No positive southbound counts",
+      "problem": "No positive northbound counts",
       "since": "2026-01-17",
       "age_days": 140
     },
