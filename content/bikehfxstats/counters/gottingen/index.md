@@ -6,7 +6,7 @@
   "active": true,
   "location": "Near south end of Gottingen",
   "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-07",
+  "last_non_zero_seen": "2026-06-06",
   "total_year": 13960,
   "total_all_time": 120587,
   "recent_day": {
@@ -162,7 +162,7 @@ Data through 2026-06-06.
 - Total all-time: 120587
 - Active: true
 - Last seen: 2026-06-07
-- Last non-zero count: 2026-06-07
+- Last non-zero count: 2026-06-06
 - Location: Near south end of Gottingen
 
 ## Yearly Totals

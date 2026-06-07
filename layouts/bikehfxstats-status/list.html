@@ -1,0 +1,206 @@
+{{ define "head" }}
+  <style>
+    .counter-status {
+      --status-ink: #18362a;
+      --status-muted: #5a6f65;
+      --status-line: #dbe7dd;
+      --status-card: #ffffff;
+      --status-wash: #f3f7f4;
+      --status-green: #15935f;
+      --status-yellow: #d69b16;
+      --status-red: #cf3f33;
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 1.5rem 1rem 4rem;
+      color: var(--status-ink);
+    }
+    .counter-status-hero {
+      display: grid;
+      gap: 0.8rem;
+      padding: 1.5rem;
+      border: 1px solid var(--status-line);
+      border-radius: 18px;
+      background: linear-gradient(135deg, #eef7f1 0%, #fbfcfb 62%, #f4efe4 100%);
+      box-shadow: 0 16px 42px rgba(24, 54, 42, 0.07);
+    }
+    .counter-status-hero a {
+      color: inherit;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    .counter-status-hero h1 {
+      margin: 0;
+      font-size: clamp(2rem, 4vw, 3.5rem);
+      line-height: 1;
+      letter-spacing: -0.04em;
+    }
+    .counter-status-hero p {
+      max-width: 68ch;
+      margin: 0;
+      color: var(--status-muted);
+      line-height: 1.65;
+      font-size: 1rem;
+    }
+    .counter-status-summary {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 0.8rem;
+      margin-top: 1rem;
+    }
+    .counter-status-summary-card {
+      border: 1px solid var(--status-line);
+      border-radius: 14px;
+      background: var(--status-card);
+      padding: 1rem;
+      box-shadow: 0 10px 28px rgba(24, 54, 42, 0.05);
+    }
+    .counter-status-summary-card span {
+      display: block;
+      color: var(--status-muted);
+      font-size: 0.82rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+    .counter-status-summary-card strong {
+      display: block;
+      margin-top: 0.25rem;
+      font-size: 2rem;
+      line-height: 1;
+    }
+    .counter-status-table-wrap {
+      margin-top: 1rem;
+      overflow-x: auto;
+      border: 1px solid var(--status-line);
+      border-radius: 18px;
+      background: var(--status-card);
+      box-shadow: 0 14px 36px rgba(24, 54, 42, 0.06);
+    }
+    .counter-status-table {
+      width: 100%;
+      min-width: 760px;
+      border-collapse: collapse;
+    }
+    .counter-status-table th,
+    .counter-status-table td {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid #edf3ee;
+      text-align: left;
+      vertical-align: middle;
+    }
+    .counter-status-table th {
+      background: var(--status-wash);
+      color: #315045;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+    .counter-status-table tr:last-child td {
+      border-bottom: 0;
+    }
+    .counter-status-table a {
+      color: var(--status-ink);
+      font-weight: 800;
+      text-decoration-thickness: 0.08em;
+    }
+    .counter-status-state {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-weight: 800;
+    }
+    .counter-status-dot {
+      width: 0.82rem;
+      height: 0.82rem;
+      border-radius: 50%;
+      box-shadow: 0 0 0 4px rgba(24, 54, 42, 0.06);
+    }
+    .counter-status-dot--green { background: var(--status-green); }
+    .counter-status-dot--yellow { background: var(--status-yellow); }
+    .counter-status-dot--red { background: var(--status-red); }
+    .counter-status-sr {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+    .counter-status-num {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    @media (max-width: 760px) {
+      .counter-status {
+        padding: 1rem 0.8rem 3rem;
+      }
+      .counter-status-summary {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+{{ end }}
+
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{ $rows := .Params.status_rows }}
+  {{ $red := where $rows "status" "red" }}
+  {{ $yellow := where $rows "status" "yellow" }}
+  {{ $green := where $rows "status" "green" }}
+  <section class="counter-status">
+    <header class="counter-status-hero">
+      <a href="/bikehfxstats/#active-counters">← Back to counters</a>
+      <h1>{{ .Title }}</h1>
+      <p>{{ .Content }}</p>
+    </header>
+
+    <div class="counter-status-summary" aria-label="Counter status summary">
+      <div class="counter-status-summary-card">
+        <span>Missing</span>
+        <strong>{{ len $red }}</strong>
+      </div>
+      <div class="counter-status-summary-card">
+        <span>Partial</span>
+        <strong>{{ len $yellow }}</strong>
+      </div>
+      <div class="counter-status-summary-card">
+        <span>OK</span>
+        <strong>{{ len $green }}</strong>
+      </div>
+    </div>
+
+    <div class="counter-status-table-wrap">
+      <table class="counter-status-table">
+        <thead>
+          <tr>
+            <th>Status</th>
+            <th>Counter</th>
+            <th>Problem</th>
+            <th>Since</th>
+            <th class="counter-status-num">Days</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range $rows }}
+            <tr>
+              <td>
+                <span class="counter-status-state">
+                  <span class="counter-status-dot counter-status-dot--{{ .status }}" aria-hidden="true"></span>
+                  <span class="counter-status-sr">{{ .status }}</span>
+                </span>
+              </td>
+              <td><a href="{{ .counter_url }}">{{ .counter }}</a></td>
+              <td>{{ if ne .status "green" }}{{ .problem }}{{ end }}</td>
+              <td>{{ .since | default "-" }}</td>
+              <td class="counter-status-num">{{ if ne .status "green" }}{{ .age_days }}{{ end }}</td>
+            </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
+  </section>
+{{ end }}

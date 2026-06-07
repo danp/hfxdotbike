@@ -7,7 +7,7 @@
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
   "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-07",
+  "last_non_zero_seen": "2026-06-06",
   "total_year": 34434,
   "total_all_time": 44625,
   "recent_day": {
@@ -155,7 +155,7 @@ Data through 2026-06-06.
 - Total all-time: 44625
 - Active: true
 - Last seen: 2026-06-07
-- Last non-zero count: 2026-06-07
+- Last non-zero count: 2026-06-06
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals

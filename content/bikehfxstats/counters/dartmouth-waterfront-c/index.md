@@ -7,7 +7,7 @@
   "active": true,
   "location": "Just before the Old Ferry Rd railway crossing when traveling southbound",
   "last_seen": "2026-03-18",
-  "last_non_zero_seen": "2026-01-25",
+  "last_non_zero_seen": "2026-01-23",
   "total_year": 672,
   "total_all_time": 179812,
   "recent_day": {
@@ -163,7 +163,7 @@ Data through 2026-06-06.
 - Total all-time: 179812
 - Active: true
 - Last seen: 2026-03-18
-- Last non-zero count: 2026-01-25
+- Last non-zero count: 2026-01-23
 - Location: Just before the Old Ferry Rd railway crossing when traveling southbound
 
 ## Yearly Totals

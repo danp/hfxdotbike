@@ -6,7 +6,7 @@
   "active": true,
   "location": "Both sides of South Park St just south of Spring Garden Rd",
   "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-07",
+  "last_non_zero_seen": "2026-01-17",
   "total_year": 18609,
   "total_all_time": 540975,
   "recent_day": {
@@ -162,7 +162,7 @@ Data through 2026-06-06.
 - Total all-time: 540975
 - Active: true
 - Last seen: 2026-06-07
-- Last non-zero count: 2026-06-07
+- Last non-zero count: 2026-01-17
 - Location: Both sides of South Park St just south of Spring Garden Rd
 
 ## Yearly Totals

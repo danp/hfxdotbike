@@ -122,7 +122,6 @@
     }
   ],
   "charts": {
-    "year_heatmap": "heatmap.png",
     "yearly_totals": "count-by-year.png"
   }
 }
@@ -141,10 +140,6 @@ Data through 2026-06-06.
 ## Yearly Totals
 
 ![Yearly totals](count-by-year.png)
-
-## 2026 Daily Heatmap
-
-![2026 daily heatmap](heatmap.png)
 
 ## Top Days
 

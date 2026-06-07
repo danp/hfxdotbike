@@ -6,7 +6,7 @@
   "active": true,
   "location": "Both sides of Windsor St just north of Edinburgh St",
   "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-06",
+  "last_non_zero_seen": "2026-05-22",
   "total_year": 7054,
   "total_all_time": 179354,
   "recent_day": {
@@ -162,7 +162,7 @@ Data through 2026-06-06.
 - Total all-time: 179354
 - Active: true
 - Last seen: 2026-06-07
-- Last non-zero count: 2026-06-06
+- Last non-zero count: 2026-05-22
 - Location: Both sides of Windsor St just north of Edinburgh St
 
 ## Yearly Totals

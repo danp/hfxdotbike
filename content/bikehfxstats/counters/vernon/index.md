@@ -5,8 +5,8 @@
   "counter_id": "vernon",
   "active": true,
   "location": "Vernon St just north of Julibee Rd",
-  "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-07",
+  "last_seen": "2026-06-02",
+  "last_non_zero_seen": "2026-06-02",
   "total_year": 19453,
   "total_all_time": 476030,
   "recent_day": {
@@ -161,8 +161,8 @@ Data through 2026-06-06.
 - Total in 2026: 19453
 - Total all-time: 476030
 - Active: true
-- Last seen: 2026-06-07
-- Last non-zero count: 2026-06-07
+- Last seen: 2026-06-02
+- Last non-zero count: 2026-06-02
 - Location: Vernon St just north of Julibee Rd
 
 ## Yearly Totals

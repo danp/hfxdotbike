@@ -7,7 +7,7 @@
   "active": true,
   "location": "Just south of Ashburn Golf Club driveway",
   "last_seen": "2026-06-07",
-  "last_non_zero_seen": "2026-06-07",
+  "last_non_zero_seen": "2026-06-06",
   "total_year": 14334,
   "total_all_time": 133384,
   "recent_day": {
@@ -163,7 +163,7 @@ Data through 2026-06-06.
 - Total all-time: 133384
 - Active: true
 - Last seen: 2026-06-07
-- Last non-zero count: 2026-06-07
+- Last non-zero count: 2026-06-06
 - Location: Just south of Ashburn Golf Club driveway
 
 ## Yearly Totals
