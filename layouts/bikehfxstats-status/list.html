@@ -97,7 +97,6 @@
     }
     .counter-status-table a {
       color: var(--status-ink);
-      font-weight: 800;
       text-decoration-thickness: 0.08em;
     }
     .counter-status-state {
@@ -192,7 +191,7 @@
               </td>
               <td><a href="{{ .counter_url }}">{{ .counter }}</a></td>
               <td>{{ if ne .status "green" }}{{ .problem }}{{ end }}</td>
-              <td>{{ .since | default "-" }}</td>
+              <td>{{ if ne .status "green" }}{{ .since | default "-" }}{{ end }}</td>
               <td class="counter-status-num">{{ if ne .status "green" }}{{ .age_days }}{{ end }}</td>
             </tr>
           {{ end }}
