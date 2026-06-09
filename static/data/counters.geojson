@@ -143,6 +143,19 @@
       "properties": {
         "name": "Macdonald Bridge Bikeway"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -63.63068014,
+          44.6537027
+        ]
+      },
+      "properties": {
+        "name": "Dutch Village Road"
+      }
     }
   ]
 }

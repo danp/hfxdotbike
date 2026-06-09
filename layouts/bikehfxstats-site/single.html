@@ -1,0 +1,286 @@
+{{ define "head" }}
+  {{ block "bikehfxstats-styles" . }}
+  <style>
+    .bikehfxstats-shell {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      color: #143126;
+    }
+    .bikehfxstats-pagehead {
+      padding: 1.75rem;
+      border-radius: 24px;
+      background: linear-gradient(145deg, #143126 0%, #20513f 100%);
+      color: #f5fbf7;
+      box-shadow: 0 22px 60px rgba(20, 49, 38, 0.18);
+    }
+    .bikehfxstats-breadcrumb {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 1rem;
+      color: rgba(245, 251, 247, 0.78);
+      text-decoration: none;
+      font-size: 0.92rem;
+    }
+    .bikehfxstats-pagehead h1 {
+      margin: 0;
+      font-size: clamp(2.2rem, 4vw, 4rem);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    .bikehfxstats-pagehead p {
+      margin: 0.9rem 0 0;
+      max-width: 62ch;
+      color: rgba(245, 251, 247, 0.88);
+      line-height: 1.65;
+    }
+    .bikehfxstats-kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    .bikehfxstats-kpi {
+      padding: 1rem 1.1rem;
+      border-radius: 18px;
+      background: rgba(255, 255, 255, 0.09);
+      border: 1px solid rgba(255, 255, 255, 0.14);
+    }
+    .bikehfxstats-kpi span {
+      display: block;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      color: rgba(245, 251, 247, 0.7);
+    }
+    .bikehfxstats-kpi strong {
+      display: block;
+      margin-top: 0.35rem;
+      font-size: 1.65rem;
+      line-height: 1.05;
+    }
+    .bikehfxstats-grid {
+      display: grid;
+      gap: 1rem;
+      margin-top: 1.5rem;
+      grid-template-columns: 2fr 1fr;
+    }
+    .bikehfxstats-panel {
+      border-radius: 22px;
+      background: #ffffff;
+      border: 1px solid #dbe7dd;
+      box-shadow: 0 14px 36px rgba(20, 49, 38, 0.07);
+      overflow: hidden;
+    }
+    .bikehfxstats-panel h2,
+    .bikehfxstats-panel h3 {
+      margin: 0;
+      padding: 1.2rem 1rem 0.85rem;
+      font-size: 1.15rem;
+    }
+    .bikehfxstats-panel p {
+      margin: 0;
+      padding: 0.4rem 1.3rem 1.1rem;
+      color: #4d695c;
+      line-height: 1.6;
+    }
+    .bikehfxstats-chart {
+      padding: 0 1rem 1rem;
+    }
+    .bikehfxstats-chart img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      background: #f7faf7;
+    }
+    .bikehfxstats-stack {
+      display: grid;
+      gap: 1rem;
+    }
+    .bikehfxstats-table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .bikehfxstats-table th,
+    .bikehfxstats-table td {
+      padding: 0.8rem 1rem;
+      border-bottom: 1px solid #edf3ee;
+      text-align: left;
+    }
+    .bikehfxstats-table th {
+      background: #f2f8f3;
+      font-size: 0.8rem;
+      letter-spacing: 0.05em;
+    }
+    .bikehfxstats-table .bikehfxstats-num {
+      width: 7rem;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .bikehfxstats-table tr:last-child td {
+      border-bottom: 0;
+    }
+    @media (max-width: 960px) {
+      .bikehfxstats-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 720px) {
+      .bikehfxstats-shell {
+        padding: 1rem 0.8rem 3rem;
+      }
+      .bikehfxstats-pagehead {
+        padding: 1.2rem;
+        border-radius: 18px;
+      }
+    }
+  </style>
+  {{ end }}
+{{ end }}
+
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{ $isActive := eq .Params.active true }}
+  <section class="bikehfxstats-shell">
+    <header class="bikehfxstats-pagehead">
+      <a class="bikehfxstats-breadcrumb" href="/bikehfxstats/#active-counters">← Back to counters</a>
+      <h1>{{ .Title }}</h1>
+      <p>
+        {{ with .Params.location }}{{ . }}. {{ end }}
+        {{ if $isActive }}
+          Data through {{ .Params.as_of }}.
+        {{ else }}
+          Historical counter. Last seen {{ .Params.last_seen | default "unknown" }}.
+        {{ end }}
+      </p>
+      <div class="bikehfxstats-kpis">
+        {{ if $isActive }}
+          {{ with .Params.recent_day }}
+            <div class="bikehfxstats-kpi">
+              <span>{{ .label }}</span>
+              <strong>{{ partial "format-int.html" .count }}</strong>
+            </div>
+          {{ end }}
+          {{ with .Params.recent_seven_days }}
+            <div class="bikehfxstats-kpi">
+              <span>{{ .label }}</span>
+              <strong>{{ partial "format-int.html" .count }}</strong>
+            </div>
+          {{ end }}
+          {{ with .Params.month_to_date }}
+            <div class="bikehfxstats-kpi">
+              <span>{{ .label }}</span>
+              <strong>{{ partial "format-int.html" .count }}</strong>
+            </div>
+          {{ end }}
+          <div class="bikehfxstats-kpi">
+            <span>{{ now.Year }} total</span>
+            <strong>{{ partial "format-int.html" .Params.total_year }}</strong>
+          </div>
+        {{ end }}
+        <div class="bikehfxstats-kpi">
+          <span>All-time total</span>
+          <strong>{{ partial "format-int.html" .Params.total_all_time }}</strong>
+        </div>
+        <div class="bikehfxstats-kpi">
+          <span>Last seen</span>
+          <strong>{{ .Params.last_seen | default "-" }}</strong>
+        </div>
+        <div class="bikehfxstats-kpi">
+          <span>Status</span>
+          <strong>{{ if .Params.active }}Active{{ else }}Inactive{{ end }}</strong>
+        </div>
+      </div>
+    </header>
+
+    <div class="bikehfxstats-grid">
+      <div class="bikehfxstats-stack">
+        {{ with .Resources.GetMatch (.Params.charts.yearly_totals) }}
+          <section class="bikehfxstats-panel">
+            <h2>Yearly Totals</h2>
+            <p>Annual totals for this counter across its full history.</p>
+            <div class="bikehfxstats-chart">
+              <img src="{{ .RelPermalink }}" alt="Yearly totals chart for {{ $.Title }}">
+            </div>
+          </section>
+        {{ end }}
+
+        {{ if $isActive }}
+          {{ with .Resources.GetMatch (.Params.charts.recent_weekly) }}
+            <section class="bikehfxstats-panel">
+              <h2>Recent Weekly Trend</h2>
+              <p>Weekly totals grouped by recent years for seasonality comparison.</p>
+              <div class="bikehfxstats-chart">
+                <img src="{{ .RelPermalink }}" alt="Recent weekly trend chart for {{ $.Title }}">
+              </div>
+            </section>
+          {{ end }}
+        {{ end }}
+
+        {{ if $isActive }}
+          {{ with .Resources.GetMatch (.Params.charts.year_heatmap) }}
+            <section class="bikehfxstats-panel">
+              <h2>{{ now.Year }} Daily Heatmap</h2>
+              <p>Each cell shows the daily count for a week/day combination.</p>
+              <div class="bikehfxstats-chart">
+                <img src="{{ .RelPermalink }}" alt="Daily heatmap for {{ $.Title }}">
+              </div>
+            </section>
+          {{ end }}
+        {{ end }}
+      </div>
+
+      <div class="bikehfxstats-stack">
+        {{ with .Params.top_days }}
+          <section class="bikehfxstats-panel">
+            <h3>Top Days</h3>
+            <table class="bikehfxstats-table">
+              <thead>
+                <tr><th>Day</th><th class="bikehfxstats-num">Count</th></tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr><td>{{ .label }}</td><td class="bikehfxstats-num">{{ partial "format-int.html" .count }}</td></tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+
+        {{ with .Params.top_weeks }}
+          <section class="bikehfxstats-panel">
+            <h3>Top Weeks</h3>
+            <table class="bikehfxstats-table">
+              <thead>
+                <tr><th>Week Starting</th><th class="bikehfxstats-num">Count</th></tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr><td>{{ .label }}</td><td class="bikehfxstats-num">{{ partial "format-int.html" .count }}</td></tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+
+        {{ with .Params.top_months }}
+          <section class="bikehfxstats-panel">
+            <h3>Top Months</h3>
+            <table class="bikehfxstats-table">
+              <thead>
+                <tr><th>Month</th><th class="bikehfxstats-num">Count</th></tr>
+              </thead>
+              <tbody>
+                {{ range . }}
+                  <tr><td>{{ .label }}</td><td class="bikehfxstats-num">{{ partial "format-int.html" .count }}</td></tr>
+                {{ end }}
+              </tbody>
+            </table>
+          </section>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+{{ end }}

@@ -1,0 +1,219 @@
+{{ define "head" }}
+  {{ block "bikehfxstats-styles" . }}
+  <style>
+    .bikehfxstats-shell {
+      max-width: 1120px;
+      margin: 0 auto;
+      padding: 2rem 1rem 4rem;
+      color: #143126;
+    }
+    .bikehfxstats-hero {
+      background: linear-gradient(135deg, #ddf6ea 0%, #f5fbf7 55%, #f3efe4 100%);
+      border: 1px solid #c9dece;
+      border-radius: 24px;
+      padding: 2rem;
+      box-shadow: 0 20px 60px rgba(20, 49, 38, 0.08);
+    }
+    .bikehfxstats-kicker {
+      display: inline-block;
+      margin-bottom: 0.75rem;
+      padding: 0.35rem 0.65rem;
+      border-radius: 999px;
+      background: #143126;
+      color: #f5fbf7;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+    }
+    .bikehfxstats-hero h1 {
+      margin: 0;
+      font-size: clamp(2.4rem, 5vw, 4.4rem);
+      line-height: 0.95;
+      letter-spacing: -0.04em;
+    }
+    .bikehfxstats-hero p {
+      max-width: 64ch;
+      margin: 1rem 0 0;
+      font-size: 1.05rem;
+      line-height: 1.7;
+    }
+    .bikehfxstats-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+    .bikehfxstats-meta span {
+      display: inline-flex;
+      align-items: center;
+      border: 1px solid #c9dece;
+      border-radius: 999px;
+      padding: 0.45rem 0.8rem;
+      background: rgba(255, 255, 255, 0.7);
+      font-size: 0.9rem;
+    }
+    .bikehfxstats-grid {
+      display: grid;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+    .bikehfxstats-grid--sections {
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    }
+    .bikehfxstats-card {
+      display: block;
+      padding: 1.35rem;
+      border-radius: 20px;
+      background: #ffffff;
+      border: 1px solid #dbe7dd;
+      color: inherit;
+      text-decoration: none;
+      box-shadow: 0 12px 32px rgba(20, 49, 38, 0.06);
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    .bikehfxstats-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 16px 40px rgba(20, 49, 38, 0.1);
+    }
+    .bikehfxstats-card strong {
+      display: block;
+      font-size: 1.15rem;
+      margin-bottom: 0.35rem;
+    }
+    .bikehfxstats-card p {
+      margin: 0;
+      color: #466356;
+      line-height: 1.5;
+    }
+    .bikehfxstats-table-wrap {
+      margin-top: 2rem;
+      overflow-x: auto;
+      border-radius: 20px;
+      border: 1px solid #dbe7dd;
+      background: #ffffff;
+      box-shadow: 0 12px 32px rgba(20, 49, 38, 0.06);
+    }
+    .bikehfxstats-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 720px;
+    }
+    .bikehfxstats-table th,
+    .bikehfxstats-table td {
+      padding: 0.9rem 1rem;
+      border-bottom: 1px solid #edf3ee;
+      text-align: left;
+    }
+    .bikehfxstats-table th {
+      background: #f2f8f3;
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+    }
+    .bikehfxstats-table .bikehfxstats-num {
+      text-align: right;
+    }
+    .bikehfxstats-table tr:last-child td {
+      border-bottom: 0;
+    }
+    .bikehfxstats-table a {
+      color: #143126;
+      font-weight: 700;
+      text-decoration-thickness: 0.08em;
+    }
+    .bikehfxstats-prose {
+      margin-top: 1.5rem;
+      color: #325244;
+      line-height: 1.75;
+    }
+    @media (max-width: 720px) {
+      .bikehfxstats-shell {
+        padding: 1rem 0.8rem 3rem;
+      }
+      .bikehfxstats-hero {
+        border-radius: 18px;
+        padding: 1.35rem;
+      }
+    }
+  </style>
+  {{ end }}
+{{ end }}
+
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+
+{{ define "main" }}
+  {{ $activePages := where .Pages "Params.active" true }}
+  {{ $historicalPages := where .Pages "Params.active" "ne" true }}
+  <section class="bikehfxstats-shell">
+    <div class="bikehfxstats-hero">
+      <span class="bikehfxstats-kicker">Bike Data</span>
+      <h1>{{ .Title }}</h1>
+      <div class="bikehfxstats-prose">
+        {{ .Content }}
+      </div>
+      {{ with .Params.as_of }}
+        <div class="bikehfxstats-meta">
+          <span>Updated through {{ . }}</span>
+        </div>
+      {{ end }}
+    </div>
+
+    {{ if gt (len .Sections) 0 }}
+      <div class="bikehfxstats-grid bikehfxstats-grid--sections">
+        {{ range .Sections.ByTitle }}
+          <a class="bikehfxstats-card" href="{{ .RelPermalink }}">
+            <strong>{{ .Title }}</strong>
+            <p>{{ with .Summary }}{{ . | plainify }}{{ else }}Browse generated counter pages and charts.{{ end }}</p>
+          </a>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ if gt (len $activePages) 0 }}
+      <div class="bikehfxstats-table-wrap">
+        <table class="bikehfxstats-table">
+          <thead>
+            <tr>
+              <th>Active Counter</th>
+              <th class="bikehfxstats-num">{{ now.Year }} Total</th>
+              <th class="bikehfxstats-num">All-Time</th>
+              <th>Last Seen</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $activePages.ByTitle }}
+              <tr>
+                <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+                <td class="bikehfxstats-num">{{ partial "format-int.html" .Params.total_year }}</td>
+                <td class="bikehfxstats-num">{{ partial "format-int.html" .Params.total_all_time }}</td>
+                <td>{{ .Params.last_seen | default "-" }}</td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    {{ end }}
+
+    {{ if gt (len $historicalPages) 0 }}
+      <div class="bikehfxstats-table-wrap">
+        <table class="bikehfxstats-table">
+          <thead>
+            <tr>
+              <th>Historical Counter</th>
+              <th class="bikehfxstats-num">All-Time</th>
+              <th>Last Seen</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range $historicalPages.ByTitle }}
+              <tr>
+                <td><a href="{{ .RelPermalink }}">{{ .Title }}</a></td>
+                <td class="bikehfxstats-num">{{ partial "format-int.html" .Params.total_all_time }}</td>
+                <td>{{ .Params.last_seen | default "-" }}</td>
+              </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    {{ end }}
+  </section>
+{{ end }}
