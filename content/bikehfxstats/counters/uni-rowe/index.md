@@ -1,14 +1,14 @@
 {
   "title": "Uni Rowe",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-07",
+  "as_of": "2026-06-08",
   "counter_id": "uni-rowe",
   "location": "University Ave between Henry St and Seymour St",
   "last_seen": "2018-11-15",
   "last_non_zero_seen": "2018-11-15",
   "total_all_time": 30559,
   "recent_day": {
-    "label": "Jun 7",
+    "label": "Jun 8",
     "count": 0
   },
   "recent_seven_days": {
@@ -150,7 +150,7 @@
   }
 }
 
-Data through 2026-06-07.
+Data through 2026-06-08.
 
 ## Summary
 
