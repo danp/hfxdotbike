@@ -5,6 +5,7 @@ description:
 ---
 
 ## Kidical Mass Halifax
+* Active Towns: [Free Range Kids Should Be The Goal](https://www.youtube.com/watch?v=vNk7d4mW6RE&t=1927s) (June 2, 2026)
 * Halifax Examiner: [On the agenda: Construction hoarding, fees for sidewalk patios, and red tape](https://www.halifaxexaminer.ca/government/city-hall/on-the-agenda-construction-hoarding-fees-for-sidewalk-patios-and-red-tape/) (May 11, 2026) <sup>*</sup>
 * Halifax Examiner: [Sure, traffic is bad, but even in a growing city it doesn’t have to be this way](https://www.halifaxexaminer.ca/morning-file/sure-traffic-is-bad-but-even-in-a-growing-city-it-doesnt-have-to-be-this-way/) (May 23, 2025)
 * Halifax Transportation Standing Committee (TSC) Presentation: [More Kids on Bikes](../may-2025-tsc-presentation/) (May 22, 2025)
