@@ -1,28 +1,32 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-08",
+  "as_of": "2026-06-09",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-09",
-  "last_non_zero_seen": "2026-06-08",
-  "total_year": 35100,
-  "total_all_time": 45291,
+  "last_seen": "2026-06-10",
+  "last_non_zero_seen": "2026-06-09",
+  "total_year": 35919,
+  "total_all_time": 46110,
   "recent_day": {
-    "label": "Jun 8",
-    "count": 540
+    "label": "Jun 9",
+    "count": 819
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3636
+    "count": 3930
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 4318
+    "count": 5137
   },
   "top_days": [
+    {
+      "label": "2026-06-09",
+      "count": 820
+    },
     {
       "label": "2026-05-20",
       "count": 818
@@ -58,10 +62,6 @@
     {
       "label": "2026-05-05",
       "count": 650
-    },
-    {
-      "label": "2026-05-19",
-      "count": 609
     }
   ],
   "top_weeks": [
@@ -121,7 +121,7 @@
     },
     {
       "label": "2026-06",
-      "count": 4330
+      "count": 5148
     },
     {
       "label": "2026-03",
@@ -147,15 +147,15 @@
   }
 }
 
-Data through 2026-06-08.
+Data through 2026-06-09.
 
 ## Summary
 
-- Total in 2026: 35100
-- Total all-time: 45291
+- Total in 2026: 35919
+- Total all-time: 46110
 - Active: true
-- Last seen: 2026-06-09
-- Last non-zero count: 2026-06-08
+- Last seen: 2026-06-10
+- Last non-zero count: 2026-06-09
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -174,6 +174,7 @@ Data through 2026-06-08.
 
 | Day | Count |
 |---|---:|
+| 2026-06-09 | 820 |
 | 2026-05-20 | 818 |
 | 2026-06-03 | 751 |
 | 2026-06-04 | 732 |
@@ -183,7 +184,6 @@ Data through 2026-06-08.
 | 2026-06-05 | 669 |
 | 2026-06-01 | 668 |
 | 2026-05-05 | 650 |
-| 2026-05-19 | 609 |
 
 ## Top Weeks
 
@@ -207,7 +207,7 @@ Data through 2026-06-08.
 | 2026-05 | 12319 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
-| 2026-06 | 4330 |
+| 2026-06 | 5148 |
 | 2026-03 | 4186 |
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
