@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-09",
+  "as_of": "2026-06-10",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-10",
-  "last_non_zero_seen": "2026-06-09",
-  "total_year": 35919,
-  "total_all_time": 46110,
+  "last_seen": "2026-06-11",
+  "last_non_zero_seen": "2026-06-10",
+  "total_year": 36719,
+  "total_all_time": 46910,
   "recent_day": {
-    "label": "Jun 9",
-    "count": 819
+    "label": "Jun 10",
+    "count": 800
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3930
+    "count": 3965
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 5137
+    "count": 5937
   },
   "top_days": [
     {
@@ -30,6 +30,10 @@
     {
       "label": "2026-05-20",
       "count": 818
+    },
+    {
+      "label": "2026-06-10",
+      "count": 789
     },
     {
       "label": "2026-06-03",
@@ -58,10 +62,6 @@
     {
       "label": "2026-06-01",
       "count": 668
-    },
-    {
-      "label": "2026-05-05",
-      "count": 650
     }
   ],
   "top_weeks": [
@@ -90,6 +90,10 @@
       "count": 2628
     },
     {
+      "label": "2026-06-07",
+      "count": 2300
+    },
+    {
       "label": "2026-04-19",
       "count": 2107
     },
@@ -100,10 +104,6 @@
     {
       "label": "2025-11-02",
       "count": 1974
-    },
-    {
-      "label": "2026-04-12",
-      "count": 1759
     }
   ],
   "top_months": [
@@ -121,7 +121,7 @@
     },
     {
       "label": "2026-06",
-      "count": 5148
+      "count": 5947
     },
     {
       "label": "2026-03",
@@ -147,15 +147,15 @@
   }
 }
 
-Data through 2026-06-09.
+Data through 2026-06-10.
 
 ## Summary
 
-- Total in 2026: 35919
-- Total all-time: 46110
+- Total in 2026: 36719
+- Total all-time: 46910
 - Active: true
-- Last seen: 2026-06-10
-- Last non-zero count: 2026-06-09
+- Last seen: 2026-06-11
+- Last non-zero count: 2026-06-10
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -176,6 +176,7 @@ Data through 2026-06-09.
 |---|---:|
 | 2026-06-09 | 820 |
 | 2026-05-20 | 818 |
+| 2026-06-10 | 789 |
 | 2026-06-03 | 751 |
 | 2026-06-04 | 732 |
 | 2026-05-26 | 729 |
@@ -183,7 +184,6 @@ Data through 2026-06-09.
 | 2026-05-21 | 706 |
 | 2026-06-05 | 669 |
 | 2026-06-01 | 668 |
-| 2026-05-05 | 650 |
 
 ## Top Weeks
 
@@ -195,10 +195,10 @@ Data through 2026-06-09.
 | 2026-04-26 | 2693 |
 | 2026-05-24 | 2642 |
 | 2026-05-03 | 2628 |
+| 2026-06-07 | 2300 |
 | 2026-04-19 | 2107 |
 | 2025-11-16 | 2003 |
 | 2025-11-02 | 1974 |
-| 2026-04-12 | 1759 |
 
 ## Top Months
 
@@ -207,7 +207,7 @@ Data through 2026-06-09.
 | 2026-05 | 12319 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
-| 2026-06 | 5148 |
+| 2026-06 | 5947 |
 | 2026-03 | 4186 |
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
