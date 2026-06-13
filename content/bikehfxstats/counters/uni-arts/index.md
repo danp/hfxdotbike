@@ -1,14 +1,14 @@
 {
   "title": "Uni Arts",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-11",
+  "as_of": "2026-06-12",
   "counter_id": "uni-arts",
   "location": "University Ave between Henry St and Seymour St",
   "last_seen": "2025-05-01",
   "last_non_zero_seen": "2025-05-01",
   "total_all_time": 185670,
   "recent_day": {
-    "label": "Jun 11",
+    "label": "Jun 12",
     "count": 0
   },
   "recent_seven_days": {
@@ -151,7 +151,7 @@
   }
 }
 
-Data through 2026-06-11.
+Data through 2026-06-12.
 
 ## Summary
 

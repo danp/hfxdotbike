@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-11",
+  "as_of": "2026-06-12",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-06-12",
-  "last_non_zero_seen": "2026-06-11",
-  "total_year": 18313,
-  "total_all_time": 70009,
+  "last_seen": "2026-06-13",
+  "last_non_zero_seen": "2026-06-12",
+  "total_year": 18676,
+  "total_all_time": 70372,
   "recent_day": {
-    "label": "Jun 11",
-    "count": 345
+    "label": "Jun 12",
+    "count": 363
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2098
+    "count": 2134
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 3326
+    "count": 3689
   },
   "top_days": [
     {
@@ -47,6 +47,10 @@
       "count": 378
     },
     {
+      "label": "2026-06-12",
+      "count": 372
+    },
+    {
       "label": "2025-09-04",
       "count": 372
     },
@@ -56,10 +60,6 @@
     },
     {
       "label": "2026-06-04",
-      "count": 361
-    },
-    {
-      "label": "2025-09-25",
       "count": 361
     }
   ],
@@ -97,12 +97,12 @@
       "count": 1930
     },
     {
-      "label": "2025-08-03",
-      "count": 1886
+      "label": "2026-06-07",
+      "count": 1911
     },
     {
-      "label": "2025-08-10",
-      "count": 1873
+      "label": "2025-08-03",
+      "count": 1886
     }
   ],
   "top_months": [
@@ -143,8 +143,8 @@
       "count": 4165
     },
     {
-      "label": "2025-04",
-      "count": 3380
+      "label": "2026-06",
+      "count": 3695
     }
   ],
   "charts": {
@@ -154,15 +154,15 @@
   }
 }
 
-Data through 2026-06-11.
+Data through 2026-06-12.
 
 ## Summary
 
-- Total in 2026: 18313
-- Total all-time: 70009
+- Total in 2026: 18676
+- Total all-time: 70372
 - Active: true
-- Last seen: 2026-06-12
-- Last non-zero count: 2026-06-11
+- Last seen: 2026-06-13
+- Last non-zero count: 2026-06-12
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -187,10 +187,10 @@ Data through 2026-06-11.
 | 2025-10-07 | 386 |
 | 2025-09-23 | 382 |
 | 2025-09-17 | 378 |
+| 2026-06-12 | 372 |
 | 2025-09-04 | 372 |
 | 2026-05-20 | 371 |
 | 2026-06-04 | 361 |
-| 2025-09-25 | 361 |
 
 ## Top Weeks
 
@@ -204,8 +204,8 @@ Data through 2026-06-11.
 | 2025-07-20 | 1982 |
 | 2025-07-13 | 1942 |
 | 2025-09-07 | 1930 |
+| 2026-06-07 | 1911 |
 | 2025-08-03 | 1886 |
-| 2025-08-10 | 1873 |
 
 ## Top Months
 
@@ -220,4 +220,4 @@ Data through 2026-06-11.
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |
 | 2025-11 | 4165 |
-| 2025-04 | 3380 |
+| 2026-06 | 3695 |
