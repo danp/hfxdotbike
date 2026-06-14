@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-12",
+  "as_of": "2026-06-13",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-06-13",
-  "last_non_zero_seen": "2026-06-12",
-  "total_year": 18676,
-  "total_all_time": 70372,
+  "last_seen": "2026-06-14",
+  "last_non_zero_seen": "2026-06-14",
+  "total_year": 18811,
+  "total_all_time": 70507,
   "recent_day": {
-    "label": "Jun 12",
-    "count": 363
+    "label": "Jun 13",
+    "count": 135
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2134
+    "count": 2034
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 3689
+    "count": 3824
   },
   "top_days": [
     {
@@ -73,6 +73,10 @@
       "count": 2080
     },
     {
+      "label": "2026-06-07",
+      "count": 2036
+    },
+    {
       "label": "2026-05-17",
       "count": 1997
     },
@@ -95,10 +99,6 @@
     {
       "label": "2025-09-07",
       "count": 1930
-    },
-    {
-      "label": "2026-06-07",
-      "count": 1911
     },
     {
       "label": "2025-08-03",
@@ -144,7 +144,7 @@
     },
     {
       "label": "2026-06",
-      "count": 3695
+      "count": 3831
     }
   ],
   "charts": {
@@ -154,15 +154,15 @@
   }
 }
 
-Data through 2026-06-12.
+Data through 2026-06-13.
 
 ## Summary
 
-- Total in 2026: 18676
-- Total all-time: 70372
+- Total in 2026: 18811
+- Total all-time: 70507
 - Active: true
-- Last seen: 2026-06-13
-- Last non-zero count: 2026-06-12
+- Last seen: 2026-06-14
+- Last non-zero count: 2026-06-14
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -198,13 +198,13 @@ Data through 2026-06-12.
 |---|---:|
 | 2025-09-14 | 2174 |
 | 2025-09-21 | 2080 |
+| 2026-06-07 | 2036 |
 | 2026-05-17 | 1997 |
 | 2025-08-31 | 1997 |
 | 2025-08-17 | 1997 |
 | 2025-07-20 | 1982 |
 | 2025-07-13 | 1942 |
 | 2025-09-07 | 1930 |
-| 2026-06-07 | 1911 |
 | 2025-08-03 | 1886 |
 
 ## Top Months
@@ -220,4 +220,4 @@ Data through 2026-06-12.
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |
 | 2025-11 | 4165 |
-| 2026-06 | 3695 |
+| 2026-06 | 3831 |
