@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-15",
+  "as_of": "2026-06-16",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-06-16",
-  "last_non_zero_seen": "2026-06-15",
-  "total_year": 8206,
-  "total_all_time": 8206,
+  "last_seen": "2026-06-17",
+  "last_non_zero_seen": "2026-06-16",
+  "total_year": 8348,
+  "total_all_time": 8348,
   "recent_day": {
-    "label": "Jun 15",
-    "count": 68
+    "label": "Jun 16",
+    "count": 142
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 904
+    "count": 834
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 1820
+    "count": 1962
   },
   "top_days": [
     {
@@ -48,6 +48,10 @@
       "count": 144
     },
     {
+      "label": "2026-06-16",
+      "count": 140
+    },
+    {
       "label": "2026-06-10",
       "count": 140
     },
@@ -58,10 +62,6 @@
     {
       "label": "2026-06-12",
       "count": 131
-    },
-    {
-      "label": "2026-06-14",
-      "count": 129
     }
   ],
   "top_weeks": [
@@ -117,7 +117,7 @@
     },
     {
       "label": "2026-06",
-      "count": 1823
+      "count": 1964
     },
     {
       "label": "2026-03",
@@ -135,15 +135,15 @@
   }
 }
 
-Data through 2026-06-15.
+Data through 2026-06-16.
 
 ## Summary
 
-- Total in 2026: 8206
-- Total all-time: 8206
+- Total in 2026: 8348
+- Total all-time: 8348
 - Active: true
-- Last seen: 2026-06-16
-- Last non-zero count: 2026-06-15
+- Last seen: 2026-06-17
+- Last non-zero count: 2026-06-16
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -168,10 +168,10 @@ Data through 2026-06-15.
 | 2026-05-26 | 151 |
 | 2026-06-04 | 149 |
 | 2026-06-05 | 144 |
+| 2026-06-16 | 140 |
 | 2026-06-10 | 140 |
 | 2026-06-03 | 133 |
 | 2026-06-12 | 131 |
-| 2026-06-14 | 129 |
 
 ## Top Weeks
 
@@ -194,6 +194,6 @@ Data through 2026-06-15.
 |---|---:|
 | 2026-05 | 2975 |
 | 2026-04 | 1979 |
-| 2026-06 | 1823 |
+| 2026-06 | 1964 |
 | 2026-03 | 1101 |
 | 2026-02 | 329 |
