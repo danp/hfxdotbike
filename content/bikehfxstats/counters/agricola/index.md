@@ -1,14 +1,14 @@
 {
   "title": "Agricola",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-17",
+  "as_of": "2026-06-18",
   "counter_id": "agricola",
   "location": "Agricola St just south of Charles St",
   "last_seen": "2017-10-31",
   "last_non_zero_seen": "2017-10-28",
   "total_all_time": 28967,
   "recent_day": {
-    "label": "Jun 17",
+    "label": "Jun 18",
     "count": 0
   },
   "recent_seven_days": {
@@ -138,7 +138,7 @@
   }
 }
 
-Data through 2026-06-17.
+Data through 2026-06-18.
 
 ## Summary
 
