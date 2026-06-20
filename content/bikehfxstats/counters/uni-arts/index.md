@@ -1,14 +1,14 @@
 {
   "title": "Uni Arts",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "uni-arts",
   "location": "University Ave between Henry St and Seymour St",
   "last_seen": "2025-05-01",
   "last_non_zero_seen": "2025-05-01",
-  "total_all_time": 185670,
+  "total_all_time": 185562,
   "recent_day": {
-    "label": "Jun 18",
+    "label": "Jun 19",
     "count": 0
   },
   "recent_seven_days": {
@@ -145,18 +145,65 @@
       "count": 3525
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    },
+    {
+      "year": 2024,
+      "filename": "heatmap-2024.png"
+    },
+    {
+      "year": 2023,
+      "filename": "heatmap-2023.png"
+    },
+    {
+      "year": 2022,
+      "filename": "heatmap-2022.png"
+    },
+    {
+      "year": 2021,
+      "filename": "heatmap-2021.png"
+    },
+    {
+      "year": 2020,
+      "filename": "heatmap-2020.png"
+    },
+    {
+      "year": 2019,
+      "filename": "heatmap-2019.png"
+    },
+    {
+      "year": 2018,
+      "filename": "heatmap-2018.png"
+    },
+    {
+      "year": 2017,
+      "filename": "heatmap-2017.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
+    "year_heatmap_2017": "heatmap-2017.png",
+    "year_heatmap_2018": "heatmap-2018.png",
+    "year_heatmap_2019": "heatmap-2019.png",
+    "year_heatmap_2020": "heatmap-2020.png",
+    "year_heatmap_2021": "heatmap-2021.png",
+    "year_heatmap_2022": "heatmap-2022.png",
+    "year_heatmap_2023": "heatmap-2023.png",
+    "year_heatmap_2024": "heatmap-2024.png",
+    "year_heatmap_2025": "heatmap-2025.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
 - Total in 2026: 0
-- Total all-time: 185670
+- Total all-time: 185562
 - Active: false
 - Last seen: 2025-05-01
 - Last non-zero count: 2025-05-01
@@ -169,6 +216,42 @@ Data through 2026-06-18.
 ## Recent Weekly Trend
 
 ![Recent weekly trend](count-by-week-recent-years.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
+
+## 2024 Daily Heatmap
+
+![2024 daily heatmap](heatmap-2024.png)
+
+## 2023 Daily Heatmap
+
+![2023 daily heatmap](heatmap-2023.png)
+
+## 2022 Daily Heatmap
+
+![2022 daily heatmap](heatmap-2022.png)
+
+## 2021 Daily Heatmap
+
+![2021 daily heatmap](heatmap-2021.png)
+
+## 2020 Daily Heatmap
+
+![2020 daily heatmap](heatmap-2020.png)
+
+## 2019 Daily Heatmap
+
+![2019 daily heatmap](heatmap-2019.png)
+
+## 2018 Daily Heatmap
+
+![2018 daily heatmap](heatmap-2018.png)
+
+## 2017 Daily Heatmap
+
+![2017 daily heatmap](heatmap-2017.png)
 
 ## Top Days
 

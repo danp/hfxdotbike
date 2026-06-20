@@ -207,25 +207,24 @@
           </section>
         {{ end }}
 
-        {{ if $isActive }}
-          {{ with .Resources.GetMatch (.Params.charts.recent_weekly) }}
-            <section class="bikehfxstats-panel">
-              <h2>Recent Weekly Trend</h2>
-              <p>Weekly totals grouped by recent years for seasonality comparison.</p>
-              <div class="bikehfxstats-chart">
-                <img src="{{ .RelPermalink }}" alt="Recent weekly trend chart for {{ $.Title }}">
-              </div>
-            </section>
-          {{ end }}
+        {{ with .Resources.GetMatch (.Params.charts.recent_weekly) }}
+          <section class="bikehfxstats-panel">
+            <h2>Recent Weekly Trend</h2>
+            <p>Weekly totals grouped by recent years for seasonality comparison.</p>
+            <div class="bikehfxstats-chart">
+              <img src="{{ .RelPermalink }}" alt="Recent weekly trend chart for {{ $.Title }}">
+            </div>
+          </section>
         {{ end }}
 
-        {{ if $isActive }}
-          {{ with .Resources.GetMatch (.Params.charts.year_heatmap) }}
+        {{ range .Params.year_heatmaps }}
+          {{ $heatmap := . }}
+          {{ with $.Resources.GetMatch $heatmap.filename }}
             <section class="bikehfxstats-panel">
-              <h2>{{ now.Year }} Daily Heatmap</h2>
+              <h2>{{ $heatmap.year }} Daily Heatmap</h2>
               <p>Each cell shows the daily count for a week/day combination.</p>
-              <div class="bikehfxstats-chart">
-                <img src="{{ .RelPermalink }}" alt="Daily heatmap for {{ $.Title }}">
+              <div class="bikehfxstats-chart bikehfxstats-chart--heatmap">
+                <img src="{{ .RelPermalink }}" alt="{{ $heatmap.year }} daily heatmap for {{ $.Title }}">
               </div>
             </section>
           {{ end }}

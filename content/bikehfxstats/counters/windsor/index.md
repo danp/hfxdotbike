@@ -1,25 +1,25 @@
 {
   "title": "Windsor",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "windsor",
   "active": true,
   "location": "Both sides of Windsor St just north of Edinburgh St",
-  "last_seen": "2026-06-19",
+  "last_seen": "2026-06-20",
   "last_non_zero_seen": "2026-05-22",
-  "total_year": 8030,
-  "total_all_time": 180330,
+  "total_year": 8117,
+  "total_all_time": 180417,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 112
+    "label": "Jun 19",
+    "count": 87
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 560
+    "count": 544
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 1476
+    "count": 1563
   },
   "top_days": [
     {
@@ -147,21 +147,57 @@
       "count": 4412
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    },
+    {
+      "year": 2024,
+      "filename": "heatmap-2024.png"
+    },
+    {
+      "year": 2023,
+      "filename": "heatmap-2023.png"
+    },
+    {
+      "year": 2022,
+      "filename": "heatmap-2022.png"
+    },
+    {
+      "year": 2021,
+      "filename": "heatmap-2021.png"
+    },
+    {
+      "year": 2020,
+      "filename": "heatmap-2020.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2020": "heatmap-2020.png",
+    "year_heatmap_2021": "heatmap-2021.png",
+    "year_heatmap_2022": "heatmap-2022.png",
+    "year_heatmap_2023": "heatmap-2023.png",
+    "year_heatmap_2024": "heatmap-2024.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 8030
-- Total all-time: 180330
+- Total in 2026: 8117
+- Total all-time: 180417
 - Active: true
-- Last seen: 2026-06-19
+- Last seen: 2026-06-20
 - Last non-zero count: 2026-05-22
 - Location: Both sides of Windsor St just north of Edinburgh St
 
@@ -175,7 +211,31 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
+
+## 2024 Daily Heatmap
+
+![2024 daily heatmap](heatmap-2024.png)
+
+## 2023 Daily Heatmap
+
+![2023 daily heatmap](heatmap-2023.png)
+
+## 2022 Daily Heatmap
+
+![2022 daily heatmap](heatmap-2022.png)
+
+## 2021 Daily Heatmap
+
+![2021 daily heatmap](heatmap-2021.png)
+
+## 2020 Daily Heatmap
+
+![2020 daily heatmap](heatmap-2020.png)
 
 ## Top Days
 

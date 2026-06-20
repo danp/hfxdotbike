@@ -1,14 +1,14 @@
 {
   "title": "Uni Rowe",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "uni-rowe",
   "location": "University Ave between Henry St and Seymour St",
   "last_seen": "2018-11-15",
   "last_non_zero_seen": "2018-11-15",
-  "total_all_time": 30559,
+  "total_all_time": 30512,
   "recent_day": {
-    "label": "Jun 18",
+    "label": "Jun 19",
     "count": 0
   },
   "recent_seven_days": {
@@ -145,17 +145,30 @@
       "count": 1698
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2018,
+      "filename": "heatmap-2018.png"
+    },
+    {
+      "year": 2017,
+      "filename": "heatmap-2017.png"
+    }
+  ],
   "charts": {
+    "recent_weekly": "count-by-week-recent-years.png",
+    "year_heatmap_2017": "heatmap-2017.png",
+    "year_heatmap_2018": "heatmap-2018.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
 - Total in 2026: 0
-- Total all-time: 30559
+- Total all-time: 30512
 - Active: false
 - Last seen: 2018-11-15
 - Last non-zero count: 2018-11-15
@@ -164,6 +177,18 @@ Data through 2026-06-18.
 ## Yearly Totals
 
 ![Yearly totals](count-by-year.png)
+
+## Recent Weekly Trend
+
+![Recent weekly trend](count-by-week-recent-years.png)
+
+## 2018 Daily Heatmap
+
+![2018 daily heatmap](heatmap-2018.png)
+
+## 2017 Daily Heatmap
+
+![2017 daily heatmap](heatmap-2017.png)
 
 ## Top Days
 

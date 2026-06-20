@@ -1,14 +1,14 @@
 {
   "title": "Macdonald Bridge",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "macdonald-bridge",
   "short_name": "Mac Bridge",
   "last_seen": "2014-10-30",
   "last_non_zero_seen": "2014-10-30",
-  "total_all_time": 109106,
+  "total_all_time": 108549,
   "recent_day": {
-    "label": "Jun 18",
+    "label": "Jun 19",
     "count": 0
   },
   "recent_seven_days": {
@@ -145,17 +145,25 @@
       "count": 1730
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2014,
+      "filename": "heatmap-2014.png"
+    }
+  ],
   "charts": {
+    "recent_weekly": "count-by-week-recent-years.png",
+    "year_heatmap_2014": "heatmap-2014.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
 - Total in 2026: 0
-- Total all-time: 109106
+- Total all-time: 108549
 - Active: false
 - Last seen: 2014-10-30
 - Last non-zero count: 2014-10-30
@@ -163,6 +171,14 @@ Data through 2026-06-18.
 ## Yearly Totals
 
 ![Yearly totals](count-by-year.png)
+
+## Recent Weekly Trend
+
+![Recent weekly trend](count-by-week-recent-years.png)
+
+## 2014 Daily Heatmap
+
+![2014 daily heatmap](heatmap-2014.png)
 
 ## Top Days
 

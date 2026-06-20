@@ -1,25 +1,25 @@
 {
   "title": "Hollis",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "hollis",
   "active": true,
   "location": "Hollis St just south of George St",
-  "last_seen": "2026-06-19",
-  "last_non_zero_seen": "2026-06-18",
-  "total_year": 12320,
-  "total_all_time": 175890,
+  "last_seen": "2026-06-20",
+  "last_non_zero_seen": "2026-06-19",
+  "total_year": 12565,
+  "total_all_time": 176135,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 254
+    "label": "Jun 19",
+    "count": 245
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1272
+    "count": 1294
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 3385
+    "count": 3630
   },
   "top_days": [
     {
@@ -147,22 +147,58 @@
       "count": 3989
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    },
+    {
+      "year": 2024,
+      "filename": "heatmap-2024.png"
+    },
+    {
+      "year": 2023,
+      "filename": "heatmap-2023.png"
+    },
+    {
+      "year": 2022,
+      "filename": "heatmap-2022.png"
+    },
+    {
+      "year": 2021,
+      "filename": "heatmap-2021.png"
+    },
+    {
+      "year": 2020,
+      "filename": "heatmap-2020.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2020": "heatmap-2020.png",
+    "year_heatmap_2021": "heatmap-2021.png",
+    "year_heatmap_2022": "heatmap-2022.png",
+    "year_heatmap_2023": "heatmap-2023.png",
+    "year_heatmap_2024": "heatmap-2024.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 12320
-- Total all-time: 175890
+- Total in 2026: 12565
+- Total all-time: 176135
 - Active: true
-- Last seen: 2026-06-19
-- Last non-zero count: 2026-06-18
+- Last seen: 2026-06-20
+- Last non-zero count: 2026-06-19
 - Location: Hollis St just south of George St
 
 ## Yearly Totals
@@ -175,7 +211,31 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
+
+## 2024 Daily Heatmap
+
+![2024 daily heatmap](heatmap-2024.png)
+
+## 2023 Daily Heatmap
+
+![2023 daily heatmap](heatmap-2023.png)
+
+## 2022 Daily Heatmap
+
+![2022 daily heatmap](heatmap-2022.png)
+
+## 2021 Daily Heatmap
+
+![2021 daily heatmap](heatmap-2021.png)
+
+## 2020 Daily Heatmap
+
+![2020 daily heatmap](heatmap-2020.png)
 
 ## Top Days
 

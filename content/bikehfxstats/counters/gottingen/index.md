@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-06-19",
-  "last_non_zero_seen": "2026-06-18",
-  "total_year": 16648,
-  "total_all_time": 123275,
+  "last_seen": "2026-06-20",
+  "last_non_zero_seen": "2026-06-19",
+  "total_year": 16918,
+  "total_all_time": 123545,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 328
+    "label": "Jun 19",
+    "count": 270
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1548
+    "count": 1565
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 4193
+    "count": 4463
   },
   "top_days": [
     {
@@ -69,6 +69,10 @@
       "count": 1546
     },
     {
+      "label": "2026-06-14",
+      "count": 1504
+    },
+    {
       "label": "2026-05-17",
       "count": 1501
     },
@@ -99,10 +103,6 @@
     {
       "label": "2024-07-07",
       "count": 1380
-    },
-    {
-      "label": "2024-09-08",
-      "count": 1379
     }
   ],
   "top_months": [
@@ -147,22 +147,43 @@
       "count": 4883
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    },
+    {
+      "year": 2024,
+      "filename": "heatmap-2024.png"
+    },
+    {
+      "year": 2023,
+      "filename": "heatmap-2023.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2023": "heatmap-2023.png",
+    "year_heatmap_2024": "heatmap-2024.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 16648
-- Total all-time: 123275
+- Total in 2026: 16918
+- Total all-time: 123545
 - Active: true
-- Last seen: 2026-06-19
-- Last non-zero count: 2026-06-18
+- Last seen: 2026-06-20
+- Last non-zero count: 2026-06-19
 - Location: Near south end of Gottingen
 
 ## Yearly Totals
@@ -175,7 +196,19 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
+
+## 2024 Daily Heatmap
+
+![2024 daily heatmap](heatmap-2024.png)
+
+## 2023 Daily Heatmap
+
+![2023 daily heatmap](heatmap-2023.png)
 
 ## Top Days
 
@@ -197,6 +230,7 @@ Data through 2026-06-18.
 | Week Starting | Count |
 |---|---:|
 | 2026-05-31 | 1546 |
+| 2026-06-14 | 1504 |
 | 2026-05-17 | 1501 |
 | 2026-06-07 | 1469 |
 | 2025-06-08 | 1449 |
@@ -205,7 +239,6 @@ Data through 2026-06-18.
 | 2025-06-22 | 1395 |
 | 2025-08-24 | 1387 |
 | 2024-07-07 | 1380 |
-| 2024-09-08 | 1379 |
 
 ## Top Months
 

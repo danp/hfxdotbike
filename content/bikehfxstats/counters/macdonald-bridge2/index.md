@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-19",
-  "last_non_zero_seen": "2026-06-18",
-  "total_year": 41374,
-  "total_all_time": 51565,
+  "last_seen": "2026-06-20",
+  "last_non_zero_seen": "2026-06-19",
+  "total_year": 42031,
+  "total_all_time": 52222,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 752
+    "label": "Jun 19",
+    "count": 657
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3929
+    "count": 3945
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 10592
+    "count": 11249
   },
   "top_days": [
     {
@@ -70,16 +70,16 @@
       "count": 3827
     },
     {
+      "label": "2026-06-14",
+      "count": 3790
+    },
+    {
       "label": "2026-05-31",
       "count": 3747
     },
     {
       "label": "2026-05-17",
       "count": 3627
-    },
-    {
-      "label": "2026-06-14",
-      "count": 3129
     },
     {
       "label": "2026-05-10",
@@ -113,7 +113,7 @@
     },
     {
       "label": "2026-06",
-      "count": 10603
+      "count": 11264
     },
     {
       "label": "2026-04",
@@ -140,22 +140,33 @@
       "count": 2959
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 41374
-- Total all-time: 51565
+- Total in 2026: 42031
+- Total all-time: 52222
 - Active: true
-- Last seen: 2026-06-19
-- Last non-zero count: 2026-06-18
+- Last seen: 2026-06-20
+- Last non-zero count: 2026-06-19
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -168,7 +179,11 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
 
 ## Top Days
 
@@ -190,9 +205,9 @@ Data through 2026-06-18.
 | Week Starting | Count |
 |---|---:|
 | 2026-06-07 | 3827 |
+| 2026-06-14 | 3790 |
 | 2026-05-31 | 3747 |
 | 2026-05-17 | 3627 |
-| 2026-06-14 | 3129 |
 | 2026-05-10 | 2807 |
 | 2026-04-26 | 2693 |
 | 2026-05-24 | 2642 |
@@ -205,7 +220,7 @@ Data through 2026-06-18.
 | Month | Count |
 |---|---:|
 | 2026-05 | 12319 |
-| 2026-06 | 10603 |
+| 2026-06 | 11264 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
 | 2026-03 | 4186 |

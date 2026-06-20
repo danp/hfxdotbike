@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-06-19",
-  "last_non_zero_seen": "2026-06-18",
-  "total_year": 20319,
-  "total_all_time": 72015,
+  "last_seen": "2026-06-20",
+  "last_non_zero_seen": "2026-06-20",
+  "total_year": 20615,
+  "total_all_time": 72311,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 369
+    "label": "Jun 19",
+    "count": 296
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2006
+    "count": 1939
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 5332
+    "count": 5628
   },
   "top_days": [
     {
@@ -128,7 +128,7 @@
     },
     {
       "label": "2026-06",
-      "count": 5338
+      "count": 5638
     },
     {
       "label": "2025-06",
@@ -147,22 +147,33 @@
       "count": 4165
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 20319
-- Total all-time: 72015
+- Total in 2026: 20615
+- Total all-time: 72311
 - Active: true
-- Last seen: 2026-06-19
-- Last non-zero count: 2026-06-18
+- Last seen: 2026-06-20
+- Last non-zero count: 2026-06-20
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -175,7 +186,11 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
 
 ## Top Days
 
@@ -216,7 +231,7 @@ Data through 2026-06-18.
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
 | 2026-05 | 6526 |
-| 2026-06 | 5338 |
+| 2026-06 | 5638 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |

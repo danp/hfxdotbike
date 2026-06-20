@@ -1,26 +1,26 @@
 {
   "title": "Chain of Lakes Trail",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "colt",
   "short_name": "COLT",
   "active": true,
   "location": "Just south of Ashburn Golf Club driveway",
-  "last_seen": "2026-06-19",
-  "last_non_zero_seen": "2026-06-18",
-  "total_year": 17476,
-  "total_all_time": 136526,
+  "last_seen": "2026-06-20",
+  "last_non_zero_seen": "2026-06-19",
+  "total_year": 17694,
+  "total_all_time": 136744,
   "recent_day": {
-    "label": "Jun 18",
-    "count": 234
+    "label": "Jun 19",
+    "count": 218
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1820
+    "count": 1788
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 4762
+    "count": 4980
   },
   "top_days": [
     {
@@ -148,22 +148,43 @@
       "count": 6322
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2026,
+      "filename": "heatmap-2026.png"
+    },
+    {
+      "year": 2025,
+      "filename": "heatmap-2025.png"
+    },
+    {
+      "year": 2024,
+      "filename": "heatmap-2024.png"
+    },
+    {
+      "year": 2023,
+      "filename": "heatmap-2023.png"
+    }
+  ],
   "charts": {
     "recent_weekly": "count-by-week-recent-years.png",
-    "year_heatmap": "heatmap.png",
+    "year_heatmap_2023": "heatmap-2023.png",
+    "year_heatmap_2024": "heatmap-2024.png",
+    "year_heatmap_2025": "heatmap-2025.png",
+    "year_heatmap_2026": "heatmap-2026.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
-- Total in 2026: 17476
-- Total all-time: 136526
+- Total in 2026: 17694
+- Total all-time: 136744
 - Active: true
-- Last seen: 2026-06-19
-- Last non-zero count: 2026-06-18
+- Last seen: 2026-06-20
+- Last non-zero count: 2026-06-19
 - Location: Just south of Ashburn Golf Club driveway
 
 ## Yearly Totals
@@ -176,7 +197,19 @@ Data through 2026-06-18.
 
 ## 2026 Daily Heatmap
 
-![2026 daily heatmap](heatmap.png)
+![2026 daily heatmap](heatmap-2026.png)
+
+## 2025 Daily Heatmap
+
+![2025 daily heatmap](heatmap-2025.png)
+
+## 2024 Daily Heatmap
+
+![2024 daily heatmap](heatmap-2024.png)
+
+## 2023 Daily Heatmap
+
+![2023 daily heatmap](heatmap-2023.png)
 
 ## Top Days
 

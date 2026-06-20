@@ -1,14 +1,14 @@
 {
   "title": "Agricola",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-18",
+  "as_of": "2026-06-19",
   "counter_id": "agricola",
   "location": "Agricola St just south of Charles St",
   "last_seen": "2017-10-31",
   "last_non_zero_seen": "2017-10-28",
-  "total_all_time": 28967,
+  "total_all_time": 28871,
   "recent_day": {
-    "label": "Jun 18",
+    "label": "Jun 19",
     "count": 0
   },
   "recent_seven_days": {
@@ -133,17 +133,30 @@
       "count": 2328
     }
   ],
+  "year_heatmaps": [
+    {
+      "year": 2017,
+      "filename": "heatmap-2017.png"
+    },
+    {
+      "year": 2016,
+      "filename": "heatmap-2016.png"
+    }
+  ],
   "charts": {
+    "recent_weekly": "count-by-week-recent-years.png",
+    "year_heatmap_2016": "heatmap-2016.png",
+    "year_heatmap_2017": "heatmap-2017.png",
     "yearly_totals": "count-by-year.png"
   }
 }
 
-Data through 2026-06-18.
+Data through 2026-06-19.
 
 ## Summary
 
 - Total in 2026: 0
-- Total all-time: 28967
+- Total all-time: 28871
 - Active: false
 - Last seen: 2017-10-31
 - Last non-zero count: 2017-10-28
@@ -152,6 +165,18 @@ Data through 2026-06-18.
 ## Yearly Totals
 
 ![Yearly totals](count-by-year.png)
+
+## Recent Weekly Trend
+
+![Recent weekly trend](count-by-week-recent-years.png)
+
+## 2017 Daily Heatmap
+
+![2017 daily heatmap](heatmap-2017.png)
+
+## 2016 Daily Heatmap
+
+![2016 daily heatmap](heatmap-2016.png)
 
 ## Top Days
 
