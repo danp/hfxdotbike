@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-19",
+  "as_of": "2026-06-20",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-06-20",
+  "last_seen": "2026-06-21",
   "last_non_zero_seen": "2026-06-20",
-  "total_year": 20615,
-  "total_all_time": 72311,
+  "total_year": 20873,
+  "total_all_time": 72569,
   "recent_day": {
-    "label": "Jun 19",
-    "count": 296
+    "label": "Jun 20",
+    "count": 258
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1939
+    "count": 2062
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 5628
+    "count": 5886
   },
   "top_days": [
     {
@@ -73,6 +73,10 @@
       "count": 2080
     },
     {
+      "label": "2026-06-14",
+      "count": 2056
+    },
+    {
       "label": "2026-06-07",
       "count": 2036
     },
@@ -99,10 +103,6 @@
     {
       "label": "2025-09-07",
       "count": 1930
-    },
-    {
-      "label": "2025-08-03",
-      "count": 1886
     }
   ],
   "top_months": [
@@ -128,7 +128,7 @@
     },
     {
       "label": "2026-06",
-      "count": 5638
+      "count": 5893
     },
     {
       "label": "2025-06",
@@ -165,14 +165,14 @@
   }
 }
 
-Data through 2026-06-19.
+Data through 2026-06-20.
 
 ## Summary
 
-- Total in 2026: 20615
-- Total all-time: 72311
+- Total in 2026: 20873
+- Total all-time: 72569
 - Active: true
-- Last seen: 2026-06-20
+- Last seen: 2026-06-21
 - Last non-zero count: 2026-06-20
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
@@ -213,6 +213,7 @@ Data through 2026-06-19.
 |---|---:|
 | 2025-09-14 | 2174 |
 | 2025-09-21 | 2080 |
+| 2026-06-14 | 2056 |
 | 2026-06-07 | 2036 |
 | 2026-05-17 | 1997 |
 | 2025-08-31 | 1997 |
@@ -220,7 +221,6 @@ Data through 2026-06-19.
 | 2025-07-20 | 1982 |
 | 2025-07-13 | 1942 |
 | 2025-09-07 | 1930 |
-| 2025-08-03 | 1886 |
 
 ## Top Months
 
@@ -231,7 +231,7 @@ Data through 2026-06-19.
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
 | 2026-05 | 6526 |
-| 2026-06 | 5638 |
+| 2026-06 | 5893 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |

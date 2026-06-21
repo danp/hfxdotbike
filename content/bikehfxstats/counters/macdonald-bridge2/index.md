@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-19",
+  "as_of": "2026-06-20",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-06-20",
-  "last_non_zero_seen": "2026-06-19",
-  "total_year": 42031,
-  "total_all_time": 52222,
+  "last_seen": "2026-06-21",
+  "last_non_zero_seen": "2026-06-20",
+  "total_year": 42431,
+  "total_all_time": 52622,
   "recent_day": {
-    "label": "Jun 19",
-    "count": 657
+    "label": "Jun 20",
+    "count": 400
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3945
+    "count": 4170
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 11249
+    "count": 11649
   },
   "top_days": [
     {
@@ -66,12 +66,12 @@
   ],
   "top_weeks": [
     {
-      "label": "2026-06-07",
-      "count": 3827
+      "label": "2026-06-14",
+      "count": 4172
     },
     {
-      "label": "2026-06-14",
-      "count": 3790
+      "label": "2026-06-07",
+      "count": 3827
     },
     {
       "label": "2026-05-31",
@@ -113,7 +113,7 @@
     },
     {
       "label": "2026-06",
-      "count": 11264
+      "count": 11660
     },
     {
       "label": "2026-04",
@@ -158,15 +158,15 @@
   }
 }
 
-Data through 2026-06-19.
+Data through 2026-06-20.
 
 ## Summary
 
-- Total in 2026: 42031
-- Total all-time: 52222
+- Total in 2026: 42431
+- Total all-time: 52622
 - Active: true
-- Last seen: 2026-06-20
-- Last non-zero count: 2026-06-19
+- Last seen: 2026-06-21
+- Last non-zero count: 2026-06-20
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -204,8 +204,8 @@ Data through 2026-06-19.
 
 | Week Starting | Count |
 |---|---:|
+| 2026-06-14 | 4172 |
 | 2026-06-07 | 3827 |
-| 2026-06-14 | 3790 |
 | 2026-05-31 | 3747 |
 | 2026-05-17 | 3627 |
 | 2026-05-10 | 2807 |
@@ -220,7 +220,7 @@ Data through 2026-06-19.
 | Month | Count |
 |---|---:|
 | 2026-05 | 12319 |
-| 2026-06 | 11264 |
+| 2026-06 | 11660 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
 | 2026-03 | 4186 |
