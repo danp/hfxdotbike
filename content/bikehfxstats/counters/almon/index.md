@@ -1,27 +1,31 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-21",
+  "as_of": "2026-06-22",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-06-22",
-  "last_non_zero_seen": "2026-06-21",
-  "total_year": 21087,
-  "total_all_time": 72783,
+  "last_seen": "2026-06-23",
+  "last_non_zero_seen": "2026-06-22",
+  "total_year": 21500,
+  "total_all_time": 73196,
   "recent_day": {
-    "label": "Jun 21",
-    "count": 214
+    "label": "Jun 22",
+    "count": 413
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2015
+    "count": 2284
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 6100
+    "count": 6513
   },
   "top_days": [
+    {
+      "label": "2026-06-22",
+      "count": 409
+    },
     {
       "label": "2026-06-10",
       "count": 407
@@ -56,10 +60,6 @@
     },
     {
       "label": "2026-06-12",
-      "count": 372
-    },
-    {
-      "label": "2025-09-04",
       "count": 372
     }
   ],
@@ -128,7 +128,7 @@
     },
     {
       "label": "2026-06",
-      "count": 6105
+      "count": 6519
     },
     {
       "label": "2025-06",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-06-21.
+Data through 2026-06-22.
 
 ## Summary
 
-- Total in 2026: 21087
-- Total all-time: 72783
+- Total in 2026: 21500
+- Total all-time: 73196
 - Active: true
-- Last seen: 2026-06-22
-- Last non-zero count: 2026-06-21
+- Last seen: 2026-06-23
+- Last non-zero count: 2026-06-22
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -196,6 +196,7 @@ Data through 2026-06-21.
 
 | Day | Count |
 |---|---:|
+| 2026-06-22 | 409 |
 | 2026-06-10 | 407 |
 | 2025-09-16 | 400 |
 | 2026-06-17 | 399 |
@@ -205,7 +206,6 @@ Data through 2026-06-21.
 | 2025-09-17 | 378 |
 | 2026-06-18 | 373 |
 | 2026-06-12 | 372 |
-| 2025-09-04 | 372 |
 
 ## Top Weeks
 
@@ -231,7 +231,7 @@ Data through 2026-06-21.
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
 | 2026-05 | 6526 |
-| 2026-06 | 6105 |
+| 2026-06 | 6519 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |
