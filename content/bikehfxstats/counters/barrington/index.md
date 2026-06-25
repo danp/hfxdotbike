@@ -1,7 +1,7 @@
 {
   "title": "Barrington",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-23",
+  "as_of": "2026-06-24",
   "counter_id": "barrington",
   "active": true,
   "location": "Just south of North St",
@@ -10,7 +10,7 @@
   "total_year": 6383,
   "total_all_time": 121271,
   "recent_day": {
-    "label": "Jun 23",
+    "label": "Jun 24",
     "count": 0
   },
   "recent_seven_days": {
@@ -175,7 +175,7 @@
   }
 }
 
-Data through 2026-06-23.
+Data through 2026-06-24.
 
 ## Summary
 
