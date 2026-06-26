@@ -1,27 +1,31 @@
 {
   "title": "Hollis",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-24",
+  "as_of": "2026-06-25",
   "counter_id": "hollis",
   "active": true,
   "location": "Hollis St just south of George St",
-  "last_seen": "2026-06-25",
-  "last_non_zero_seen": "2026-06-25",
-  "total_year": 13366,
-  "total_all_time": 176936,
+  "last_seen": "2026-06-26",
+  "last_non_zero_seen": "2026-06-26",
+  "total_year": 13669,
+  "total_all_time": 177239,
   "recent_day": {
-    "label": "Jun 24",
-    "count": 142
+    "label": "Jun 25",
+    "count": 303
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1300
+    "count": 1349
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 4431
+    "count": 4734
   },
   "top_days": [
+    {
+      "label": "2026-06-25",
+      "count": 299
+    },
     {
       "label": "2025-10-07",
       "count": 288
@@ -56,10 +60,6 @@
     },
     {
       "label": "2025-09-10",
-      "count": 256
-    },
-    {
-      "label": "2025-09-04",
       "count": 256
     }
   ],
@@ -123,6 +123,10 @@
       "count": 4812
     },
     {
+      "label": "2026-06",
+      "count": 4736
+    },
+    {
       "label": "2024-07",
       "count": 4721
     },
@@ -137,10 +141,6 @@
     {
       "label": "2024-08",
       "count": 4456
-    },
-    {
-      "label": "2026-06",
-      "count": 4433
     },
     {
       "label": "2026-05",
@@ -190,15 +190,15 @@
   }
 }
 
-Data through 2026-06-24.
+Data through 2026-06-25.
 
 ## Summary
 
-- Total in 2026: 13366
-- Total all-time: 176936
+- Total in 2026: 13669
+- Total all-time: 177239
 - Active: true
-- Last seen: 2026-06-25
-- Last non-zero count: 2026-06-25
+- Last seen: 2026-06-26
+- Last non-zero count: 2026-06-26
 - Location: Hollis St just south of George St
 
 ## Yearly Totals
@@ -241,6 +241,7 @@ Data through 2026-06-24.
 
 | Day | Count |
 |---|---:|
+| 2026-06-25 | 299 |
 | 2025-10-07 | 288 |
 | 2024-09-17 | 270 |
 | 2025-09-09 | 269 |
@@ -250,7 +251,6 @@ Data through 2026-06-24.
 | 2025-06-24 | 258 |
 | 2025-08-28 | 257 |
 | 2025-09-10 | 256 |
-| 2025-09-04 | 256 |
 
 ## Top Weeks
 
@@ -275,9 +275,9 @@ Data through 2026-06-24.
 | 2025-09 | 5755 |
 | 2025-07 | 5625 |
 | 2025-06 | 4812 |
+| 2026-06 | 4736 |
 | 2024-07 | 4721 |
 | 2025-10 | 4716 |
 | 2024-09 | 4711 |
 | 2024-08 | 4456 |
-| 2026-06 | 4433 |
 | 2026-05 | 3999 |
