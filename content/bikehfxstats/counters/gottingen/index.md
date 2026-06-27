@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-25",
+  "as_of": "2026-06-26",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-06-26",
-  "last_non_zero_seen": "2026-06-25",
-  "total_year": 18204,
-  "total_all_time": 124831,
+  "last_seen": "2026-06-27",
+  "last_non_zero_seen": "2026-06-26",
+  "total_year": 18482,
+  "total_all_time": 125109,
   "recent_day": {
-    "label": "Jun 25",
-    "count": 345
+    "label": "Jun 26",
+    "count": 278
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1556
+    "count": 1564
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 5749
+    "count": 6027
   },
   "top_days": [
     {
@@ -89,6 +89,10 @@
       "count": 1427
     },
     {
+      "label": "2026-06-21",
+      "count": 1411
+    },
+    {
       "label": "2024-09-15",
       "count": 1407
     },
@@ -99,20 +103,16 @@
     {
       "label": "2025-08-24",
       "count": 1387
-    },
-    {
-      "label": "2024-07-07",
-      "count": 1380
     }
   ],
   "top_months": [
     {
-      "label": "2025-07",
-      "count": 5904
+      "label": "2026-06",
+      "count": 6038
     },
     {
-      "label": "2026-06",
-      "count": 5756
+      "label": "2025-07",
+      "count": 5904
     },
     {
       "label": "2024-07",
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-06-25.
+Data through 2026-06-26.
 
 ## Summary
 
-- Total in 2026: 18204
-- Total all-time: 124831
+- Total in 2026: 18482
+- Total all-time: 125109
 - Active: true
-- Last seen: 2026-06-26
-- Last non-zero count: 2026-06-25
+- Last seen: 2026-06-27
+- Last non-zero count: 2026-06-26
 - Location: Near south end of Gottingen
 
 ## Yearly Totals
@@ -235,17 +235,17 @@ Data through 2026-06-25.
 | 2026-06-07 | 1469 |
 | 2025-06-08 | 1449 |
 | 2025-07-13 | 1427 |
+| 2026-06-21 | 1411 |
 | 2024-09-15 | 1407 |
 | 2025-06-22 | 1395 |
 | 2025-08-24 | 1387 |
-| 2024-07-07 | 1380 |
 
 ## Top Months
 
 | Month | Count |
 |---|---:|
+| 2026-06 | 6038 |
 | 2025-07 | 5904 |
-| 2026-06 | 5756 |
 | 2024-07 | 5650 |
 | 2025-08 | 5556 |
 | 2024-10 | 5305 |
