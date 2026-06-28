@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-26",
+  "as_of": "2026-06-27",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-06-27",
-  "last_non_zero_seen": "2026-06-26",
-  "total_year": 9531,
-  "total_all_time": 9531,
+  "last_seen": "2026-06-28",
+  "last_non_zero_seen": "2026-06-27",
+  "total_year": 9622,
+  "total_all_time": 9622,
   "recent_day": {
-    "label": "Jun 26",
-    "count": 96
+    "label": "Jun 27",
+    "count": 91
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 752
+    "count": 747
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 3145
+    "count": 3236
   },
   "top_days": [
     {
@@ -82,12 +82,12 @@
       "count": 781
     },
     {
-      "label": "2026-05-03",
-      "count": 694
+      "label": "2026-06-21",
+      "count": 743
     },
     {
-      "label": "2026-06-21",
-      "count": 668
+      "label": "2026-05-03",
+      "count": 694
     },
     {
       "label": "2026-05-10",
@@ -109,7 +109,7 @@
   "top_months": [
     {
       "label": "2026-06",
-      "count": 3150
+      "count": 3239
     },
     {
       "label": "2026-05",
@@ -141,15 +141,15 @@
   }
 }
 
-Data through 2026-06-26.
+Data through 2026-06-27.
 
 ## Summary
 
-- Total in 2026: 9531
-- Total all-time: 9531
+- Total in 2026: 9622
+- Total all-time: 9622
 - Active: true
-- Last seen: 2026-06-27
-- Last non-zero count: 2026-06-26
+- Last seen: 2026-06-28
+- Last non-zero count: 2026-06-27
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -187,8 +187,8 @@ Data through 2026-06-26.
 | 2026-06-14 | 861 |
 | 2026-05-17 | 861 |
 | 2026-05-31 | 781 |
+| 2026-06-21 | 743 |
 | 2026-05-03 | 694 |
-| 2026-06-21 | 668 |
 | 2026-05-10 | 634 |
 | 2026-04-12 | 579 |
 | 2026-04-26 | 556 |
@@ -198,7 +198,7 @@ Data through 2026-06-26.
 
 | Month | Count |
 |---|---:|
-| 2026-06 | 3150 |
+| 2026-06 | 3239 |
 | 2026-05 | 2975 |
 | 2026-04 | 1979 |
 | 2026-03 | 1101 |
