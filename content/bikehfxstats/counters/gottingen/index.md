@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-06-29",
+  "as_of": "2026-06-30",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-06-30",
-  "last_non_zero_seen": "2026-06-29",
-  "total_year": 18996,
-  "total_all_time": 125623,
+  "last_seen": "2026-07-01",
+  "last_non_zero_seen": "2026-06-30",
+  "total_year": 19333,
+  "total_all_time": 125960,
   "recent_day": {
-    "label": "Jun 29",
-    "count": 270
+    "label": "Jun 30",
+    "count": 337
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1465
+    "count": 1692
   },
   "month_to_date": {
     "label": "Jun to date",
-    "count": 6541
+    "count": 6878
   },
   "top_days": [
     {
@@ -37,6 +37,10 @@
     {
       "label": "2026-06-18",
       "count": 338
+    },
+    {
+      "label": "2026-06-30",
+      "count": 332
     },
     {
       "label": "2026-06-09",
@@ -57,10 +61,6 @@
     {
       "label": "2025-08-29",
       "count": 297
-    },
-    {
-      "label": "2025-09-03",
-      "count": 293
     }
   ],
   "top_weeks": [
@@ -108,7 +108,7 @@
   "top_months": [
     {
       "label": "2026-06",
-      "count": 6544
+      "count": 6863
     },
     {
       "label": "2025-07",
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-06-29.
+Data through 2026-06-30.
 
 ## Summary
 
-- Total in 2026: 18996
-- Total all-time: 125623
+- Total in 2026: 19333
+- Total all-time: 125960
 - Active: true
-- Last seen: 2026-06-30
-- Last non-zero count: 2026-06-29
+- Last seen: 2026-07-01
+- Last non-zero count: 2026-06-30
 - Location: Near south end of Gottingen
 
 ## Yearly Totals
@@ -218,12 +218,12 @@ Data through 2026-06-29.
 | 2026-06-17 | 355 |
 | 2026-06-25 | 343 |
 | 2026-06-18 | 338 |
+| 2026-06-30 | 332 |
 | 2026-06-09 | 309 |
 | 2026-05-21 | 306 |
 | 2026-06-10 | 304 |
 | 2025-06-26 | 301 |
 | 2025-08-29 | 297 |
-| 2025-09-03 | 293 |
 
 ## Top Weeks
 
@@ -244,7 +244,7 @@ Data through 2026-06-29.
 
 | Month | Count |
 |---|---:|
-| 2026-06 | 6544 |
+| 2026-06 | 6863 |
 | 2025-07 | 5904 |
 | 2024-07 | 5650 |
 | 2025-08 | 5556 |
