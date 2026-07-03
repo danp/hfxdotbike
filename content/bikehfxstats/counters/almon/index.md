@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-01",
+  "as_of": "2026-07-02",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-07-02",
-  "last_non_zero_seen": "2026-07-01",
-  "total_year": 23985,
-  "total_all_time": 75681,
+  "last_seen": "2026-07-03",
+  "last_non_zero_seen": "2026-07-02",
+  "total_year": 24325,
+  "total_all_time": 76021,
   "recent_day": {
-    "label": "Jul 1",
-    "count": 286
+    "label": "Jul 2",
+    "count": 340
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2177
+    "count": 2064
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 286
+    "count": 626
   },
   "top_days": [
     {
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-07-01.
+Data through 2026-07-02.
 
 ## Summary
 
-- Total in 2026: 23985
-- Total all-time: 75681
+- Total in 2026: 24325
+- Total all-time: 76021
 - Active: true
-- Last seen: 2026-07-02
-- Last non-zero count: 2026-07-01
+- Last seen: 2026-07-03
+- Last non-zero count: 2026-07-02
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
