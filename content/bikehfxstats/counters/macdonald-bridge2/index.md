@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-05",
+  "as_of": "2026-07-06",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-07-06",
-  "last_non_zero_seen": "2026-07-05",
-  "total_year": 49641,
-  "total_all_time": 59832,
+  "last_seen": "2026-07-07",
+  "last_non_zero_seen": "2026-07-06",
+  "total_year": 50380,
+  "total_all_time": 60571,
   "recent_day": {
-    "label": "Jul 5",
-    "count": 301
+    "label": "Jul 6",
+    "count": 739
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3440
+    "count": 3518
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 2058
+    "count": 2797
   },
   "top_days": [
     {
@@ -56,12 +56,12 @@
       "count": 751
     },
     {
-      "label": "2026-06-04",
-      "count": 732
+      "label": "2026-07-06",
+      "count": 737
     },
     {
-      "label": "2026-06-11",
-      "count": 730
+      "label": "2026-06-04",
+      "count": 732
     }
   ],
   "top_weeks": [
@@ -141,7 +141,7 @@
     },
     {
       "label": "2026-07",
-      "count": 2084
+      "count": 2822
     }
   ],
   "year_heatmaps": [
@@ -162,15 +162,15 @@
   }
 }
 
-Data through 2026-07-05.
+Data through 2026-07-06.
 
 ## Summary
 
-- Total in 2026: 49641
-- Total all-time: 59832
+- Total in 2026: 50380
+- Total all-time: 60571
 - Active: true
-- Last seen: 2026-07-06
-- Last non-zero count: 2026-07-05
+- Last seen: 2026-07-07
+- Last non-zero count: 2026-07-06
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -201,8 +201,8 @@ Data through 2026-07-05.
 | 2026-06-22 | 762 |
 | 2026-06-18 | 757 |
 | 2026-06-03 | 751 |
+| 2026-07-06 | 737 |
 | 2026-06-04 | 732 |
-| 2026-06-11 | 730 |
 
 ## Top Weeks
 
@@ -231,4 +231,4 @@ Data through 2026-07-05.
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
 | 2025-12 | 2959 |
-| 2026-07 | 2084 |
+| 2026-07 | 2822 |
