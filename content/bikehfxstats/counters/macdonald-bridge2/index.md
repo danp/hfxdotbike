@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-06",
+  "as_of": "2026-07-07",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-07-07",
-  "last_non_zero_seen": "2026-07-06",
-  "total_year": 50380,
-  "total_all_time": 60571,
+  "last_seen": "2026-07-08",
+  "last_non_zero_seen": "2026-07-07",
+  "total_year": 51169,
+  "total_all_time": 61360,
   "recent_day": {
-    "label": "Jul 6",
-    "count": 739
+    "label": "Jul 7",
+    "count": 789
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3518
+    "count": 3586
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 2797
+    "count": 3586
   },
   "top_days": [
     {
@@ -44,6 +44,10 @@
       "count": 789
     },
     {
+      "label": "2026-07-07",
+      "count": 782
+    },
+    {
       "label": "2026-06-22",
       "count": 762
     },
@@ -58,10 +62,6 @@
     {
       "label": "2026-07-06",
       "count": 737
-    },
-    {
-      "label": "2026-06-04",
-      "count": 732
     }
   ],
   "top_weeks": [
@@ -128,6 +128,10 @@
       "count": 4186
     },
     {
+      "label": "2026-07",
+      "count": 3613
+    },
+    {
       "label": "2026-02",
       "count": 3101
     },
@@ -138,10 +142,6 @@
     {
       "label": "2025-12",
       "count": 2959
-    },
-    {
-      "label": "2026-07",
-      "count": 2822
     }
   ],
   "year_heatmaps": [
@@ -162,15 +162,15 @@
   }
 }
 
-Data through 2026-07-06.
+Data through 2026-07-07.
 
 ## Summary
 
-- Total in 2026: 50380
-- Total all-time: 60571
+- Total in 2026: 51169
+- Total all-time: 61360
 - Active: true
-- Last seen: 2026-07-07
-- Last non-zero count: 2026-07-06
+- Last seen: 2026-07-08
+- Last non-zero count: 2026-07-07
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -198,11 +198,11 @@ Data through 2026-07-06.
 | 2026-06-09 | 820 |
 | 2026-05-20 | 818 |
 | 2026-06-10 | 789 |
+| 2026-07-07 | 782 |
 | 2026-06-22 | 762 |
 | 2026-06-18 | 757 |
 | 2026-06-03 | 751 |
 | 2026-07-06 | 737 |
-| 2026-06-04 | 732 |
 
 ## Top Weeks
 
@@ -228,7 +228,7 @@ Data through 2026-07-06.
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
 | 2026-03 | 4186 |
+| 2026-07 | 3613 |
 | 2026-02 | 3101 |
 | 2026-01 | 2998 |
 | 2025-12 | 2959 |
-| 2026-07 | 2822 |
