@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-08",
+  "as_of": "2026-07-09",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-07-09",
-  "last_non_zero_seen": "2026-07-08",
-  "total_year": 21265,
-  "total_all_time": 127892,
+  "last_seen": "2026-07-10",
+  "last_non_zero_seen": "2026-07-09",
+  "total_year": 21606,
+  "total_all_time": 128233,
   "recent_day": {
-    "label": "Jul 8",
-    "count": 321
+    "label": "Jul 9",
+    "count": 341
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1751
+    "count": 1821
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 1932
+    "count": 2273
   },
   "top_days": [
     {
@@ -43,6 +43,10 @@
       "count": 338
     },
     {
+      "label": "2026-07-09",
+      "count": 334
+    },
+    {
       "label": "2026-06-30",
       "count": 332
     },
@@ -57,10 +61,6 @@
     {
       "label": "2026-05-21",
       "count": 306
-    },
-    {
-      "label": "2026-06-10",
-      "count": 304
     }
   ],
   "top_weeks": [
@@ -93,16 +93,16 @@
       "count": 1449
     },
     {
+      "label": "2026-07-05",
+      "count": 1443
+    },
+    {
       "label": "2025-07-13",
       "count": 1427
     },
     {
       "label": "2024-09-15",
       "count": 1407
-    },
-    {
-      "label": "2025-06-22",
-      "count": 1395
     }
   ],
   "top_months": [
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-07-08.
+Data through 2026-07-09.
 
 ## Summary
 
-- Total in 2026: 21265
-- Total all-time: 127892
+- Total in 2026: 21606
+- Total all-time: 128233
 - Active: true
-- Last seen: 2026-07-09
-- Last non-zero count: 2026-07-08
+- Last seen: 2026-07-10
+- Last non-zero count: 2026-07-09
 - Location: Near south end of Gottingen
 
 ## Yearly Totals
@@ -219,11 +219,11 @@ Data through 2026-07-08.
 | 2026-07-07 | 343 |
 | 2026-06-25 | 343 |
 | 2026-06-18 | 338 |
+| 2026-07-09 | 334 |
 | 2026-06-30 | 332 |
 | 2026-07-08 | 320 |
 | 2026-06-09 | 309 |
 | 2026-05-21 | 306 |
-| 2026-06-10 | 304 |
 
 ## Top Weeks
 
@@ -236,9 +236,9 @@ Data through 2026-07-08.
 | 2026-05-17 | 1501 |
 | 2026-06-07 | 1469 |
 | 2025-06-08 | 1449 |
+| 2026-07-05 | 1443 |
 | 2025-07-13 | 1427 |
 | 2024-09-15 | 1407 |
-| 2025-06-22 | 1395 |
 
 ## Top Months
 
