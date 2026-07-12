@@ -1,26 +1,26 @@
 {
   "title": "Chain of Lakes Trail",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-10",
+  "as_of": "2026-07-11",
   "counter_id": "colt",
   "short_name": "COLT",
   "active": true,
   "location": "Just south of Ashburn Golf Club driveway",
-  "last_seen": "2026-07-11",
-  "last_non_zero_seen": "2026-07-10",
-  "total_year": 23488,
-  "total_all_time": 142538,
+  "last_seen": "2026-07-12",
+  "last_non_zero_seen": "2026-07-11",
+  "total_year": 23911,
+  "total_all_time": 142961,
   "recent_day": {
-    "label": "Jul 10",
-    "count": 214
+    "label": "Jul 11",
+    "count": 423
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2111
+    "count": 2315
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 3018
+    "count": 3441
   },
   "top_days": [
     {
@@ -70,6 +70,10 @@
       "count": 2389
     },
     {
+      "label": "2026-07-05",
+      "count": 2324
+    },
+    {
       "label": "2026-05-17",
       "count": 2182
     },
@@ -100,10 +104,6 @@
     {
       "label": "2025-06-29",
       "count": 1955
-    },
-    {
-      "label": "2024-06-09",
-      "count": 1951
     }
   ],
   "top_months": [
@@ -176,15 +176,15 @@
   }
 }
 
-Data through 2026-07-10.
+Data through 2026-07-11.
 
 ## Summary
 
-- Total in 2026: 23488
-- Total all-time: 142538
+- Total in 2026: 23911
+- Total all-time: 142961
 - Active: true
-- Last seen: 2026-07-11
-- Last non-zero count: 2026-07-10
+- Last seen: 2026-07-12
+- Last non-zero count: 2026-07-11
 - Location: Just south of Ashburn Golf Club driveway
 
 ## Yearly Totals
@@ -231,6 +231,7 @@ Data through 2026-07-10.
 | Week Starting | Count |
 |---|---:|
 | 2025-08-31 | 2389 |
+| 2026-07-05 | 2324 |
 | 2026-05-17 | 2182 |
 | 2025-06-15 | 2040 |
 | 2025-07-13 | 1998 |
@@ -239,7 +240,6 @@ Data through 2026-07-10.
 | 2024-08-25 | 1983 |
 | 2025-07-20 | 1962 |
 | 2025-06-29 | 1955 |
-| 2024-06-09 | 1951 |
 
 ## Top Months
 

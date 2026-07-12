@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-10",
+  "as_of": "2026-07-11",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-07-11",
-  "last_non_zero_seen": "2026-07-10",
-  "total_year": 11390,
-  "total_all_time": 11390,
+  "last_seen": "2026-07-12",
+  "last_non_zero_seen": "2026-07-11",
+  "total_year": 11555,
+  "total_all_time": 11555,
   "recent_day": {
-    "label": "Jul 10",
-    "count": 114
+    "label": "Jul 11",
+    "count": 165
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 989
+    "count": 1038
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 1338
+    "count": 1503
   },
   "top_days": [
     {
@@ -52,26 +52,26 @@
       "count": 165
     },
     {
+      "label": "2026-07-11",
+      "count": 156
+    },
+    {
       "label": "2026-06-19",
       "count": 156
     },
     {
       "label": "2026-05-20",
       "count": 153
-    },
-    {
-      "label": "2026-05-26",
-      "count": 151
     }
   ],
   "top_weeks": [
     {
-      "label": "2026-06-28",
-      "count": 893
+      "label": "2026-07-05",
+      "count": 1035
     },
     {
-      "label": "2026-07-05",
-      "count": 889
+      "label": "2026-06-28",
+      "count": 893
     },
     {
       "label": "2026-06-07",
@@ -121,7 +121,7 @@
     },
     {
       "label": "2026-07",
-      "count": 1348
+      "count": 1515
     },
     {
       "label": "2026-03",
@@ -145,15 +145,15 @@
   }
 }
 
-Data through 2026-07-10.
+Data through 2026-07-11.
 
 ## Summary
 
-- Total in 2026: 11390
-- Total all-time: 11390
+- Total in 2026: 11555
+- Total all-time: 11555
 - Active: true
-- Last seen: 2026-07-11
-- Last non-zero count: 2026-07-10
+- Last seen: 2026-07-12
+- Last non-zero count: 2026-07-11
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -179,16 +179,16 @@ Data through 2026-07-10.
 | 2026-06-29 | 168 |
 | 2026-06-30 | 165 |
 | 2026-06-25 | 165 |
+| 2026-07-11 | 156 |
 | 2026-06-19 | 156 |
 | 2026-05-20 | 153 |
-| 2026-05-26 | 151 |
 
 ## Top Weeks
 
 | Week Starting | Count |
 |---|---:|
+| 2026-07-05 | 1035 |
 | 2026-06-28 | 893 |
-| 2026-07-05 | 889 |
 | 2026-06-07 | 884 |
 | 2026-06-14 | 861 |
 | 2026-05-17 | 861 |
@@ -205,6 +205,6 @@ Data through 2026-07-10.
 | 2026-06 | 3659 |
 | 2026-05 | 2975 |
 | 2026-04 | 1979 |
-| 2026-07 | 1348 |
+| 2026-07 | 1515 |
 | 2026-03 | 1101 |
 | 2026-02 | 329 |
