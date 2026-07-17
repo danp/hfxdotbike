@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-15",
+  "as_of": "2026-07-16",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-07-16",
+  "last_seen": "2026-07-17",
   "last_non_zero_seen": "2026-07-16",
-  "total_year": 23179,
-  "total_all_time": 129806,
+  "total_year": 23489,
+  "total_all_time": 130116,
   "recent_day": {
-    "label": "Jul 15",
-    "count": 369
+    "label": "Jul 16",
+    "count": 310
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1914
+    "count": 1883
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 3846
+    "count": 4156
   },
   "top_days": [
     {
@@ -55,12 +55,12 @@
       "count": 332
     },
     {
-      "label": "2026-07-08",
-      "count": 320
+      "label": "2026-07-16",
+      "count": 321
     },
     {
-      "label": "2026-06-09",
-      "count": 309
+      "label": "2026-07-08",
+      "count": 320
     }
   ],
   "top_weeks": [
@@ -97,12 +97,12 @@
       "count": 1449
     },
     {
-      "label": "2025-07-13",
-      "count": 1427
+      "label": "2026-07-12",
+      "count": 1435
     },
     {
-      "label": "2024-09-15",
-      "count": 1407
+      "label": "2025-07-13",
+      "count": 1427
     }
   ],
   "top_months": [
@@ -175,14 +175,14 @@
   }
 }
 
-Data through 2026-07-15.
+Data through 2026-07-16.
 
 ## Summary
 
-- Total in 2026: 23179
-- Total all-time: 129806
+- Total in 2026: 23489
+- Total all-time: 130116
 - Active: true
-- Last seen: 2026-07-16
+- Last seen: 2026-07-17
 - Last non-zero count: 2026-07-16
 - Location: Near south end of Gottingen
 
@@ -222,8 +222,8 @@ Data through 2026-07-15.
 | 2026-06-18 | 338 |
 | 2026-07-09 | 334 |
 | 2026-06-30 | 332 |
+| 2026-07-16 | 321 |
 | 2026-07-08 | 320 |
-| 2026-06-09 | 309 |
 
 ## Top Weeks
 
@@ -237,8 +237,8 @@ Data through 2026-07-15.
 | 2026-05-17 | 1501 |
 | 2026-06-07 | 1469 |
 | 2025-06-08 | 1449 |
+| 2026-07-12 | 1435 |
 | 2025-07-13 | 1427 |
-| 2024-09-15 | 1407 |
 
 ## Top Months
 

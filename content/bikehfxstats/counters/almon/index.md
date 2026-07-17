@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-15",
+  "as_of": "2026-07-16",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-07-16",
-  "last_non_zero_seen": "2026-07-15",
-  "total_year": 28673,
-  "total_all_time": 80369,
+  "last_seen": "2026-07-17",
+  "last_non_zero_seen": "2026-07-16",
+  "total_year": 29059,
+  "total_all_time": 80755,
   "recent_day": {
-    "label": "Jul 15",
-    "count": 425
+    "label": "Jul 16",
+    "count": 386
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2436
+    "count": 2389
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 4974
+    "count": 5360
   },
   "top_days": [
     {
@@ -43,6 +43,10 @@
       "count": 407
     },
     {
+      "label": "2026-07-16",
+      "count": 401
+    },
+    {
       "label": "2025-09-16",
       "count": 400
     },
@@ -56,10 +60,6 @@
     },
     {
       "label": "2026-06-09",
-      "count": 386
-    },
-    {
-      "label": "2025-10-07",
       "count": 386
     }
   ],
@@ -132,7 +132,7 @@
     },
     {
       "label": "2026-07",
-      "count": 5006
+      "count": 5392
     },
     {
       "label": "2025-06",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-07-15.
+Data through 2026-07-16.
 
 ## Summary
 
-- Total in 2026: 28673
-- Total all-time: 80369
+- Total in 2026: 29059
+- Total all-time: 80755
 - Active: true
-- Last seen: 2026-07-16
-- Last non-zero count: 2026-07-15
+- Last seen: 2026-07-17
+- Last non-zero count: 2026-07-16
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -201,11 +201,11 @@ Data through 2026-07-15.
 | 2026-07-15 | 418 |
 | 2026-06-22 | 409 |
 | 2026-06-10 | 407 |
+| 2026-07-16 | 401 |
 | 2025-09-16 | 400 |
 | 2026-06-17 | 399 |
 | 2026-07-07 | 391 |
 | 2026-06-09 | 386 |
-| 2025-10-07 | 386 |
 
 ## Top Weeks
 
@@ -232,7 +232,7 @@ Data through 2026-07-15.
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
 | 2026-05 | 6526 |
-| 2026-07 | 5006 |
+| 2026-07 | 5392 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
 | 2025-05 | 4428 |
