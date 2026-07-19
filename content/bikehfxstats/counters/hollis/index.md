@@ -1,25 +1,25 @@
 {
   "title": "Hollis",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-17",
+  "as_of": "2026-07-18",
   "counter_id": "hollis",
   "active": true,
   "location": "Hollis St just south of George St",
-  "last_seen": "2026-07-18",
-  "last_non_zero_seen": "2026-07-18",
-  "total_year": 18468,
-  "total_all_time": 182038,
+  "last_seen": "2026-07-19",
+  "last_non_zero_seen": "2026-07-19",
+  "total_year": 18610,
+  "total_all_time": 182180,
   "recent_day": {
-    "label": "Jul 17",
-    "count": 240
+    "label": "Jul 18",
+    "count": 142
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1638
+    "count": 1576
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 3885
+    "count": 4027
   },
   "top_days": [
     {
@@ -69,12 +69,12 @@
       "count": 1680
     },
     {
-      "label": "2025-08-17",
-      "count": 1477
+      "label": "2026-07-12",
+      "count": 1597
     },
     {
-      "label": "2026-07-12",
-      "count": 1462
+      "label": "2025-08-17",
+      "count": 1477
     },
     {
       "label": "2025-08-10",
@@ -143,8 +143,8 @@
       "count": 4456
     },
     {
-      "label": "2026-05",
-      "count": 3999
+      "label": "2026-07",
+      "count": 4045
     }
   ],
   "year_heatmaps": [
@@ -190,15 +190,15 @@
   }
 }
 
-Data through 2026-07-17.
+Data through 2026-07-18.
 
 ## Summary
 
-- Total in 2026: 18468
-- Total all-time: 182038
+- Total in 2026: 18610
+- Total all-time: 182180
 - Active: true
-- Last seen: 2026-07-18
-- Last non-zero count: 2026-07-18
+- Last seen: 2026-07-19
+- Last non-zero count: 2026-07-19
 - Location: Hollis St just south of George St
 
 ## Yearly Totals
@@ -257,8 +257,8 @@ Data through 2026-07-17.
 | Week Starting | Count |
 |---|---:|
 | 2026-07-05 | 1680 |
+| 2026-07-12 | 1597 |
 | 2025-08-17 | 1477 |
-| 2026-07-12 | 1462 |
 | 2025-08-10 | 1448 |
 | 2025-09-14 | 1445 |
 | 2025-07-13 | 1415 |
@@ -280,4 +280,4 @@ Data through 2026-07-17.
 | 2025-10 | 4716 |
 | 2024-09 | 4711 |
 | 2024-08 | 4456 |
-| 2026-05 | 3999 |
+| 2026-07 | 4045 |
