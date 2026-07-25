@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-23",
+  "as_of": "2026-07-24",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-07-24",
-  "last_non_zero_seen": "2026-07-23",
-  "total_year": 60244,
-  "total_all_time": 70435,
+  "last_seen": "2026-07-25",
+  "last_non_zero_seen": "2026-07-24",
+  "total_year": 60936,
+  "total_all_time": 71127,
   "recent_day": {
-    "label": "Jul 23",
-    "count": 405
+    "label": "Jul 24",
+    "count": 692
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3276
+    "count": 3349
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 12661
+    "count": 13353
   },
   "top_days": [
     {
@@ -98,12 +98,12 @@
       "count": 3380
     },
     {
-      "label": "2026-05-10",
-      "count": 2807
+      "label": "2026-07-19",
+      "count": 3022
     },
     {
-      "label": "2026-04-26",
-      "count": 2693
+      "label": "2026-05-10",
+      "count": 2807
     }
   ],
   "top_months": [
@@ -113,7 +113,7 @@
     },
     {
       "label": "2026-07",
-      "count": 12687
+      "count": 13379
     },
     {
       "label": "2026-05",
@@ -162,15 +162,15 @@
   }
 }
 
-Data through 2026-07-23.
+Data through 2026-07-24.
 
 ## Summary
 
-- Total in 2026: 60244
-- Total all-time: 70435
+- Total in 2026: 60936
+- Total all-time: 71127
 - Active: true
-- Last seen: 2026-07-24
-- Last non-zero count: 2026-07-23
+- Last seen: 2026-07-25
+- Last non-zero count: 2026-07-24
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -216,15 +216,15 @@ Data through 2026-07-23.
 | 2026-05-17 | 3627 |
 | 2026-06-21 | 3524 |
 | 2026-06-28 | 3380 |
+| 2026-07-19 | 3022 |
 | 2026-05-10 | 2807 |
-| 2026-04-26 | 2693 |
 
 ## Top Months
 
 | Month | Count |
 |---|---:|
 | 2026-06 | 16787 |
-| 2026-07 | 12687 |
+| 2026-07 | 13379 |
 | 2026-05 | 12319 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
