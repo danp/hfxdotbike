@@ -1,25 +1,25 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-24",
+  "as_of": "2026-07-25",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
-  "last_seen": "2026-07-25",
+  "last_seen": "2026-07-26",
   "last_non_zero_seen": "2026-07-25",
-  "total_year": 25307,
-  "total_all_time": 131934,
+  "total_year": 25466,
+  "total_all_time": 132093,
   "recent_day": {
-    "label": "Jul 24",
-    "count": 304
+    "label": "Jul 25",
+    "count": 159
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1550
+    "count": 1551
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 5974
+    "count": 6133
   },
   "top_days": [
     {
@@ -85,6 +85,10 @@
       "count": 1546
     },
     {
+      "label": "2026-07-19",
+      "count": 1544
+    },
+    {
       "label": "2026-06-21",
       "count": 1511
     },
@@ -99,10 +103,6 @@
     {
       "label": "2025-06-08",
       "count": 1449
-    },
-    {
-      "label": "2025-07-13",
-      "count": 1427
     }
   ],
   "top_months": [
@@ -112,7 +112,7 @@
     },
     {
       "label": "2026-07",
-      "count": 5999
+      "count": 6159
     },
     {
       "label": "2025-07",
@@ -175,14 +175,14 @@
   }
 }
 
-Data through 2026-07-24.
+Data through 2026-07-25.
 
 ## Summary
 
-- Total in 2026: 25307
-- Total all-time: 131934
+- Total in 2026: 25466
+- Total all-time: 132093
 - Active: true
-- Last seen: 2026-07-25
+- Last seen: 2026-07-26
 - Last non-zero count: 2026-07-25
 - Location: Near south end of Gottingen
 
@@ -234,18 +234,18 @@ Data through 2026-07-24.
 | 2026-06-14 | 1658 |
 | 2026-06-28 | 1576 |
 | 2026-05-31 | 1546 |
+| 2026-07-19 | 1544 |
 | 2026-06-21 | 1511 |
 | 2026-05-17 | 1501 |
 | 2026-06-07 | 1469 |
 | 2025-06-08 | 1449 |
-| 2025-07-13 | 1427 |
 
 ## Top Months
 
 | Month | Count |
 |---|---:|
 | 2026-06 | 6863 |
-| 2026-07 | 5999 |
+| 2026-07 | 6159 |
 | 2025-07 | 5904 |
 | 2024-07 | 5650 |
 | 2025-08 | 5556 |
