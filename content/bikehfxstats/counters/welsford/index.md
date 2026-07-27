@@ -1,14 +1,14 @@
 {
   "title": "Welsford",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-25",
+  "as_of": "2026-07-26",
   "counter_id": "welsford",
   "location": "Commons path across from Welsford St",
   "last_seen": "2018-11-15",
   "last_non_zero_seen": "2018-11-15",
   "total_all_time": 7644,
   "recent_day": {
-    "label": "Jul 25",
+    "label": "Jul 26",
     "count": 0
   },
   "recent_seven_days": {
@@ -134,7 +134,7 @@
   }
 }
 
-Data through 2026-07-25.
+Data through 2026-07-26.
 
 ## Summary
 
