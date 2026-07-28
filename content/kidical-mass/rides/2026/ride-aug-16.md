@@ -7,7 +7,7 @@ descriptions:
 - "North End Halifax"
 ---
 
-**Ride starts at:** St. Joseph’s Alexander McKay Elementary School, [5389 Russell St., Halifax](https://maps.app.goo.gl/WWc6bYAQtTFcfvVq7)
+**Ride starts at: St. Joseph’s Alexander McKay Elementary School, [5389 Russell St., Halifax](https://maps.app.goo.gl/WWc6bYAQtTFcfvVq7)**
 
 {{< kidical-mass/ride-general-info >}}
 
@@ -24,4 +24,5 @@ descriptions:
 * There is a portable toilet on site at Isleville Park for the summer months.
 * We’ll provide snacks, prizes, and activities at the end of the ride.
 * Liz from [Woozles](https://www.woozles.com/) book shop will join us at Isleville Park for storytime after the ride.
+
 {{< kidical-mass/ride-with-gps id="56366183" >}}
