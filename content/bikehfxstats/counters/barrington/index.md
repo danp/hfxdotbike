@@ -1,16 +1,16 @@
 {
   "title": "Barrington",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-26",
+  "as_of": "2026-07-27",
   "counter_id": "barrington",
   "active": true,
   "location": "Just south of North St",
-  "last_seen": "2026-04-22",
-  "last_non_zero_seen": "2026-04-22",
-  "total_year": 6383,
-  "total_all_time": 121271,
+  "last_seen": "2026-05-31",
+  "last_non_zero_seen": "2026-05-31",
+  "total_year": 13520,
+  "total_all_time": 128408,
   "recent_day": {
-    "label": "Jul 26",
+    "label": "Jul 27",
     "count": 0
   },
   "recent_seven_days": {
@@ -29,6 +29,10 @@
     {
       "label": "2025-06-24",
       "count": 370
+    },
+    {
+      "label": "2026-05-21",
+      "count": 359
     },
     {
       "label": "2025-10-07",
@@ -57,10 +61,6 @@
     {
       "label": "2025-09-16",
       "count": 339
-    },
-    {
-      "label": "2025-09-09",
-      "count": 335
     }
   ],
   "top_weeks": [
@@ -97,12 +97,12 @@
       "count": 1645
     },
     {
-      "label": "2024-08-11",
-      "count": 1631
+      "label": "2026-05-17",
+      "count": 1635
     },
     {
-      "label": "2024-07-07",
-      "count": 1630
+      "label": "2024-08-11",
+      "count": 1631
     }
   ],
   "top_months": [
@@ -143,8 +143,8 @@
       "count": 5687
     },
     {
-      "label": "2024-10",
-      "count": 5477
+      "label": "2026-05",
+      "count": 5541
     }
   ],
   "year_heatmaps": [
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-07-26.
+Data through 2026-07-27.
 
 ## Summary
 
-- Total in 2026: 6383
-- Total all-time: 121271
+- Total in 2026: 13520
+- Total all-time: 128408
 - Active: true
-- Last seen: 2026-04-22
-- Last non-zero count: 2026-04-22
+- Last seen: 2026-05-31
+- Last non-zero count: 2026-05-31
 - Location: Just south of North St
 
 ## Yearly Totals
@@ -216,6 +216,7 @@ Data through 2026-07-26.
 |---|---:|
 | 2025-09-04 | 395 |
 | 2025-06-24 | 370 |
+| 2026-05-21 | 359 |
 | 2025-10-07 | 358 |
 | 2025-06-12 | 350 |
 | 2025-09-17 | 346 |
@@ -223,7 +224,6 @@ Data through 2026-07-26.
 | 2025-07-09 | 343 |
 | 2025-08-20 | 341 |
 | 2025-09-16 | 339 |
-| 2025-09-09 | 335 |
 
 ## Top Weeks
 
@@ -237,8 +237,8 @@ Data through 2026-07-26.
 | 2025-08-03 | 1687 |
 | 2025-06-22 | 1657 |
 | 2025-09-07 | 1645 |
+| 2026-05-17 | 1635 |
 | 2024-08-11 | 1631 |
-| 2024-07-07 | 1630 |
 
 ## Top Months
 
@@ -253,4 +253,4 @@ Data through 2026-07-26.
 | 2024-09 | 6089 |
 | 2025-10 | 5886 |
 | 2024-06 | 5687 |
-| 2024-10 | 5477 |
+| 2026-05 | 5541 |
