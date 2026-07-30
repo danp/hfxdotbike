@@ -1,25 +1,25 @@
 {
   "title": "Hollis",
   "type": "bikehfxstats-site",
-  "as_of": "2026-07-28",
+  "as_of": "2026-07-29",
   "counter_id": "hollis",
   "active": true,
   "location": "Hollis St just south of George St",
-  "last_seen": "2026-07-29",
-  "last_non_zero_seen": "2026-07-28",
-  "total_year": 20593,
-  "total_all_time": 184163,
+  "last_seen": "2026-07-30",
+  "last_non_zero_seen": "2026-07-30",
+  "total_year": 20869,
+  "total_all_time": 184439,
   "recent_day": {
-    "label": "Jul 28",
-    "count": 211
+    "label": "Jul 29",
+    "count": 276
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1297
+    "count": 1512
   },
   "month_to_date": {
     "label": "Jul to date",
-    "count": 6010
+    "count": 6286
   },
   "top_days": [
     {
@@ -43,6 +43,10 @@
       "count": 279
     },
     {
+      "label": "2026-07-29",
+      "count": 274
+    },
+    {
       "label": "2026-07-20",
       "count": 271
     },
@@ -57,10 +61,6 @@
     {
       "label": "2026-07-07",
       "count": 267
-    },
-    {
-      "label": "2025-09-17",
-      "count": 263
     }
   ],
   "top_weeks": [
@@ -108,7 +108,7 @@
   "top_months": [
     {
       "label": "2026-07",
-      "count": 6024
+      "count": 6301
     },
     {
       "label": "2025-08",
@@ -190,15 +190,15 @@
   }
 }
 
-Data through 2026-07-28.
+Data through 2026-07-29.
 
 ## Summary
 
-- Total in 2026: 20593
-- Total all-time: 184163
+- Total in 2026: 20869
+- Total all-time: 184439
 - Active: true
-- Last seen: 2026-07-29
-- Last non-zero count: 2026-07-28
+- Last seen: 2026-07-30
+- Last non-zero count: 2026-07-30
 - Location: Hollis St just south of George St
 
 ## Yearly Totals
@@ -246,11 +246,11 @@ Data through 2026-07-28.
 | 2026-06-25 | 299 |
 | 2025-10-07 | 288 |
 | 2026-07-16 | 279 |
+| 2026-07-29 | 274 |
 | 2026-07-20 | 271 |
 | 2024-09-17 | 270 |
 | 2025-09-09 | 269 |
 | 2026-07-07 | 267 |
-| 2025-09-17 | 263 |
 
 ## Top Weeks
 
@@ -271,7 +271,7 @@ Data through 2026-07-28.
 
 | Month | Count |
 |---|---:|
-| 2026-07 | 6024 |
+| 2026-07 | 6301 |
 | 2025-08 | 5982 |
 | 2025-09 | 5755 |
 | 2026-06 | 5635 |
