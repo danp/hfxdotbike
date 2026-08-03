@@ -1,7 +1,7 @@
 {
   "title": "Dartmouth Cove",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-01",
+  "as_of": "2026-08-02",
   "counter_id": "dartmouth-waterfront-c",
   "short_name": "Dart Cove",
   "active": true,
@@ -11,7 +11,7 @@
   "total_year": 7570,
   "total_all_time": 186710,
   "recent_day": {
-    "label": "Aug 1",
+    "label": "Aug 2",
     "count": 0
   },
   "recent_seven_days": {
@@ -186,7 +186,7 @@
   }
 }
 
-Data through 2026-08-01.
+Data through 2026-08-02.
 
 ## Summary
 
