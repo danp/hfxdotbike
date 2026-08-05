@@ -1,26 +1,26 @@
 {
   "title": "Chain of Lakes Trail",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-03",
+  "as_of": "2026-08-04",
   "counter_id": "colt",
   "short_name": "COLT",
   "active": true,
   "location": "Just south of Ashburn Golf Club driveway",
-  "last_seen": "2026-08-04",
-  "last_non_zero_seen": "2026-08-03",
-  "total_year": 30192,
-  "total_all_time": 149242,
+  "last_seen": "2026-08-05",
+  "last_non_zero_seen": "2026-08-04",
+  "total_year": 30467,
+  "total_all_time": 149517,
   "recent_day": {
-    "label": "Aug 3",
-    "count": 157
+    "label": "Aug 4",
+    "count": 275
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1632
+    "count": 1676
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 768
+    "count": 1043
   },
   "top_days": [
     {
@@ -176,15 +176,15 @@
   }
 }
 
-Data through 2026-08-03.
+Data through 2026-08-04.
 
 ## Summary
 
-- Total in 2026: 30192
-- Total all-time: 149242
+- Total in 2026: 30467
+- Total all-time: 149517
 - Active: true
-- Last seen: 2026-08-04
-- Last non-zero count: 2026-08-03
+- Last seen: 2026-08-05
+- Last non-zero count: 2026-08-04
 - Location: Just south of Ashburn Golf Club driveway
 
 ## Yearly Totals
