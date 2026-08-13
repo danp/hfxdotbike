@@ -4,29 +4,34 @@ date:  2024-05-21T10:00:00-03:00
 description: 
 ---
 
+* [École Mer et Monde](#ecole-mer-et-monde)
+* [Basinview Drive Community School](#basinview-drive-community-school)
 * [Michael Wallace Elementary School](#michael-wallace-elementary-school)
-* [St. Stephen's Elementary School](#st-stephens-elementary-school)
 * [Ecole St. Catherine's School](#ecole-st-catherines-school)
 * [Le Marchant St Thomas](#le-marchant-st-thomas)
 <br/>
+<br/>
+<hr/>
+
+## École Mer et Monde
+Details to be determined. If interested, please contact Amy: [amylaraschwartz@gmail.com](mailto:amylaraschwartz@gmail.com)  
+<br/>
+<hr/>
+
+## Basinview Drive Community School
+Weekly on Friday mornings.  
+Starts at 8:00am from the top of Basinview Drive at the Shaffleburg path, winding down through Orchard, Madison, Granville, and Eastwood, and arrive at school by 8:20 for first bell.
+
+[kyle@kyledandrus.com](mailto:kyle@kyledandrus.com)  
+![Basinview Drive Community School bike bus map](../img/basinview-drive-bike-bus.png)
+<br/>
+<hr/>
 
 ## Michael Wallace Elementary School
 Bi-weekly Tuesdays  
 Belvedere Park through Angel Ct  
 [mwes.bike.bus@gmail.com](mailto:mwes.bike.bus@gmail.com)  
 ![Michael Wallace Elementary School bike bus map](../img/MWES.png)
-<br/>
-<hr/>
-
-## St. Stephen's Elementary School
-Weekly on Friday Mornings, weather permitting  
-Riding along Isleville St starting at Columbus at 8:20  
-
-This bike bus is the Friday edition of the walking bus that takes the same route and approximately same time.  
-There is some communication done through our Facebook Messenger group chat.  
-
-[mackay.stephen@gmail.com](mailto:mackay.stephen@gmail.com)  
-![St. Stephens walking bus map with bike bus start](../img/St.-Stephens-Walking-Bus-Map-with-Bike-Bus-Start.png)
 <br/>
 <hr/>
 
