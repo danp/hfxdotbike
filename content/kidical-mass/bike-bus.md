@@ -3,13 +3,23 @@ title: "Bike Buses"
 date:  2024-05-21T10:00:00-03:00
 description: 
 ---
-
+* [How to Start a Bike Bus](#how-to-start-a-bike-bus)
 * [École Mer et Monde](#ecole-mer-et-monde)
 * [Basinview Drive Community School](#basinview-drive-community-school)
 * [Michael Wallace Elementary School](#michael-wallace-elementary-school)
 * [Ecole St. Catherine's School](#ecole-st-catherines-school)
 * [Le Marchant St Thomas](#le-marchant-st-thomas)
 <br/>
+<br/>
+<hr/>
+
+## How to Start a BikeBus
+<div style="display:flow-root;">
+<a href="../img/Bike-Bus-Info-Sheet.pdf">
+<img width="47.5%" src="../img/Bike-Bus-Info-Sheet-page-1.png" alt="" style="display:inline;float:left;padding-left:2.5%;" />
+<img width="47.5%" src="../img/Bike-Bus-Info-Sheet-page-2.png" alt="" style="display:inline;float:right;padding-right:2.5%"/>
+</a>
+</div>
 <br/>
 <hr/>
 
