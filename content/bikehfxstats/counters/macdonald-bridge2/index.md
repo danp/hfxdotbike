@@ -1,7 +1,7 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-17",
+  "as_of": "2026-08-18",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
@@ -11,12 +11,12 @@
   "total_year": 71448,
   "total_all_time": 81639,
   "recent_day": {
-    "label": "Aug 17",
-    "count": 1
+    "label": "Aug 18",
+    "count": 0
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2029
+    "count": 1283
   },
   "month_to_date": {
     "label": "Aug to date",
@@ -166,7 +166,7 @@
   }
 }
 
-Data through 2026-08-17.
+Data through 2026-08-18.
 
 ## Summary
 
