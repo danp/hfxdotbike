@@ -1,7 +1,7 @@
 {
   "title": "Counter Status",
   "type": "bikehfxstats-status",
-  "as_of": "2026-08-18",
+  "as_of": "2026-08-19",
   "recent_day": {
     "label": "",
     "count": 0
@@ -21,7 +21,7 @@
       "counter_url": "../lower-water/",
       "problem": "No data",
       "since": "2026-02-28",
-      "age_days": 171
+      "age_days": 172
     },
     {
       "status": "red",
@@ -29,7 +29,7 @@
       "counter_url": "../dartmouth-waterfront-c/",
       "problem": "No data",
       "since": "2026-05-31",
-      "age_days": 79
+      "age_days": 80
     },
     {
       "status": "red",
@@ -37,7 +37,7 @@
       "counter_url": "../macdonald-bridge2/",
       "problem": "No data",
       "since": "2026-08-16",
-      "age_days": 2
+      "age_days": 3
     },
     {
       "status": "yellow",
@@ -45,7 +45,7 @@
       "counter_url": "../south-park/",
       "problem": "No positive northbound counts",
       "since": "2026-01-17",
-      "age_days": 213
+      "age_days": 214
     },
     {
       "status": "yellow",
@@ -53,14 +53,14 @@
       "counter_url": "../windsor/",
       "problem": "No positive northbound counts",
       "since": "2026-05-22",
-      "age_days": 88
+      "age_days": 89
     },
     {
       "status": "green",
       "counter": "Almon",
       "counter_url": "../almon/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     },
     {
@@ -68,7 +68,7 @@
       "counter": "Barrington",
       "counter_url": "../barrington/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     },
     {
@@ -76,7 +76,7 @@
       "counter": "Chain of Lakes Trail",
       "counter_url": "../colt/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     },
     {
@@ -84,7 +84,7 @@
       "counter": "Dutch Village Road",
       "counter_url": "../dutch-village/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     },
     {
@@ -100,7 +100,7 @@
       "counter": "Hollis",
       "counter_url": "../hollis/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     },
     {
@@ -108,10 +108,10 @@
       "counter": "Vernon",
       "counter_url": "../vernon/",
       "problem": "OK",
-      "since": "2026-08-19",
+      "since": "2026-08-20",
       "age_days": 0
     }
   ]
 }
 
-Active counter status generated through 2026-08-18.
+Active counter status generated through 2026-08-19.
