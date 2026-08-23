@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-08-22",
-  "last_non_zero_seen": "2026-08-21",
-  "total_year": 16988,
-  "total_all_time": 16988,
+  "last_seen": "2026-08-23",
+  "last_non_zero_seen": "2026-08-22",
+  "total_year": 17112,
+  "total_all_time": 17112,
   "recent_day": {
-    "label": "Aug 21",
-    "count": 159
+    "label": "Aug 22",
+    "count": 124
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 929
+    "count": 895
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 2898
+    "count": 3022
   },
   "top_days": [
     {
@@ -82,6 +82,10 @@
       "count": 910
     },
     {
+      "label": "2026-08-16",
+      "count": 900
+    },
+    {
       "label": "2026-06-28",
       "count": 893
     },
@@ -100,10 +104,6 @@
     {
       "label": "2026-05-17",
       "count": 861
-    },
-    {
-      "label": "2026-07-19",
-      "count": 850
     }
   ],
   "top_months": [
@@ -116,12 +116,12 @@
       "count": 3659
     },
     {
-      "label": "2026-05",
-      "count": 2975
+      "label": "2026-08",
+      "count": 3027
     },
     {
-      "label": "2026-08",
-      "count": 2905
+      "label": "2026-05",
+      "count": 2975
     },
     {
       "label": "2026-04",
@@ -149,15 +149,15 @@
   }
 }
 
-Data through 2026-08-21.
+Data through 2026-08-22.
 
 ## Summary
 
-- Total in 2026: 16988
-- Total all-time: 16988
+- Total in 2026: 17112
+- Total all-time: 17112
 - Active: true
-- Last seen: 2026-08-22
-- Last non-zero count: 2026-08-21
+- Last seen: 2026-08-23
+- Last non-zero count: 2026-08-22
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -195,12 +195,12 @@ Data through 2026-08-21.
 | 2026-07-05 | 1035 |
 | 2026-07-12 | 924 |
 | 2026-08-02 | 910 |
+| 2026-08-16 | 900 |
 | 2026-06-28 | 893 |
 | 2026-07-26 | 887 |
 | 2026-06-07 | 884 |
 | 2026-06-14 | 861 |
 | 2026-05-17 | 861 |
-| 2026-07-19 | 850 |
 
 ## Top Months
 
@@ -208,8 +208,8 @@ Data through 2026-08-21.
 |---|---:|
 | 2026-07 | 4043 |
 | 2026-06 | 3659 |
+| 2026-08 | 3027 |
 | 2026-05 | 2975 |
-| 2026-08 | 2905 |
 | 2026-04 | 1979 |
 | 2026-03 | 1101 |
 | 2026-02 | 329 |

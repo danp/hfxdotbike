@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-21",
+  "as_of": "2026-08-22",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-08-22",
-  "last_non_zero_seen": "2026-08-21",
-  "total_year": 40230,
-  "total_all_time": 91926,
+  "last_seen": "2026-08-23",
+  "last_non_zero_seen": "2026-08-22",
+  "total_year": 40478,
+  "total_all_time": 92174,
   "recent_day": {
-    "label": "Aug 21",
-    "count": 373
+    "label": "Aug 22",
+    "count": 248
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2160
+    "count": 2136
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 6524
+    "count": 6772
   },
   "top_days": [
     {
@@ -81,6 +81,10 @@
       "count": 2174
     },
     {
+      "label": "2026-08-16",
+      "count": 2142
+    },
+    {
       "label": "2026-07-26",
       "count": 2124
     },
@@ -99,10 +103,6 @@
     {
       "label": "2026-06-14",
       "count": 2056
-    },
-    {
-      "label": "2026-08-02",
-      "count": 2054
     }
   ],
   "top_months": [
@@ -132,7 +132,7 @@
     },
     {
       "label": "2026-08",
-      "count": 6537
+      "count": 6785
     },
     {
       "label": "2026-05",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-08-21.
+Data through 2026-08-22.
 
 ## Summary
 
-- Total in 2026: 40230
-- Total all-time: 91926
+- Total in 2026: 40478
+- Total all-time: 92174
 - Active: true
-- Last seen: 2026-08-22
-- Last non-zero count: 2026-08-21
+- Last seen: 2026-08-23
+- Last non-zero count: 2026-08-22
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -215,12 +215,12 @@ Data through 2026-08-21.
 | 2026-07-05 | 2400 |
 | 2026-08-09 | 2375 |
 | 2025-09-14 | 2174 |
+| 2026-08-16 | 2142 |
 | 2026-07-26 | 2124 |
 | 2026-07-19 | 2104 |
 | 2025-09-21 | 2080 |
 | 2026-06-28 | 2061 |
 | 2026-06-14 | 2056 |
-| 2026-08-02 | 2054 |
 
 ## Top Months
 
@@ -232,7 +232,7 @@ Data through 2026-08-21.
 | 2025-08 | 8143 |
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
-| 2026-08 | 6537 |
+| 2026-08 | 6785 |
 | 2026-05 | 6526 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
