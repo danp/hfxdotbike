@@ -1,0 +1,425 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Neighbourhood Block Party</title>
+    <meta
+      name="description"
+      content="Neighbourhood Block Party on Vincent Street between Devonshire and Young, Sunday, September 20 from 12pm to 3pm."
+    >
+    <style>
+      :root {
+        --teal: #35a7a1;
+        --teal-dark: #137c78;
+        --berry: #a93f51;
+        --ink: #241b45;
+        --sun: #ffdf67;
+        --cream: #fff5c8;
+        --pink: #f84f97;
+        --orange: #df6f24;
+        --paper: #fffdfa;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: var(--ink);
+        background: var(--paper);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+        line-height: 1.5;
+      }
+
+      main {
+        min-height: 100svh;
+        overflow: hidden;
+      }
+
+      .party {
+        position: relative;
+        display: grid;
+        align-content: start;
+        min-height: 100svh;
+        padding: clamp(1rem, 3vw, 2rem);
+      }
+
+      .content {
+        position: relative;
+        z-index: 2;
+        width: min(100%, 50rem);
+        margin: 0 auto;
+        padding: clamp(2.8rem, 6vh, 3.6rem) 0 clamp(7rem, 16vw, 10rem);
+        text-align: center;
+      }
+
+      .eyebrow {
+        margin: 0 0 1rem;
+        color: var(--berry);
+        font-size: clamp(1rem, 3vw, 1.55rem);
+        font-weight: 700;
+        letter-spacing: 0;
+      }
+
+      h1 {
+        max-width: 11ch;
+        margin: 0 auto;
+        color: var(--teal);
+        font-size: clamp(2.5rem, 8vw, 5.8rem);
+        line-height: 0.95;
+        letter-spacing: 0;
+      }
+
+      .where {
+        margin: clamp(1.5rem, 4vw, 2.5rem) auto 0;
+        color: var(--berry);
+        font-size: clamp(1.25rem, 3vw, 2rem);
+        font-weight: 750;
+      }
+
+      .details {
+        display: grid;
+        gap: 1rem;
+        width: min(100%, 34rem);
+        margin: clamp(1.3rem, 4vw, 2.4rem) auto 0;
+      }
+
+      .detail {
+        display: grid;
+        align-content: center;
+        min-height: 7rem;
+        margin: 0;
+        padding: 1rem;
+        border: 3px solid #b9ddda;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.9);
+        box-shadow: 0 0.65rem 0 rgba(53, 167, 161, 0.14);
+      }
+
+      .detail strong {
+        display: block;
+        color: var(--berry);
+        font-size: clamp(1.35rem, 3.2vw, 2.1rem);
+        line-height: 1.15;
+      }
+
+      .detail span {
+        display: block;
+        margin-top: 0.2rem;
+        color: var(--teal-dark);
+        font-size: clamp(1rem, 2.5vw, 1.25rem);
+        font-weight: 700;
+      }
+
+      .detail .rain-note {
+        margin-top: 0.65rem;
+        color: #7f4650;
+        font-size: clamp(0.9rem, 2vw, 1rem);
+        font-weight: 650;
+      }
+
+      .activities {
+        margin: clamp(1.1rem, 3vw, 1.7rem) 0 0;
+        color: var(--berry);
+        font-size: clamp(1.2rem, 3vw, 1.8rem);
+        font-weight: 750;
+      }
+
+      .partnership,
+      .more-details {
+        margin: 0.65rem auto 0;
+        color: var(--ink);
+        font-size: clamp(0.95rem, 2.2vw, 1.1rem);
+        font-weight: 650;
+      }
+
+      .partnership a {
+        color: var(--teal-dark);
+        text-underline-offset: 0.18em;
+      }
+
+      .more-details {
+        margin-top: 0.35rem;
+        color: #625b76;
+        font-weight: 600;
+      }
+
+      .bunting,
+      .neighbourhood {
+        position: absolute;
+        pointer-events: none;
+        user-select: none;
+      }
+
+      .bunting {
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 4.4rem;
+        z-index: 1;
+        border-top: 3px solid #95c849;
+      }
+
+      .flag {
+        position: absolute;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-left: 0.45rem solid transparent;
+        border-right: 0.45rem solid transparent;
+        border-top: 1.8rem solid var(--pink);
+        transform-origin: top;
+      }
+
+      .flag:nth-child(1) {
+        left: 4%;
+        border-top-color: var(--sun);
+        transform: rotate(-10deg);
+      }
+
+      .flag:nth-child(2) {
+        left: 11%;
+        transform: rotate(-9deg);
+      }
+
+      .flag:nth-child(3) {
+        left: 18%;
+        border-top-color: #3f93bf;
+        transform: rotate(-3deg);
+      }
+
+      .flag:nth-child(4) {
+        left: 25%;
+        border-top-color: #ffbd55;
+        transform: rotate(8deg);
+      }
+
+      .flag:nth-child(5) {
+        left: 32%;
+        transform: rotate(17deg);
+      }
+
+      .flag:nth-child(6) {
+        left: 39%;
+        border-top-color: var(--sun);
+        transform: rotate(-6deg);
+      }
+
+      .flag:nth-child(7) {
+        left: 46%;
+        border-top-color: #3f93bf;
+        transform: rotate(6deg);
+      }
+
+      .flag:nth-child(8) {
+        left: 53%;
+        border-top-color: #ffbd55;
+        transform: rotate(-11deg);
+      }
+
+      .flag:nth-child(9) {
+        left: 60%;
+        transform: rotate(8deg);
+      }
+
+      .flag:nth-child(10) {
+        left: 67%;
+        border-top-color: var(--sun);
+        transform: rotate(-4deg);
+      }
+
+      .flag:nth-child(11) {
+        left: 74%;
+        border-top-color: #3f93bf;
+        transform: rotate(10deg);
+      }
+
+      .flag:nth-child(12) {
+        left: 81%;
+        border-top-color: #ffbd55;
+        transform: rotate(-8deg);
+      }
+
+      .flag:nth-child(13) {
+        left: 88%;
+        transform: rotate(5deg);
+      }
+
+      .flag:nth-child(14) {
+        left: 95%;
+        border-top-color: var(--sun);
+        transform: rotate(-10deg);
+      }
+
+      .neighbourhood {
+        inset: auto 0 0;
+        z-index: 1;
+        height: clamp(8rem, 18vw, 12rem);
+        background:
+          radial-gradient(78% 105% at 48% 112%, var(--teal) 0 58%, transparent 59%),
+          radial-gradient(82% 95% at 7% 120%, var(--teal) 0 52%, transparent 53%),
+          radial-gradient(78% 88% at 96% 120%, var(--teal) 0 50%, transparent 51%);
+      }
+
+      .house {
+        position: absolute;
+        bottom: 0;
+        width: clamp(3.7rem, 8vw, 5.6rem);
+        height: clamp(4.2rem, 9vw, 6.6rem);
+        background: var(--sun);
+      }
+
+      .house::before {
+        content: "";
+        position: absolute;
+        left: -0.75rem;
+        right: -0.75rem;
+        top: -1.65rem;
+        height: 2.35rem;
+        background: var(--pink);
+        clip-path: polygon(50% 0, 100% 100%, 0 100%);
+      }
+
+      .house::after {
+        content: "";
+        position: absolute;
+        left: 50%;
+        top: 38%;
+        width: 42%;
+        height: 40%;
+        border: 0.35rem solid var(--ink);
+        background:
+          linear-gradient(90deg, transparent 44%, var(--ink) 45% 55%, transparent 56%),
+          linear-gradient(transparent 44%, var(--ink) 45% 55%, transparent 56%),
+          var(--cream);
+        transform: translateX(-50%) rotate(2deg);
+      }
+
+      .house.one {
+        left: 5%;
+        height: clamp(5rem, 12vw, 8.2rem);
+      }
+
+      .house.one::before {
+        background: var(--cream);
+      }
+
+      .house.two {
+        left: 23%;
+        background: var(--pink);
+      }
+
+      .house.two::before {
+        background: var(--orange);
+      }
+
+      .house.three {
+        right: 12%;
+        width: clamp(4.2rem, 9vw, 6.4rem);
+        height: clamp(4.8rem, 10vw, 7.2rem);
+        background: var(--cream);
+      }
+
+      .house.four {
+        left: 50%;
+        width: clamp(3.2rem, 7vw, 4.8rem);
+        height: clamp(3.8rem, 8vw, 5.6rem);
+        background: var(--sun);
+      }
+
+      @media (max-width: 42rem) {
+        .party {
+          min-height: auto;
+        }
+
+        .content {
+          padding-top: 3rem;
+          padding-bottom: 8rem;
+        }
+
+        .where {
+          max-width: 18rem;
+        }
+
+        .details {
+          text-align: left;
+        }
+
+        .neighbourhood {
+          height: 8.5rem;
+        }
+
+        .house.one {
+          left: -0.5rem;
+        }
+
+        .house.two {
+          left: 29%;
+        }
+
+        .house.three {
+          right: -0.7rem;
+        }
+
+        .house.four {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="party" aria-labelledby="party-title">
+        <div class="bunting" aria-hidden="true">
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+          <span class="flag"></span>
+        </div>
+
+        <div class="content">
+          <p class="eyebrow">Let's celebrate our community at the</p>
+          <h1 id="party-title">Neighbourhood Block Party!</h1>
+
+          <p class="where">
+            Vincent Street between Devonshire and Young
+          </p>
+
+          <div class="details" aria-label="Event details">
+            <p class="detail">
+              <strong>Sunday, September 20</strong>
+              <span>12:00 PM to 3:00 PM</span>
+              <span class="rain-note">Rain date: September 27</span>
+            </p>
+          </div>
+
+          <p class="activities">BBQ, music, games and good times!</p>
+          <p class="more-details">Check back for more details.</p>
+          <p class="partnership">
+            In partnership with <a href="https://bingoforbetter.ca/">Bingo for Better</a>.
+          </p>
+        </div>
+
+        <div class="neighbourhood" aria-hidden="true">
+          <div class="house one"></div>
+          <div class="house two"></div>
+          <div class="house three"></div>
+          <div class="house four"></div>
+        </div>
+      </section>
+    </main>
+    <script data-goatcounter="https://hb.s.danp.net/count" async src="//hb.s.danp.net/count.js"></script>
+  </body>
+</html>
