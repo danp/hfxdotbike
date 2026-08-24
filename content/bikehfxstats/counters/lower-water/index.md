@@ -1,7 +1,7 @@
 {
   "title": "Lower Water",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-22",
+  "as_of": "2026-08-23",
   "counter_id": "lower-water",
   "short_name": "Lwr Water",
   "active": true,
@@ -11,7 +11,7 @@
   "total_year": 673,
   "total_all_time": 60618,
   "recent_day": {
-    "label": "Aug 22",
+    "label": "Aug 23",
     "count": 0
   },
   "recent_seven_days": {
@@ -176,7 +176,7 @@
   }
 }
 
-Data through 2026-08-22.
+Data through 2026-08-23.
 
 ## Summary
 
