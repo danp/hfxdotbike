@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-24",
+  "as_of": "2026-08-25",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-08-25",
-  "last_non_zero_seen": "2026-08-24",
-  "total_year": 40746,
-  "total_all_time": 92442,
+  "last_seen": "2026-08-26",
+  "last_non_zero_seen": "2026-08-26",
+  "total_year": 41160,
+  "total_all_time": 92856,
   "recent_day": {
-    "label": "Aug 24",
-    "count": 199
+    "label": "Aug 25",
+    "count": 414
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1699
+    "count": 1978
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 7040
+    "count": 7454
   },
   "top_days": [
     {
@@ -51,16 +51,16 @@
       "count": 415
     },
     {
+      "label": "2026-08-25",
+      "count": 409
+    },
+    {
       "label": "2026-06-22",
       "count": 409
     },
     {
       "label": "2026-06-10",
       "count": 407
-    },
-    {
-      "label": "2026-07-20",
-      "count": 403
     }
   ],
   "top_weeks": [
@@ -127,12 +127,12 @@
       "count": 7497
     },
     {
-      "label": "2025-10",
-      "count": 7121
+      "label": "2026-08",
+      "count": 7470
     },
     {
-      "label": "2026-08",
-      "count": 7052
+      "label": "2025-10",
+      "count": 7121
     },
     {
       "label": "2026-05",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-08-24.
+Data through 2026-08-25.
 
 ## Summary
 
-- Total in 2026: 40746
-- Total all-time: 92442
+- Total in 2026: 41160
+- Total all-time: 92856
 - Active: true
-- Last seen: 2026-08-25
-- Last non-zero count: 2026-08-24
+- Last seen: 2026-08-26
+- Last non-zero count: 2026-08-26
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -203,9 +203,9 @@ Data through 2026-08-24.
 | 2026-07-15 | 418 |
 | 2026-08-12 | 417 |
 | 2026-08-11 | 415 |
+| 2026-08-25 | 409 |
 | 2026-06-22 | 409 |
 | 2026-06-10 | 407 |
-| 2026-07-20 | 403 |
 
 ## Top Weeks
 
@@ -231,8 +231,8 @@ Data through 2026-08-24.
 | 2026-06 | 8686 |
 | 2025-08 | 8143 |
 | 2025-07 | 7497 |
+| 2026-08 | 7470 |
 | 2025-10 | 7121 |
-| 2026-08 | 7052 |
 | 2026-05 | 6526 |
 | 2025-06 | 4922 |
 | 2026-04 | 4497 |
