@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-28",
+  "as_of": "2026-08-29",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-08-29",
-  "last_non_zero_seen": "2026-08-28",
-  "total_year": 42350,
-  "total_all_time": 94046,
+  "last_seen": "2026-08-30",
+  "last_non_zero_seen": "2026-08-30",
+  "total_year": 42606,
+  "total_all_time": 94302,
   "recent_day": {
-    "label": "Aug 28",
-    "count": 369
+    "label": "Aug 29",
+    "count": 256
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2120
+    "count": 2128
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 8644
+    "count": 8900
   },
   "top_days": [
     {
@@ -89,6 +89,10 @@
       "count": 2124
     },
     {
+      "label": "2026-08-23",
+      "count": 2119
+    },
+    {
       "label": "2026-07-19",
       "count": 2104
     },
@@ -99,10 +103,6 @@
     {
       "label": "2026-06-28",
       "count": 2061
-    },
-    {
-      "label": "2026-06-14",
-      "count": 2056
     }
   ],
   "top_months": [
@@ -111,16 +111,16 @@
       "count": 10026
     },
     {
+      "label": "2026-08",
+      "count": 8915
+    },
+    {
       "label": "2025-09",
       "count": 8723
     },
     {
       "label": "2026-06",
       "count": 8686
-    },
-    {
-      "label": "2026-08",
-      "count": 8659
     },
     {
       "label": "2025-08",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-08-28.
+Data through 2026-08-29.
 
 ## Summary
 
-- Total in 2026: 42350
-- Total all-time: 94046
+- Total in 2026: 42606
+- Total all-time: 94302
 - Active: true
-- Last seen: 2026-08-29
-- Last non-zero count: 2026-08-28
+- Last seen: 2026-08-30
+- Last non-zero count: 2026-08-30
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -217,19 +217,19 @@ Data through 2026-08-28.
 | 2025-09-14 | 2174 |
 | 2026-08-16 | 2142 |
 | 2026-07-26 | 2124 |
+| 2026-08-23 | 2119 |
 | 2026-07-19 | 2104 |
 | 2025-09-21 | 2080 |
 | 2026-06-28 | 2061 |
-| 2026-06-14 | 2056 |
 
 ## Top Months
 
 | Month | Count |
 |---|---:|
 | 2026-07 | 10026 |
+| 2026-08 | 8915 |
 | 2025-09 | 8723 |
 | 2026-06 | 8686 |
-| 2026-08 | 8659 |
 | 2025-08 | 8143 |
 | 2025-07 | 7497 |
 | 2025-10 | 7121 |
