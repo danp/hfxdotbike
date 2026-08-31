@@ -1,30 +1,34 @@
 {
   "title": "Barrington",
   "type": "bikehfxstats-site",
-  "as_of": "2026-08-12",
+  "as_of": "2026-08-30",
   "counter_id": "barrington",
   "active": true,
   "location": "Just south of North St",
-  "last_seen": "2026-05-31",
-  "last_non_zero_seen": "2026-05-31",
-  "total_year": 13520,
-  "total_all_time": 128408,
+  "last_seen": "2026-08-31",
+  "last_non_zero_seen": "2026-08-30",
+  "total_year": 17349,
+  "total_all_time": 132237,
   "recent_day": {
-    "label": "Aug 12",
-    "count": 0
+    "label": "Aug 30",
+    "count": 162
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 0
+    "count": 1803
   },
   "month_to_date": {
     "label": "Aug to date",
-    "count": 0
+    "count": 3829
   },
   "top_days": [
     {
       "label": "2025-09-04",
       "count": 395
+    },
+    {
+      "label": "2026-08-25",
+      "count": 389
     },
     {
       "label": "2025-06-24",
@@ -43,24 +47,20 @@
       "count": 350
     },
     {
+      "label": "2026-08-27",
+      "count": 349
+    },
+    {
+      "label": "2026-08-20",
+      "count": 346
+    },
+    {
       "label": "2025-09-17",
       "count": 346
     },
     {
       "label": "2025-06-03",
       "count": 345
-    },
-    {
-      "label": "2025-07-09",
-      "count": 343
-    },
-    {
-      "label": "2025-08-20",
-      "count": 341
-    },
-    {
-      "label": "2025-09-16",
-      "count": 339
     }
   ],
   "top_weeks": [
@@ -85,8 +85,16 @@
       "count": 1730
     },
     {
+      "label": "2026-08-16",
+      "count": 1719
+    },
+    {
       "label": "2025-08-03",
       "count": 1687
+    },
+    {
+      "label": "2026-08-23",
+      "count": 1660
     },
     {
       "label": "2025-06-22",
@@ -95,14 +103,6 @@
     {
       "label": "2025-09-07",
       "count": 1645
-    },
-    {
-      "label": "2026-05-17",
-      "count": 1635
-    },
-    {
-      "label": "2024-08-11",
-      "count": 1631
     }
   ],
   "top_months": [
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-08-12.
+Data through 2026-08-30.
 
 ## Summary
 
-- Total in 2026: 13520
-- Total all-time: 128408
+- Total in 2026: 17349
+- Total all-time: 132237
 - Active: true
-- Last seen: 2026-05-31
-- Last non-zero count: 2026-05-31
+- Last seen: 2026-08-31
+- Last non-zero count: 2026-08-30
 - Location: Just south of North St
 
 ## Yearly Totals
@@ -215,15 +215,15 @@ Data through 2026-08-12.
 | Day | Count |
 |---|---:|
 | 2025-09-04 | 395 |
+| 2026-08-25 | 389 |
 | 2025-06-24 | 370 |
 | 2026-05-21 | 359 |
 | 2025-10-07 | 358 |
 | 2025-06-12 | 350 |
+| 2026-08-27 | 349 |
+| 2026-08-20 | 346 |
 | 2025-09-17 | 346 |
 | 2025-06-03 | 345 |
-| 2025-07-09 | 343 |
-| 2025-08-20 | 341 |
-| 2025-09-16 | 339 |
 
 ## Top Weeks
 
@@ -234,11 +234,11 @@ Data through 2026-08-12.
 | 2025-07-13 | 1772 |
 | 2025-09-14 | 1751 |
 | 2025-06-08 | 1730 |
+| 2026-08-16 | 1719 |
 | 2025-08-03 | 1687 |
+| 2026-08-23 | 1660 |
 | 2025-06-22 | 1657 |
 | 2025-09-07 | 1645 |
-| 2026-05-17 | 1635 |
-| 2024-08-11 | 1631 |
 
 ## Top Months
 
