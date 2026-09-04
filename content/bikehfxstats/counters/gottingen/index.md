@@ -1,7 +1,7 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-02",
+  "as_of": "2026-09-03",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
@@ -10,7 +10,7 @@
   "total_year": 31697,
   "total_all_time": 138324,
   "recent_day": {
-    "label": "Sep 2",
+    "label": "Sep 3",
     "count": 0
   },
   "recent_seven_days": {
@@ -175,7 +175,7 @@
   }
 }
 
-Data through 2026-09-02.
+Data through 2026-09-03.
 
 ## Summary
 

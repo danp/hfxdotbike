@@ -1,25 +1,25 @@
 {
   "title": "Barrington",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-02",
+  "as_of": "2026-09-03",
   "counter_id": "barrington",
   "active": true,
   "location": "Just south of North St",
-  "last_seen": "2026-09-03",
-  "last_non_zero_seen": "2026-09-02",
-  "total_year": 18322,
-  "total_all_time": 133210,
+  "last_seen": "2026-09-04",
+  "last_non_zero_seen": "2026-09-03",
+  "total_year": 18583,
+  "total_all_time": 133471,
   "recent_day": {
-    "label": "Sep 2",
-    "count": 352
+    "label": "Sep 3",
+    "count": 261
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1856
+    "count": 1772
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 692
+    "count": 953
   },
   "top_days": [
     {
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-09-02.
+Data through 2026-09-03.
 
 ## Summary
 
-- Total in 2026: 18322
-- Total all-time: 133210
+- Total in 2026: 18583
+- Total all-time: 133471
 - Active: true
-- Last seen: 2026-09-03
-- Last non-zero count: 2026-09-02
+- Last seen: 2026-09-04
+- Last non-zero count: 2026-09-03
 - Location: Just south of North St
 
 ## Yearly Totals
