@@ -6,7 +6,7 @@
     <title>Neighbourhood Block Party</title>
     <meta
       name="description"
-      content="Neighbourhood Block Party on Vincent Street between Devonshire and Young, Sunday, September 20 from 12pm to 3pm."
+      content="Neighbourhood Block Party on Vincent Street between Devonshire Ave and Young St, Sunday, September 20 from 12pm to 3pm."
     >
     <style>
       :root {
@@ -79,6 +79,10 @@
         font-weight: 750;
       }
 
+      .where span {
+        display: block;
+      }
+
       .details {
         display: grid;
         gap: 1rem;
@@ -128,22 +132,52 @@
       }
 
       .partnership,
-      .more-details {
+      .contact {
         margin: 0.65rem auto 0;
         color: var(--ink);
         font-size: clamp(0.95rem, 2.2vw, 1.1rem);
         font-weight: 650;
       }
 
-      .partnership a {
+      .partnership a,
+      .contact a {
         color: var(--teal-dark);
+        overflow-wrap: anywhere;
         text-underline-offset: 0.18em;
       }
 
-      .more-details {
-        margin-top: 0.35rem;
-        color: #625b76;
-        font-weight: 600;
+      .expect {
+        width: min(100%, 40rem);
+        margin: clamp(1.5rem, 4vw, 2.3rem) auto 0;
+        padding: clamp(1rem, 3vw, 1.4rem);
+        border: 3px solid #b9ddda;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.92);
+        box-shadow: 0 0.65rem 0 rgba(169, 63, 81, 0.12);
+        text-align: left;
+      }
+
+      .expect h2 {
+        margin: 0;
+        color: var(--berry);
+        font-size: clamp(1.45rem, 3vw, 2rem);
+        line-height: 1.15;
+        letter-spacing: 0;
+      }
+
+      .expect-list {
+        display: grid;
+        gap: 0.7rem;
+        margin: 1rem 0 0;
+        padding-inline-start: 1.25rem;
+      }
+
+      .expect-list li {
+        padding-inline-start: 0.2rem;
+      }
+
+      .expect-list li::marker {
+        color: var(--teal-dark);
       }
 
       .bunting,
@@ -347,6 +381,10 @@
           text-align: left;
         }
 
+        .expect {
+          padding: 1rem;
+        }
+
         .neighbourhood {
           height: 8.5rem;
         }
@@ -394,7 +432,8 @@
           <h1 id="party-title">Neighbourhood Block Party!</h1>
 
           <p class="where">
-            Vincent Street between Devonshire and Young
+            <span>Vincent Street</span>
+            <span>between Devonshire Ave and Young St</span>
           </p>
 
           <div class="details" aria-label="Event details">
@@ -406,7 +445,22 @@
           </div>
 
           <p class="activities">BBQ, music, games and good times!</p>
-          <p class="more-details">Check back for more details.</p>
+          <section class="expect" aria-labelledby="expect-title">
+            <h2 id="expect-title">What to expect</h2>
+            <ul class="expect-list">
+              <li>The street will be closed to through traffic 11am-4pm. Emergency access will be maintained. If you have a vehicle parked on the street, we kindly ask that you move it to a driveway or alternative street.</li>
+              <li>The party will run 12-3pm.</li>
+              <li>Free food, live music, activities for all ages. Bring friends and family!</li>
+              <li>If possible, bring your own plate, mug, etc. to reduce waste.</li>
+              <li>Kids will be selling artwork, lemonade etc. for good causes. Bring a bit of cash!</li>
+              <li>Bring your own seating to use in the street or the pocket park.</li>
+              <li>No washrooms on site. The nearest public washroom is at Fort Needham park near the Needham St entrance.</li>
+              <li>If the party needs to be rescheduled due to weather, we will decide by 8am on Sept 20 and post on the website.</li>
+            </ul>
+          </section>
+          <p class="contact">
+            Questions? Email <a href="mailto:vincentparty@fastmail.ca">vincentparty@fastmail.ca</a>.
+          </p>
           <p class="partnership">
             In partnership with <a href="https://bingoforbetter.ca/">Bingo for Better</a>, a bingo game highlighting the many parts of our communities that have been hollowed out by the N.S. government's budget cuts.
           </p>
