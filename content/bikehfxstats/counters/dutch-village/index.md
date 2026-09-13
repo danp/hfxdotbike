@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-11",
+  "as_of": "2026-09-12",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-09-12",
-  "last_non_zero_seen": "2026-09-11",
-  "total_year": 19643,
-  "total_all_time": 19643,
+  "last_seen": "2026-09-13",
+  "last_non_zero_seen": "2026-09-12",
+  "total_year": 19780,
+  "total_all_time": 19780,
   "recent_day": {
-    "label": "Sep 11",
-    "count": 173
+    "label": "Sep 12",
+    "count": 137
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 843
+    "count": 921
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 1347
+    "count": 1484
   },
   "top_days": [
     {
@@ -78,6 +78,10 @@
       "count": 924
     },
     {
+      "label": "2026-09-06",
+      "count": 919
+    },
+    {
       "label": "2026-08-02",
       "count": 910
     },
@@ -100,10 +104,6 @@
     {
       "label": "2026-06-07",
       "count": 884
-    },
-    {
-      "label": "2026-06-14",
-      "count": 861
     }
   ],
   "top_months": [
@@ -129,7 +129,7 @@
     },
     {
       "label": "2026-09",
-      "count": 1354
+      "count": 1491
     },
     {
       "label": "2026-03",
@@ -153,15 +153,15 @@
   }
 }
 
-Data through 2026-09-11.
+Data through 2026-09-12.
 
 ## Summary
 
-- Total in 2026: 19643
-- Total all-time: 19643
+- Total in 2026: 19780
+- Total all-time: 19780
 - Active: true
-- Last seen: 2026-09-12
-- Last non-zero count: 2026-09-11
+- Last seen: 2026-09-13
+- Last non-zero count: 2026-09-12
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -198,13 +198,13 @@ Data through 2026-09-11.
 | 2026-08-09 | 1102 |
 | 2026-07-05 | 1035 |
 | 2026-07-12 | 924 |
+| 2026-09-06 | 919 |
 | 2026-08-02 | 910 |
 | 2026-08-16 | 900 |
 | 2026-08-23 | 894 |
 | 2026-06-28 | 893 |
 | 2026-07-26 | 887 |
 | 2026-06-07 | 884 |
-| 2026-06-14 | 861 |
 
 ## Top Months
 
@@ -215,6 +215,6 @@ Data through 2026-09-11.
 | 2026-06 | 3659 |
 | 2026-05 | 2975 |
 | 2026-04 | 1979 |
-| 2026-09 | 1354 |
+| 2026-09 | 1491 |
 | 2026-03 | 1101 |
 | 2026-02 | 329 |
