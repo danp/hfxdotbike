@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-17",
+  "as_of": "2026-09-18",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-09-18",
-  "last_non_zero_seen": "2026-09-17",
-  "total_year": 85799,
-  "total_all_time": 95990,
+  "last_seen": "2026-09-19",
+  "last_non_zero_seen": "2026-09-18",
+  "total_year": 86151,
+  "total_all_time": 96342,
   "recent_day": {
-    "label": "Sep 17",
-    "count": 778
+    "label": "Sep 18",
+    "count": 352
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 4268
+    "count": 3895
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 8640
+    "count": 8992
   },
   "top_days": [
     {
@@ -94,16 +94,16 @@
       "count": 3627
     },
     {
+      "label": "2026-09-13",
+      "count": 3614
+    },
+    {
       "label": "2026-08-23",
       "count": 3567
     },
     {
       "label": "2026-08-02",
       "count": 3526
-    },
-    {
-      "label": "2026-06-21",
-      "count": 3524
     }
   ],
   "top_months": [
@@ -125,7 +125,7 @@
     },
     {
       "label": "2026-09",
-      "count": 8663
+      "count": 9014
     },
     {
       "label": "2026-04",
@@ -166,15 +166,15 @@
   }
 }
 
-Data through 2026-09-17.
+Data through 2026-09-18.
 
 ## Summary
 
-- Total in 2026: 85799
-- Total all-time: 95990
+- Total in 2026: 86151
+- Total all-time: 96342
 - Active: true
-- Last seen: 2026-09-18
-- Last non-zero count: 2026-09-17
+- Last seen: 2026-09-19
+- Last non-zero count: 2026-09-18
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -219,9 +219,9 @@ Data through 2026-09-17.
 | 2026-05-31 | 3747 |
 | 2026-07-26 | 3690 |
 | 2026-05-17 | 3627 |
+| 2026-09-13 | 3614 |
 | 2026-08-23 | 3567 |
 | 2026-08-02 | 3526 |
-| 2026-06-21 | 3524 |
 
 ## Top Months
 
@@ -231,7 +231,7 @@ Data through 2026-09-17.
 | 2026-06 | 16787 |
 | 2026-08 | 12426 |
 | 2026-05 | 12319 |
-| 2026-09 | 8663 |
+| 2026-09 | 9014 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
 | 2026-03 | 4186 |
