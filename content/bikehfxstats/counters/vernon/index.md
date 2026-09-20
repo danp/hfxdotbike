@@ -1,25 +1,25 @@
 {
   "title": "Vernon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-18",
+  "as_of": "2026-09-19",
   "counter_id": "vernon",
   "active": true,
   "location": "Vernon St just north of Julibee Rd",
-  "last_seen": "2026-09-19",
+  "last_seen": "2026-09-20",
   "last_non_zero_seen": "2026-09-19",
-  "total_year": 38702,
-  "total_all_time": 495279,
+  "total_year": 38983,
+  "total_all_time": 495560,
   "recent_day": {
-    "label": "Sep 18",
-    "count": 411
+    "label": "Sep 19",
+    "count": 281
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3660
+    "count": 3642
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 8140
+    "count": 8421
   },
   "top_days": [
     {
@@ -73,6 +73,10 @@
       "count": 3776
     },
     {
+      "label": "2026-09-13",
+      "count": 3645
+    },
+    {
       "label": "2024-09-08",
       "count": 3643
     },
@@ -99,10 +103,6 @@
     {
       "label": "2025-09-07",
       "count": 3455
-    },
-    {
-      "label": "2025-10-19",
-      "count": 3452
     }
   ],
   "top_months": [
@@ -190,14 +190,14 @@
   }
 }
 
-Data through 2026-09-18.
+Data through 2026-09-19.
 
 ## Summary
 
-- Total in 2026: 38702
-- Total all-time: 495279
+- Total in 2026: 38983
+- Total all-time: 495560
 - Active: true
-- Last seen: 2026-09-19
+- Last seen: 2026-09-20
 - Last non-zero count: 2026-09-19
 - Location: Vernon St just north of Julibee Rd
 
@@ -258,6 +258,7 @@ Data through 2026-09-18.
 |---|---:|
 | 2025-09-21 | 3879 |
 | 2024-09-15 | 3776 |
+| 2026-09-13 | 3645 |
 | 2024-09-08 | 3643 |
 | 2022-09-11 | 3601 |
 | 2025-09-14 | 3571 |
@@ -265,7 +266,6 @@ Data through 2026-09-18.
 | 2023-09-24 | 3522 |
 | 2025-09-28 | 3455 |
 | 2025-09-07 | 3455 |
-| 2025-10-19 | 3452 |
 
 ## Top Months
 
