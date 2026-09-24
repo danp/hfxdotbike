@@ -1,25 +1,25 @@
 {
   "title": "Almon",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-22",
+  "as_of": "2026-09-23",
   "counter_id": "almon",
   "active": true,
   "location": "Both sides of Almon St at the western edge of Richmond Yards",
-  "last_seen": "2026-09-23",
-  "last_non_zero_seen": "2026-09-22",
-  "total_year": 50399,
-  "total_all_time": 102095,
+  "last_seen": "2026-09-24",
+  "last_non_zero_seen": "2026-09-23",
+  "total_year": 50833,
+  "total_all_time": 102529,
   "recent_day": {
-    "label": "Sep 22",
-    "count": 390
+    "label": "Sep 23",
+    "count": 434
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 2306
+    "count": 2253
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 7146
+    "count": 7580
   },
   "top_days": [
     {
@@ -55,12 +55,12 @@
       "count": 431
     },
     {
-      "label": "2026-09-08",
+      "label": "2026-09-23",
       "count": 429
     },
     {
-      "label": "2026-07-29",
-      "count": 418
+      "label": "2026-09-08",
+      "count": 429
     }
   ],
   "top_weeks": [
@@ -127,12 +127,12 @@
       "count": 8143
     },
     {
-      "label": "2025-07",
-      "count": 7497
+      "label": "2026-09",
+      "count": 7595
     },
     {
-      "label": "2026-09",
-      "count": 7160
+      "label": "2025-07",
+      "count": 7497
     },
     {
       "label": "2025-10",
@@ -165,15 +165,15 @@
   }
 }
 
-Data through 2026-09-22.
+Data through 2026-09-23.
 
 ## Summary
 
-- Total in 2026: 50399
-- Total all-time: 102095
+- Total in 2026: 50833
+- Total all-time: 102529
 - Active: true
-- Last seen: 2026-09-23
-- Last non-zero count: 2026-09-22
+- Last seen: 2026-09-24
+- Last non-zero count: 2026-09-23
 - Location: Both sides of Almon St at the western edge of Richmond Yards
 
 ## Yearly Totals
@@ -204,8 +204,8 @@ Data through 2026-09-22.
 | 2026-06-25 | 437 |
 | 2026-07-21 | 435 |
 | 2026-07-09 | 431 |
+| 2026-09-23 | 429 |
 | 2026-09-08 | 429 |
-| 2026-07-29 | 418 |
 
 ## Top Weeks
 
@@ -231,8 +231,8 @@ Data through 2026-09-22.
 | 2025-09 | 8723 |
 | 2026-06 | 8686 |
 | 2025-08 | 8143 |
+| 2026-09 | 7595 |
 | 2025-07 | 7497 |
-| 2026-09 | 7160 |
 | 2025-10 | 7121 |
 | 2026-05 | 6526 |
 | 2025-06 | 4922 |
