@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-23",
+  "as_of": "2026-09-24",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-09-24",
-  "last_non_zero_seen": "2026-09-23",
-  "total_year": 88679,
-  "total_all_time": 98870,
+  "last_seen": "2026-09-25",
+  "last_non_zero_seen": "2026-09-24",
+  "total_year": 89475,
+  "total_all_time": 99666,
   "recent_day": {
-    "label": "Sep 23",
-    "count": 798
+    "label": "Sep 24",
+    "count": 796
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3658
+    "count": 3676
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 11520
+    "count": 12316
   },
   "top_days": [
     {
@@ -56,12 +56,12 @@
       "count": 810
     },
     {
-      "label": "2026-09-15",
+      "label": "2026-09-24",
       "count": 801
     },
     {
-      "label": "2026-09-23",
-      "count": 792
+      "label": "2026-09-15",
+      "count": 801
     }
   ],
   "top_weeks": [
@@ -120,12 +120,12 @@
       "count": 12426
     },
     {
-      "label": "2026-05",
-      "count": 12319
+      "label": "2026-09",
+      "count": 12336
     },
     {
-      "label": "2026-09",
-      "count": 11541
+      "label": "2026-05",
+      "count": 12319
     },
     {
       "label": "2026-04",
@@ -166,15 +166,15 @@
   }
 }
 
-Data through 2026-09-23.
+Data through 2026-09-24.
 
 ## Summary
 
-- Total in 2026: 88679
-- Total all-time: 98870
+- Total in 2026: 89475
+- Total all-time: 99666
 - Active: true
-- Last seen: 2026-09-24
-- Last non-zero count: 2026-09-23
+- Last seen: 2026-09-25
+- Last non-zero count: 2026-09-24
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -205,8 +205,8 @@ Data through 2026-09-23.
 | 2026-06-09 | 820 |
 | 2026-05-20 | 818 |
 | 2026-07-29 | 810 |
+| 2026-09-24 | 801 |
 | 2026-09-15 | 801 |
-| 2026-09-23 | 792 |
 
 ## Top Weeks
 
@@ -230,8 +230,8 @@ Data through 2026-09-23.
 | 2026-07 | 17154 |
 | 2026-06 | 16787 |
 | 2026-08 | 12426 |
+| 2026-09 | 12336 |
 | 2026-05 | 12319 |
-| 2026-09 | 11541 |
 | 2026-04 | 8170 |
 | 2025-11 | 7231 |
 | 2026-03 | 4186 |
