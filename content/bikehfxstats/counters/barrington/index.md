@@ -1,25 +1,25 @@
 {
   "title": "Barrington",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-26",
   "counter_id": "barrington",
   "active": true,
   "location": "Just south of North St",
-  "last_seen": "2026-09-26",
-  "last_non_zero_seen": "2026-09-25",
-  "total_year": 23683,
-  "total_all_time": 138571,
+  "last_seen": "2026-09-27",
+  "last_non_zero_seen": "2026-09-26",
+  "total_year": 23754,
+  "total_all_time": 138642,
   "recent_day": {
-    "label": "Sep 25",
-    "count": 257
+    "label": "Sep 26",
+    "count": 71
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1777
+    "count": 1685
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 6053
+    "count": 6124
   },
   "top_days": [
     {
@@ -93,16 +93,16 @@
       "count": 1719
     },
     {
+      "label": "2026-09-20",
+      "count": 1694
+    },
+    {
       "label": "2025-08-03",
       "count": 1687
     },
     {
       "label": "2026-08-23",
       "count": 1660
-    },
-    {
-      "label": "2025-06-22",
-      "count": 1657
     }
   ],
   "top_months": [
@@ -123,6 +123,10 @@
       "count": 6544
     },
     {
+      "label": "2026-09",
+      "count": 6127
+    },
+    {
       "label": "2024-08",
       "count": 6115
     },
@@ -133,10 +137,6 @@
     {
       "label": "2024-09",
       "count": 6089
-    },
-    {
-      "label": "2026-09",
-      "count": 6056
     },
     {
       "label": "2025-10",
@@ -175,15 +175,15 @@
   }
 }
 
-Data through 2026-09-25.
+Data through 2026-09-26.
 
 ## Summary
 
-- Total in 2026: 23683
-- Total all-time: 138571
+- Total in 2026: 23754
+- Total all-time: 138642
 - Active: true
-- Last seen: 2026-09-26
-- Last non-zero count: 2026-09-25
+- Last seen: 2026-09-27
+- Last non-zero count: 2026-09-26
 - Location: Just south of North St
 
 ## Yearly Totals
@@ -236,9 +236,9 @@ Data through 2026-09-25.
 | 2025-09-14 | 1751 |
 | 2025-06-08 | 1730 |
 | 2026-08-16 | 1719 |
+| 2026-09-20 | 1694 |
 | 2025-08-03 | 1687 |
 | 2026-08-23 | 1660 |
-| 2025-06-22 | 1657 |
 
 ## Top Months
 
@@ -248,9 +248,9 @@ Data through 2026-09-25.
 | 2025-09 | 7089 |
 | 2025-06 | 6758 |
 | 2024-07 | 6544 |
+| 2026-09 | 6127 |
 | 2024-08 | 6115 |
 | 2025-08 | 6112 |
 | 2024-09 | 6089 |
-| 2026-09 | 6056 |
 | 2025-10 | 5886 |
 | 2024-06 | 5687 |

@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-25",
+  "as_of": "2026-09-26",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-09-26",
-  "last_non_zero_seen": "2026-09-25",
-  "total_year": 90076,
-  "total_all_time": 100267,
+  "last_seen": "2026-09-27",
+  "last_non_zero_seen": "2026-09-26",
+  "total_year": 90270,
+  "total_all_time": 100461,
   "recent_day": {
-    "label": "Sep 25",
-    "count": 601
+    "label": "Sep 26",
+    "count": 194
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3925
+    "count": 3836
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 12917
+    "count": 13111
   },
   "top_days": [
     {
@@ -82,6 +82,10 @@
       "count": 3883
     },
     {
+      "label": "2026-09-20",
+      "count": 3831
+    },
+    {
       "label": "2026-06-07",
       "count": 3827
     },
@@ -92,10 +96,6 @@
     {
       "label": "2026-07-26",
       "count": 3690
-    },
-    {
-      "label": "2026-09-20",
-      "count": 3654
     },
     {
       "label": "2026-05-17",
@@ -117,7 +117,7 @@
     },
     {
       "label": "2026-09",
-      "count": 12937
+      "count": 13133
     },
     {
       "label": "2026-08",
@@ -166,15 +166,15 @@
   }
 }
 
-Data through 2026-09-25.
+Data through 2026-09-26.
 
 ## Summary
 
-- Total in 2026: 90076
-- Total all-time: 100267
+- Total in 2026: 90270
+- Total all-time: 100461
 - Active: true
-- Last seen: 2026-09-26
-- Last non-zero count: 2026-09-25
+- Last seen: 2026-09-27
+- Last non-zero count: 2026-09-26
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
@@ -216,10 +216,10 @@ Data through 2026-09-25.
 | 2026-07-12 | 4254 |
 | 2026-06-14 | 4172 |
 | 2026-09-13 | 3883 |
+| 2026-09-20 | 3831 |
 | 2026-06-07 | 3827 |
 | 2026-05-31 | 3747 |
 | 2026-07-26 | 3690 |
-| 2026-09-20 | 3654 |
 | 2026-05-17 | 3627 |
 | 2026-08-23 | 3567 |
 
@@ -229,7 +229,7 @@ Data through 2026-09-25.
 |---|---:|
 | 2026-07 | 17154 |
 | 2026-06 | 16787 |
-| 2026-09 | 12937 |
+| 2026-09 | 13133 |
 | 2026-08 | 12426 |
 | 2026-05 | 12319 |
 | 2026-04 | 8170 |
