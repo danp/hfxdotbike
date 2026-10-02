@@ -18,9 +18,9 @@ descriptions:
   * One playground has a rubber surface, and the other has a pea-gravel surface. 
   * There are several large sports fields behind the school.
   * There are several picnic tables and benches at the front of the school and some benches nearby the playgrounds as well.
-* There are bus stops on Crichton Ave, Woodland Ave and Micmac Blvd.
-* There is on-street parking on several nearby streets, and a small parking lot on the school grounds.
-* There are no public washroom facilities at the school playground.
+  * There are bus stops on Crichton Ave, Woodland Ave and Micmac Blvd.
+  * There is on-street parking on several nearby streets, and a small parking lot on the school grounds.
+  * There are no public washroom facilities at the school playground.
 * The ride ends at Albro Lake Beach Park playground
   * There are two playground structures: one for ages 2-5 and one for ages 5-12. 
   * Both play structures have a wood chip surface and there is a playground communication board nearby
