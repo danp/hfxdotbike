@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-19",
+  "as_of": "2026-09-30",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-09-20",
-  "last_non_zero_seen": "2026-09-19",
-  "total_year": 20830,
-  "total_all_time": 20830,
+  "last_seen": "2026-10-01",
+  "last_non_zero_seen": "2026-09-30",
+  "total_year": 22090,
+  "total_all_time": 22090,
   "recent_day": {
-    "label": "Sep 19",
-    "count": 141
+    "label": "Sep 30",
+    "count": 120
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 1050
+    "count": 726
   },
   "month_to_date": {
     "label": "Sep to date",
-    "count": 2534
+    "count": 3794
   },
   "top_days": [
     {
@@ -90,6 +90,10 @@
       "count": 910
     },
     {
+      "label": "2026-09-20",
+      "count": 908
+    },
+    {
       "label": "2026-08-16",
       "count": 900
     },
@@ -100,10 +104,6 @@
     {
       "label": "2026-06-28",
       "count": 893
-    },
-    {
-      "label": "2026-07-26",
-      "count": 887
     }
   ],
   "top_months": [
@@ -116,16 +116,16 @@
       "count": 4043
     },
     {
+      "label": "2026-09",
+      "count": 3801
+    },
+    {
       "label": "2026-06",
       "count": 3659
     },
     {
       "label": "2026-05",
       "count": 2975
-    },
-    {
-      "label": "2026-09",
-      "count": 2541
     },
     {
       "label": "2026-04",
@@ -138,6 +138,10 @@
     {
       "label": "2026-02",
       "count": 329
+    },
+    {
+      "label": "2026-10",
+      "count": 4
     }
   ],
   "year_heatmaps": [
@@ -153,15 +157,15 @@
   }
 }
 
-Data through 2026-09-19.
+Data through 2026-09-30.
 
 ## Summary
 
-- Total in 2026: 20830
-- Total all-time: 20830
+- Total in 2026: 22090
+- Total all-time: 22090
 - Active: true
-- Last seen: 2026-09-20
-- Last non-zero count: 2026-09-19
+- Last seen: 2026-10-01
+- Last non-zero count: 2026-09-30
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -201,10 +205,10 @@ Data through 2026-09-19.
 | 2026-07-12 | 924 |
 | 2026-09-06 | 919 |
 | 2026-08-02 | 910 |
+| 2026-09-20 | 908 |
 | 2026-08-16 | 900 |
 | 2026-08-23 | 894 |
 | 2026-06-28 | 893 |
-| 2026-07-26 | 887 |
 
 ## Top Months
 
@@ -212,9 +216,10 @@ Data through 2026-09-19.
 |---|---:|
 | 2026-08 | 4203 |
 | 2026-07 | 4043 |
+| 2026-09 | 3801 |
 | 2026-06 | 3659 |
 | 2026-05 | 2975 |
-| 2026-09 | 2541 |
 | 2026-04 | 1979 |
 | 2026-03 | 1101 |
 | 2026-02 | 329 |
+| 2026-10 | 4 |
