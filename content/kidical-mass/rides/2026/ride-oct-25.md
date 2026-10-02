@@ -14,10 +14,10 @@ descriptions:
 ## Ride Specific Info
 * We welcome you to wear costumes (that you can ride your bike in) or decorate your bike for the ride.
 * Our ride starts at the Crichton Park Elementary School playground
-* There are two large playground structures, one on each side of the school. 
-* One playground has a rubber surface, and the other has a pea-gravel surface. 
-* There are several large sports fields behind the school. 
-* There are several picnic tables and benches at the front of the school and some benches nearby the playgrounds as well.
+  * There are two large playground structures, one on each side of the school. 
+  * One playground has a rubber surface, and the other has a pea-gravel surface. 
+  * There are several large sports fields behind the school.
+  * There are several picnic tables and benches at the front of the school and some benches nearby the playgrounds as well.
 * There are bus stops on Crichton Ave, Woodland Ave and Micmac Blvd.
 * There is on-street parking on several nearby streets, and a small parking lot on the school grounds.
 * There are no public washroom facilities at the school playground.
