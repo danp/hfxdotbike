@@ -22,10 +22,10 @@ descriptions:
 * There is on-street parking on several nearby streets, and a small parking lot on the school grounds.
 * There are no public washroom facilities at the school playground.
 * The ride ends at Albro Lake Beach Park playground
-* There are two playground structures: one for ages 2-5 and one for ages 5-12. 
-* Both play structures have a wood chip surface and there is a playground communication board nearby
-* There are benches, covered picnic tables, a small sandy beach, and a rocky area that kids might like to climb
-* The public restrooms here will be CLOSED for the season, unfortunately
+  * There are two playground structures: one for ages 2-5 and one for ages 5-12. 
+  * Both play structures have a wood chip surface and there is a playground communication board nearby
+  * There are benches, covered picnic tables, a small sandy beach, and a rocky area that kids might like to climb
+  * The public restrooms here will be CLOSED for the season, unfortunately
 * We’ll provide snacks & prizes at the end of the ride
 
 {{< kidical-mass/ride-with-gps id="57385943" >}}
