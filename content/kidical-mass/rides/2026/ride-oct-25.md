@@ -25,7 +25,7 @@ descriptions:
   * There are two playground structures: one for ages 2-5 and one for ages 5-12. 
   * Both play structures have a wood chip surface and there is a playground communication board nearby
   * There are benches, covered picnic tables, a small sandy beach, and a rocky area that kids might like to climb
-  * The public restrooms here will be CLOSED for the season, unfortunately
+  * The public restrooms here are currently CLOSED for the season
 * We’ll provide snacks & prizes at the end of the ride
 
 {{< kidical-mass/ride-with-gps id="57385943" >}}
