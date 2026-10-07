@@ -1,14 +1,14 @@
 {
   "title": "Macdonald Bridge",
   "type": "bikehfxstats-site",
-  "as_of": "2026-09-30",
+  "as_of": "2026-10-06",
   "counter_id": "macdonald-bridge",
   "short_name": "Mac Bridge",
   "last_seen": "2014-10-30",
   "last_non_zero_seen": "2014-10-30",
   "total_all_time": 108549,
   "recent_day": {
-    "label": "Sep 30",
+    "label": "Oct 6",
     "count": 0
   },
   "recent_seven_days": {
@@ -16,7 +16,7 @@
     "count": 0
   },
   "month_to_date": {
-    "label": "Sep to date",
+    "label": "Oct to date",
     "count": 0
   },
   "top_days": [
@@ -158,7 +158,7 @@
   }
 }
 
-Data through 2026-09-30.
+Data through 2026-10-06.
 
 ## Summary
 
