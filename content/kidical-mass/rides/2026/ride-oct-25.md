@@ -27,5 +27,6 @@ descriptions:
   * There are benches, covered picnic tables, a small sandy beach, and a rocky area that kids might like to climb
   * The public restrooms here are currently CLOSED for the season
 * We’ll provide snacks & prizes at the end of the ride
+* To celebrate the end of our 2026 season, [Halifax Cycles](https://halifaxcycles.com/) is sponsoring a BBQ at Albro Lake beach. After the ride, we’ll set up some BBQs and camp stoves to cook hotdogs and make hot chocolate. Please bring a reusable mug for a hot drink. Halifax Cycles will also have a few family cargo bikes available for test-rides.
 
 {{< kidical-mass/ride-with-gps id="57385943" >}}
