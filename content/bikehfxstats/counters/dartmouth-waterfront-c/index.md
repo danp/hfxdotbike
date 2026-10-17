@@ -1,26 +1,26 @@
 {
   "title": "Dartmouth Cove",
   "type": "bikehfxstats-site",
-  "as_of": "2026-10-15",
+  "as_of": "2026-10-16",
   "counter_id": "dartmouth-waterfront-c",
   "short_name": "Dart Cove",
   "active": true,
   "location": "Just before the Old Ferry Rd railway crossing when traveling southbound",
-  "last_seen": "2026-10-16",
-  "last_non_zero_seen": "2026-10-15",
-  "total_year": 16534,
-  "total_all_time": 195674,
+  "last_seen": "2026-10-17",
+  "last_non_zero_seen": "2026-10-16",
+  "total_year": 16636,
+  "total_all_time": 195776,
   "recent_day": {
-    "label": "Oct 15",
-    "count": 134
+    "label": "Oct 16",
+    "count": 102
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 681
+    "count": 663
   },
   "month_to_date": {
     "label": "Oct to date",
-    "count": 2014
+    "count": 2116
   },
   "top_days": [
     {
@@ -186,15 +186,15 @@
   }
 }
 
-Data through 2026-10-15.
+Data through 2026-10-16.
 
 ## Summary
 
-- Total in 2026: 16534
-- Total all-time: 195674
+- Total in 2026: 16636
+- Total all-time: 195776
 - Active: true
-- Last seen: 2026-10-16
-- Last non-zero count: 2026-10-15
+- Last seen: 2026-10-17
+- Last non-zero count: 2026-10-16
 - Location: Just before the Old Ferry Rd railway crossing when traveling southbound
 
 ## Yearly Totals
