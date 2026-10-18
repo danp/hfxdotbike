@@ -27,7 +27,8 @@
 
       body {
         margin: 0;
-        color: var(--ink);
+        //color: var(--ink);
+        color: #a64509;
         background: var(--paper);
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         line-height: 1.5;
@@ -37,7 +38,18 @@
         min-height: 100svh;
         overflow: hidden;
       }
-
+      
+      .header{
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 114px;
+        z-index: 1;
+        //border-top: 3px solid #95c849;
+        background-image: url("jack-o-lantern-string_small.png");
+        background-repeat: repeat-x;
+      }
+      
       .party {
         position: relative;
         display: grid;
@@ -66,7 +78,8 @@
       h1 {
         max-width: 11ch;
         margin: 0 auto;
-        color: var(--teal);
+        //color: var(--teal);
+        color: #040200;
         font-size: clamp(2.5rem, 8vw, 5.8rem);
         line-height: 0.95;
         letter-spacing: 0;
@@ -96,10 +109,12 @@
         min-height: 7rem;
         margin: 0;
         padding: 1rem;
-        border: 3px solid #b9ddda;
+        //border: 3px solid #b9ddda;
+        border: 3px solid #040200;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.9);
-        box-shadow: 0 0.65rem 0 rgba(53, 167, 161, 0.14);
+        //box-shadow: 0 0.65rem 0 rgba(53, 167, 161, 0.14);
+        box-shadow: 0 0.65rem 0 rgba(255, 164, 62, 0.3);
       }
 
       .detail strong {
@@ -112,7 +127,8 @@
       .detail span {
         display: block;
         margin-top: 0.2rem;
-        color: var(--teal-dark);
+        //color: var(--teal-dark);
+        color: #040200;
         font-size: clamp(1rem, 2.5vw, 1.25rem);
         font-weight: 700;
       }
@@ -141,7 +157,8 @@
 
       .partnership a,
       .contact a {
-        color: var(--teal-dark);
+        //color: var(--teal-dark);
+        color: #a64509;
         overflow-wrap: anywhere;
         text-underline-offset: 0.18em;
       }
@@ -150,10 +167,12 @@
         width: min(100%, 40rem);
         margin: clamp(1.5rem, 4vw, 2.3rem) auto 0;
         padding: clamp(1rem, 3vw, 1.4rem);
-        border: 3px solid #b9ddda;
+        //border: 3px solid #b9ddda;
+        border: 3px solid #040200;
         border-radius: 8px;
         background: rgba(255, 255, 255, 0.92);
-        box-shadow: 0 0.65rem 0 rgba(169, 63, 81, 0.12);
+        //box-shadow: 0 0.65rem 0 rgba(169, 63, 81, 0.12);
+        box-shadow: 0 0.65rem 0 rgba(255, 164, 62, 0.3);
         text-align: left;
       }
 
@@ -169,6 +188,7 @@
         display: grid;
         gap: 0.7rem;
         margin: 1rem 0 0;
+        color: #040200;
         padding-inline-start: 1.25rem;
       }
 
@@ -177,7 +197,8 @@
       }
 
       .expect-list li::marker {
-        color: var(--teal-dark);
+        //color: var(--teal-dark);
+        color: #040200;
       }
 
       .bunting,
@@ -196,105 +217,14 @@
         border-top: 3px solid #95c849;
       }
 
-      .flag {
-        position: absolute;
-        top: 0;
-        width: 0;
-        height: 0;
-        border-left: 0.45rem solid transparent;
-        border-right: 0.45rem solid transparent;
-        border-top: 1.8rem solid var(--pink);
-        transform-origin: top;
-      }
-
-      .flag:nth-child(1) {
-        left: 4%;
-        border-top-color: var(--sun);
-        transform: rotate(-10deg);
-      }
-
-      .flag:nth-child(2) {
-        left: 11%;
-        transform: rotate(-9deg);
-      }
-
-      .flag:nth-child(3) {
-        left: 18%;
-        border-top-color: #3f93bf;
-        transform: rotate(-3deg);
-      }
-
-      .flag:nth-child(4) {
-        left: 25%;
-        border-top-color: #ffbd55;
-        transform: rotate(8deg);
-      }
-
-      .flag:nth-child(5) {
-        left: 32%;
-        transform: rotate(17deg);
-      }
-
-      .flag:nth-child(6) {
-        left: 39%;
-        border-top-color: var(--sun);
-        transform: rotate(-6deg);
-      }
-
-      .flag:nth-child(7) {
-        left: 46%;
-        border-top-color: #3f93bf;
-        transform: rotate(6deg);
-      }
-
-      .flag:nth-child(8) {
-        left: 53%;
-        border-top-color: #ffbd55;
-        transform: rotate(-11deg);
-      }
-
-      .flag:nth-child(9) {
-        left: 60%;
-        transform: rotate(8deg);
-      }
-
-      .flag:nth-child(10) {
-        left: 67%;
-        border-top-color: var(--sun);
-        transform: rotate(-4deg);
-      }
-
-      .flag:nth-child(11) {
-        left: 74%;
-        border-top-color: #3f93bf;
-        transform: rotate(10deg);
-      }
-
-      .flag:nth-child(12) {
-        left: 81%;
-        border-top-color: #ffbd55;
-        transform: rotate(-8deg);
-      }
-
-      .flag:nth-child(13) {
-        left: 88%;
-        transform: rotate(5deg);
-      }
-
-      .flag:nth-child(14) {
-        left: 95%;
-        border-top-color: var(--sun);
-        transform: rotate(-10deg);
-      }
-
       .neighbourhood {
         inset: auto 0 0;
         z-index: 1;
         height: clamp(8rem, 18vw, 12rem);
         background:
-          radial-gradient(78% 105% at 48% 112%, var(--teal) 0 58%, transparent 59%),
-          radial-gradient(82% 95% at 7% 120%, var(--teal) 0 52%, transparent 53%),
-          radial-gradient(78% 88% at 96% 120%, var(--teal) 0 50%, transparent 51%);
+          radial-gradient(78% 105% at 48% 112%,#367d14 0 58%, transparent 59%),
+          radial-gradient(82% 95% at 7% 120%, #367d14 0 52%, transparent 53%),
+          radial-gradient(78% 88% at 96% 120%, #367d14 0 50%, transparent 51%);
       }
 
       .house {
@@ -302,7 +232,8 @@
         bottom: 0;
         width: clamp(3.7rem, 8vw, 5.6rem);
         height: clamp(4.2rem, 9vw, 6.6rem);
-        background: var(--sun);
+        //background: var(--sun);
+        background:#ff8b37;
       }
 
       .house::before {
@@ -312,7 +243,7 @@
         right: -0.75rem;
         top: -1.65rem;
         height: 2.35rem;
-        background: var(--pink);
+        background: #a14106;
         clip-path: polygon(50% 0, 100% 100%, 0 100%);
       }
 
@@ -337,23 +268,25 @@
       }
 
       .house.one::before {
-        background: var(--cream);
+        background: black;
       }
 
       .house.two {
         left: 23%;
-        background: var(--pink);
+        //background: var(--pink);
+        background: #a9480b;
       }
 
       .house.two::before {
-        background: var(--orange);
+        background: black;
       }
 
       .house.three {
         right: 12%;
         width: clamp(4.2rem, 9vw, 6.4rem);
         height: clamp(4.8rem, 10vw, 7.2rem);
-        background: var(--cream);
+        //background: var(--cream);
+        background: #ffa43e;
       }
 
       .house.four {
@@ -410,26 +343,12 @@
   <body>
     <main>
       <section class="party" aria-labelledby="party-title">
-        <div class="bunting" aria-hidden="true">
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
-          <span class="flag"></span>
+        <div class="header" aria-hidden="true">
         </div>
 
         <div class="content">
           <p class="eyebrow">Let's celebrate our community at the</p>
-          <h1 id="party-title">Neighbourhood Block Party!</h1>
+          <h1 id="party-title">Halloween Block Party!</h1>
 
           <p class="where">
             <span>MacDonald Street</span>
@@ -439,23 +358,20 @@
           <div class="details" aria-label="Event details">
             <p class="detail">
               <strong>Saturday, October 31</strong>
-              <span>Time TBD</span>
-              <span class="rain-note">Rain date: Sunday Nov. 1st</span>
+              <span>4:30pm - 8:30pm</span>
+              <span class="rain-note">Rain or Shine</span>
             </p>
           </div>
 
-          <p class="activities">BBQ, music, games and good times!</p>
+          <p class="activities">BBQ, music, games and good trick-or-treating!</p>
           <section class="expect" aria-labelledby="expect-title">
             <h2 id="expect-title">What to expect</h2>
             <ul class="expect-list">
-              <li>The street will be closed to through traffic 11am-4pm. Emergency access will be maintained. If you have a vehicle parked on the street, we kindly ask that you move it to a driveway or alternative street.</li>
-              <li>The party will run 12-3pm.</li>
-              <li>Free food, live music, activities for all ages. Bring friends and family!</li>
-              <li>If possible, bring your own plate to reduce waste.</li>
-              <li>Kids will be selling artwork, lemonade etc. for good causes. Bring a bit of cash!</li>
-              <li>Bring your own seating to use in the street or the pocket park.</li>
-              <li>No washrooms on site. The nearest public washroom is at Fort Needham park near the Needham St entrance.</li>
-              <li>If the party needs to be rescheduled due to weather, we will decide by 8am on Sept 20 and post on the website.</li>
+              <li>The street will be closed to through traffic 4pm-9pm. Emergency access will be maintained. If you have a vehicle parked on the street, we kindly ask that you move it to a driveway or alternative street.</li>
+              <li>The party will run 4:30-8:30pm.</li>
+              <li>Free food, music, and activities. Bring friends and family!</li>
+              <li>Bring your own seating to use in the street.</li>
+              <li>No washrooms on site and no nearby public washrooms.</li>
             </ul>
           </section>
           <p class="contact">
