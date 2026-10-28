@@ -1,7 +1,7 @@
 {
   "title": "Chain of Lakes Trail",
   "type": "bikehfxstats-site",
-  "as_of": "2026-10-26",
+  "as_of": "2026-10-27",
   "counter_id": "colt",
   "short_name": "COLT",
   "active": true,
@@ -11,7 +11,7 @@
   "total_year": 42982,
   "total_all_time": 162032,
   "recent_day": {
-    "label": "Oct 26",
+    "label": "Oct 27",
     "count": 0
   },
   "recent_seven_days": {
@@ -176,7 +176,7 @@
   }
 }
 
-Data through 2026-10-26.
+Data through 2026-10-27.
 
 ## Summary
 
