@@ -1,26 +1,26 @@
 {
   "title": "Macdonald Bridge Bikeway",
   "type": "bikehfxstats-site",
-  "as_of": "2026-10-31",
+  "as_of": "2026-11-01",
   "counter_id": "macdonald-bridge2",
   "short_name": "Bridge",
   "active": true,
   "location": "On the Dartmouth side of the bridge bikeway",
-  "last_seen": "2026-11-01",
-  "last_non_zero_seen": "2026-10-31",
-  "total_year": 103966,
-  "total_all_time": 114157,
+  "last_seen": "2026-11-02",
+  "last_non_zero_seen": "2026-11-01",
+  "total_year": 104104,
+  "total_all_time": 114295,
   "recent_day": {
-    "label": "Oct 31",
-    "count": 160
+    "label": "Nov 1",
+    "count": 138
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 3225
+    "count": 3041
   },
   "month_to_date": {
-    "label": "Oct to date",
-    "count": 12405
+    "label": "Nov to date",
+    "count": 138
   },
   "top_days": [
     {
@@ -166,15 +166,15 @@
   }
 }
 
-Data through 2026-10-31.
+Data through 2026-11-01.
 
 ## Summary
 
-- Total in 2026: 103966
-- Total all-time: 114157
+- Total in 2026: 104104
+- Total all-time: 114295
 - Active: true
-- Last seen: 2026-11-01
-- Last non-zero count: 2026-10-31
+- Last seen: 2026-11-02
+- Last non-zero count: 2026-11-01
 - Location: On the Dartmouth side of the bridge bikeway
 
 ## Yearly Totals
