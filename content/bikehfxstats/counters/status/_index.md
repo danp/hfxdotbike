@@ -1,7 +1,7 @@
 {
   "title": "Counter Status",
   "type": "bikehfxstats-status",
-  "as_of": "2026-11-03",
+  "as_of": "2026-11-04",
   "recent_day": {
     "label": "",
     "count": 0
@@ -21,7 +21,7 @@
       "counter_url": "../lower-water/",
       "problem": "No data",
       "since": "2026-02-28",
-      "age_days": 248
+      "age_days": 249
     },
     {
       "status": "red",
@@ -29,7 +29,7 @@
       "counter_url": "../gottingen/",
       "problem": "No data",
       "since": "2026-09-29",
-      "age_days": 35
+      "age_days": 36
     },
     {
       "status": "red",
@@ -37,7 +37,7 @@
       "counter_url": "../colt/",
       "problem": "No positive counts",
       "since": "2026-10-25",
-      "age_days": 9
+      "age_days": 10
     },
     {
       "status": "yellow",
@@ -45,7 +45,7 @@
       "counter_url": "../south-park/",
       "problem": "No positive northbound counts",
       "since": "2026-01-17",
-      "age_days": 290
+      "age_days": 291
     },
     {
       "status": "yellow",
@@ -53,14 +53,22 @@
       "counter_url": "../windsor/",
       "problem": "No positive northbound counts",
       "since": "2026-10-20",
-      "age_days": 14
+      "age_days": 15
+    },
+    {
+      "status": "yellow",
+      "counter": "Macdonald Bridge Bikeway",
+      "counter_url": "../macdonald-bridge2/",
+      "problem": "No positive eastbound1 counts",
+      "since": "2026-11-03",
+      "age_days": 1
     },
     {
       "status": "green",
       "counter": "Almon",
       "counter_url": "../almon/",
       "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     },
     {
@@ -68,7 +76,7 @@
       "counter": "Barrington",
       "counter_url": "../barrington/",
       "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     },
     {
@@ -76,7 +84,7 @@
       "counter": "Dartmouth Cove",
       "counter_url": "../dartmouth-waterfront-c/",
       "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     },
     {
@@ -84,7 +92,7 @@
       "counter": "Dutch Village Road",
       "counter_url": "../dutch-village/",
       "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     },
     {
@@ -92,15 +100,7 @@
       "counter": "Hollis",
       "counter_url": "../hollis/",
       "problem": "OK",
-      "since": "2026-11-04",
-      "age_days": 0
-    },
-    {
-      "status": "green",
-      "counter": "Macdonald Bridge Bikeway",
-      "counter_url": "../macdonald-bridge2/",
-      "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     },
     {
@@ -108,10 +108,10 @@
       "counter": "Vernon",
       "counter_url": "../vernon/",
       "problem": "OK",
-      "since": "2026-11-04",
+      "since": "2026-11-05",
       "age_days": 0
     }
   ]
 }
 
-Active counter status generated through 2026-11-03.
+Active counter status generated through 2026-11-04.
