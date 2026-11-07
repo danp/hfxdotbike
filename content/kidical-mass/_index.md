@@ -27,7 +27,7 @@ We strive to make each ride comfortable for people of all ages and abilities. Ea
   <a/>
 </div>
 
-## Upcoming Rides
+## Upcoming Events
 
 {{< kidical-mass/display-rides class=upcoming-rides >}}
 
