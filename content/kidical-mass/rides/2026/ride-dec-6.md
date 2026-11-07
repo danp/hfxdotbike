@@ -1,6 +1,6 @@
 ---
 type: "kidical-mass/rides"
-title: "Winter Social, Saturday December 5th, 2026 time 2:00-4:00pm"
+title: "Winter Social, Saturday December 5th 2026, 2:00-4:00pm"
 date: 2025-02-18T22:23:00-03:00
 ride_date: 2026-12-05T14:00:00-03:00
 descriptions:
