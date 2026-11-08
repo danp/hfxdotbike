@@ -1,28 +1,32 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-11-06",
+  "as_of": "2026-11-07",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-11-07",
-  "last_non_zero_seen": "2026-11-06",
-  "total_year": 25488,
-  "total_all_time": 25488,
+  "last_seen": "2026-11-08",
+  "last_non_zero_seen": "2026-11-07",
+  "total_year": 25717,
+  "total_all_time": 25717,
   "recent_day": {
-    "label": "Nov 6",
-    "count": 44
+    "label": "Nov 7",
+    "count": 229
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 480
+    "count": 671
   },
   "month_to_date": {
     "label": "Nov to date",
-    "count": 442
+    "count": 671
   },
   "top_days": [
+    {
+      "label": "2026-11-07",
+      "count": 219
+    },
     {
       "label": "2026-06-09",
       "count": 216
@@ -58,10 +62,6 @@
     {
       "label": "2026-09-09",
       "count": 174
-    },
-    {
-      "label": "2026-07-13",
-      "count": 173
     }
   ],
   "top_weeks": [
@@ -141,7 +141,7 @@
     },
     {
       "label": "2026-11",
-      "count": 447
+      "count": 674
     },
     {
       "label": "2026-02",
@@ -161,15 +161,15 @@
   }
 }
 
-Data through 2026-11-06.
+Data through 2026-11-07.
 
 ## Summary
 
-- Total in 2026: 25488
-- Total all-time: 25488
+- Total in 2026: 25717
+- Total all-time: 25717
 - Active: true
-- Last seen: 2026-11-07
-- Last non-zero count: 2026-11-06
+- Last seen: 2026-11-08
+- Last non-zero count: 2026-11-07
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -188,6 +188,7 @@ Data through 2026-11-06.
 
 | Day | Count |
 |---|---:|
+| 2026-11-07 | 219 |
 | 2026-06-09 | 216 |
 | 2026-07-21 | 204 |
 | 2026-09-15 | 199 |
@@ -197,7 +198,6 @@ Data through 2026-11-06.
 | 2026-07-09 | 177 |
 | 2026-09-11 | 174 |
 | 2026-09-09 | 174 |
-| 2026-07-13 | 173 |
 
 ## Top Weeks
 
@@ -226,5 +226,5 @@ Data through 2026-11-06.
 | 2026-10 | 2953 |
 | 2026-04 | 1979 |
 | 2026-03 | 1101 |
-| 2026-11 | 447 |
+| 2026-11 | 674 |
 | 2026-02 | 329 |
