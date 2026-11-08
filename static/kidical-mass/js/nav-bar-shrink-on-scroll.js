@@ -180,7 +180,7 @@ function updateDisplayOfRides(parentElement,comparitor){
   var numVisibleRides=0;
   //console.log("today="+today);
   for (let i = 0; i < rides.length; i++) {
-
+    
     const rideDateStr=rides[i].getAttribute('ride_date');
     const rideDate=new Date(rideDateStr);
     rideDate.setHours(0,0,0,0);

@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta http-equiv="Refresh" content="0; url={{ .Params.redirect_url }}" />
+    {{ partial "kidical-mass/head.html" . }}
+  </head>
+  <body>
+    {{ partial "kidical-mass/header.html" . }}
+    <main class="main-single">
+      <h1>{{ .Params.title }}</h1>
+      {{.Content}}
+    </main>
+    {{ partial "kidical-mass/footer.html" . }}
+  </body>
+</html>
