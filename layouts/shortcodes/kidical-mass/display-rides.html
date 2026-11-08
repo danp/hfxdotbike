@@ -12,20 +12,16 @@
 <p id="no-{{ $class }}-message">Please check back soon for details of our upcoming ride season.</p>
 {{ range ( sort $ridePages "Params.ride_date" ) }}
 
+  {{- if (not (isset .Params "skip") ) -}}
+
   <a href="{{ .Permalink }}">
     {{- if (not (isset .Params "ride_date") ) -}}
     {{ errorf "ride page %q doesn't have a 'ride_date'" .File.Path}}
     {{- end -}}
     {{$rideDate:=.Params.ride_date | time }}
     
-    {{ if isset .Params.skip }}
-    {{ if .Params.skip }}
-    <div class="ride" ride_date="{{ .Params.ride_date }}" skip="true">
-    {{ else }}
-    <div class="ride" ride_date="{{ .Params.ride_date }}" skip="true">
-    {{ else }}
-    <div class="ride" ride_date="{{ .Params.ride_date }}" skip="true">
-    {{ end }}
+    
+    <div class="ride" ride_date="{{ .Params.ride_date }}">
     {{ if eq $class "upcoming-rides" }}
     <h3>{{ $rideDate.Format "January 2" }}</h3>
     {{ else }}
@@ -41,6 +37,7 @@
       {{- end -}}
     {{- end -}}
   </div></a>
+  {{ end }}
 {{ end }}
 
 </div>

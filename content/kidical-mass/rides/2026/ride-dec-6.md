@@ -1,9 +1,10 @@
 ---
 type: "kidical-mass/redirect"
-redirect_url: rides/2026/ride-dec-5/
+redirect_url: /kidical-mass/rides/2026/ride-dec-5/
 title: "Winter Social, Saturday December 5th 2026, 2:00-4:00pm"
 date: 2025-02-18T22:23:00-03:00
 ride_date: 2026-12-05T14:00:00-03:00
+skip: 
 descriptions:
 - "Winter Social & Tree by bike"
 ---
