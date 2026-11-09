@@ -1,26 +1,26 @@
 {
   "title": "Dutch Village Road",
   "type": "bikehfxstats-site",
-  "as_of": "2026-11-07",
+  "as_of": "2026-11-08",
   "counter_id": "dutch-village",
   "short_name": "DVR",
   "active": true,
   "location": "Dutch Village Road at Civic 3400",
-  "last_seen": "2026-11-08",
-  "last_non_zero_seen": "2026-11-07",
-  "total_year": 25717,
-  "total_all_time": 25717,
+  "last_seen": "2026-11-09",
+  "last_non_zero_seen": "2026-11-08",
+  "total_year": 25781,
+  "total_all_time": 25781,
   "recent_day": {
-    "label": "Nov 7",
-    "count": 229
+    "label": "Nov 8",
+    "count": 64
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 671
+    "count": 692
   },
   "month_to_date": {
     "label": "Nov to date",
-    "count": 671
+    "count": 735
   },
   "top_days": [
     {
@@ -141,7 +141,7 @@
     },
     {
       "label": "2026-11",
-      "count": 674
+      "count": 746
     },
     {
       "label": "2026-02",
@@ -161,15 +161,15 @@
   }
 }
 
-Data through 2026-11-07.
+Data through 2026-11-08.
 
 ## Summary
 
-- Total in 2026: 25717
-- Total all-time: 25717
+- Total in 2026: 25781
+- Total all-time: 25781
 - Active: true
-- Last seen: 2026-11-08
-- Last non-zero count: 2026-11-07
+- Last seen: 2026-11-09
+- Last non-zero count: 2026-11-08
 - Location: Dutch Village Road at Civic 3400
 
 ## Yearly Totals
@@ -226,5 +226,5 @@ Data through 2026-11-07.
 | 2026-10 | 2953 |
 | 2026-04 | 1979 |
 | 2026-03 | 1101 |
-| 2026-11 | 674 |
+| 2026-11 | 746 |
 | 2026-02 | 329 |
