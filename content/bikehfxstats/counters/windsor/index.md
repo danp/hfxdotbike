@@ -1,25 +1,25 @@
 {
   "title": "Windsor",
   "type": "bikehfxstats-site",
-  "as_of": "2026-11-09",
+  "as_of": "2026-11-10",
   "counter_id": "windsor",
   "active": true,
   "location": "Both sides of Windsor St just north of Edinburgh St",
-  "last_seen": "2026-11-10",
-  "last_non_zero_seen": "2026-11-09",
-  "total_year": 21859,
-  "total_all_time": 194159,
+  "last_seen": "2026-11-11",
+  "last_non_zero_seen": "2026-11-10",
+  "total_year": 22003,
+  "total_all_time": 194303,
   "recent_day": {
-    "label": "Nov 9",
-    "count": 139
+    "label": "Nov 10",
+    "count": 144
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 452
+    "count": 523
   },
   "month_to_date": {
     "label": "Nov to date",
-    "count": 581
+    "count": 725
   },
   "top_days": [
     {
@@ -190,15 +190,15 @@
   }
 }
 
-Data through 2026-11-09.
+Data through 2026-11-10.
 
 ## Summary
 
-- Total in 2026: 21859
-- Total all-time: 194159
+- Total in 2026: 22003
+- Total all-time: 194303
 - Active: true
-- Last seen: 2026-11-10
-- Last non-zero count: 2026-11-09
+- Last seen: 2026-11-11
+- Last non-zero count: 2026-11-10
 - Location: Both sides of Windsor St just north of Edinburgh St
 
 ## Yearly Totals
