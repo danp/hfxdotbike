@@ -1,25 +1,25 @@
 {
   "title": "South Park",
   "type": "bikehfxstats-site",
-  "as_of": "2026-11-15",
+  "as_of": "2026-11-16",
   "counter_id": "south-park",
   "active": true,
   "location": "Both sides of South Park St just south of Spring Garden Rd",
-  "last_seen": "2026-11-16",
+  "last_seen": "2026-11-17",
   "last_non_zero_seen": "2026-01-17",
-  "total_year": 64762,
-  "total_all_time": 587128,
+  "total_year": 64958,
+  "total_all_time": 587324,
   "recent_day": {
-    "label": "Nov 15",
-    "count": 128
+    "label": "Nov 16",
+    "count": 196
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
-    "count": 985
+    "count": 971
   },
   "month_to_date": {
     "label": "Nov to date",
-    "count": 2309
+    "count": 2505
   },
   "top_days": [
     {
@@ -195,14 +195,14 @@
   }
 }
 
-Data through 2026-11-15.
+Data through 2026-11-16.
 
 ## Summary
 
-- Total in 2026: 64762
-- Total all-time: 587128
+- Total in 2026: 64958
+- Total all-time: 587324
 - Active: true
-- Last seen: 2026-11-16
+- Last seen: 2026-11-17
 - Last non-zero count: 2026-01-17
 - Location: Both sides of South Park St just south of Spring Garden Rd
 
