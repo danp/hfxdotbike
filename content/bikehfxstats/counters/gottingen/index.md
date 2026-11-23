@@ -1,7 +1,7 @@
 {
   "title": "Gottingen",
   "type": "bikehfxstats-site",
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "counter_id": "gottingen",
   "active": true,
   "location": "Near south end of Gottingen",
@@ -10,8 +10,8 @@
   "total_year": 40878,
   "total_all_time": 147505,
   "recent_day": {
-    "label": "Nov 21",
-    "count": 4
+    "label": "Nov 22",
+    "count": 0
   },
   "recent_seven_days": {
     "label": "Trailing 7 days",
@@ -175,7 +175,7 @@
   }
 }
 
-Data through 2026-11-21.
+Data through 2026-11-22.
 
 ## Summary
 
